@@ -1,0 +1,7 @@
+{ "commands": [
+{ "hdr": "7E0", "cmd": {"22": "295A"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]}
+]
+}
