@@ -13,6 +13,15 @@ REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
     {
+        "model_year": 2015,
+        "tests": [
+            # Odometer
+            ("7E80662295A01FFE8", {"GOLF_ODO": 131048.0}),
+            ("7E80662295A020024", {"GOLF_ODO": 131108.0}),
+        ]
+    },
+
+    {
         "model_year": 2016,
         "tests": [
             # Odometer
