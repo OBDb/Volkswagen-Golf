@@ -1,0 +1,64 @@
+command_id: 7E0.22295A
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80662295A00C747
+  expected_values:
+    GOLF_ODO: 51015
+- response: 7E80662295A00C748
+  expected_values:
+    GOLF_ODO: 51016
+- response: 7E80662295A00C749
+  expected_values:
+    GOLF_ODO: 51017
+- response: 7E80662295A00C750
+  expected_values:
+    GOLF_ODO: 51024
+- response: 7E80662295A00C751
+  expected_values:
+    GOLF_ODO: 51025
+- response: 7E80662295A00C752
+  expected_values:
+    GOLF_ODO: 51026
+- response: 7E80662295A00C753
+  expected_values:
+    GOLF_ODO: 51027
+- response: 7E80662295A00C754
+  expected_values:
+    GOLF_ODO: 51028
+- response: 7E80662295A00C755
+  expected_values:
+    GOLF_ODO: 51029
+- response: 7E80662295A00C761
+  expected_values:
+    GOLF_ODO: 51041
+- response: 7E80662295A00C762
+  expected_values:
+    GOLF_ODO: 51042
+- response: 7E80662295A00C763
+  expected_values:
+    GOLF_ODO: 51043
+- response: 7E80662295A00C764
+  expected_values:
+    GOLF_ODO: 51044
+- response: 7E80662295A00C772
+  expected_values:
+    GOLF_ODO: 51058
+- response: 7E80662295A00C773
+  expected_values:
+    GOLF_ODO: 51059
+- response: 7E80662295A00C774
+  expected_values:
+    GOLF_ODO: 51060
+- response: 7E80662295A00C775
+  expected_values:
+    GOLF_ODO: 51061
+- response: 7E80662295A00C776
+  expected_values:
+    GOLF_ODO: 51062
+- response: 7E80662295A00C777
+  expected_values:
+    GOLF_ODO: 51063
+- response: 7E80662295A00C783
+  expected_values:
+    GOLF_ODO: 51075
