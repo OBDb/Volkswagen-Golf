@@ -1,0 +1,40 @@
+command_id: 7E0.22295A
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80662295A00F062
+  expected_values:
+    GOLF_ODO: 61538
+- response: 7E80662295A0185EB
+  expected_values:
+    GOLF_ODO: 99819
+- response: 7E80662295A018668
+  expected_values:
+    GOLF_ODO: 99944
+- response: 7E80662295A018669
+  expected_values:
+    GOLF_ODO: 99945
+- response: 7E80662295A01867A
+  expected_values:
+    GOLF_ODO: 99962
+- response: 7E80662295A01869D
+  expected_values:
+    GOLF_ODO: 99997
+- response: 7E80662295A01869E
+  expected_values:
+    GOLF_ODO: 99998
+- response: 7E80662295A018716
+  expected_values:
+    GOLF_ODO: 100118
+- response: 7E80662295A018930
+  expected_values:
+    GOLF_ODO: 100656
+- response: 7E80662295A018931
+  expected_values:
+    GOLF_ODO: 100657
+- response: 7E80662295A018AB1
+  expected_values:
+    GOLF_ODO: 101041
+- response: 7E80662295A018ACB
+  expected_values:
+    GOLF_ODO: 101067
