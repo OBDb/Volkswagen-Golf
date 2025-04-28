@@ -59,3 +59,97 @@ test_cases:
 - response: 7E8056211BA4529
   expected_values:
     GOLF_OIL_LEVEL: 70.82
+- response: |-
+    7E8037F2278
+    7E8056211BA31F3
+  expected_values:
+    GOLF_OIL_LEVEL: 51.148
+- response: |-
+    7E8037F2278
+    7E8056211BA3408
+  expected_values:
+    GOLF_OIL_LEVEL: 53.28
+- response: |-
+    7E8037F2278
+    7E8056211BA343A
+  expected_values:
+    GOLF_OIL_LEVEL: 53.48
+- response: |-
+    7E8037F2278
+    7E8056211BA391C
+  expected_values:
+    GOLF_OIL_LEVEL: 58.48
+- response: |-
+    7E8037F2278
+    7E8056211BA3926
+  expected_values:
+    GOLF_OIL_LEVEL: 58.52
+- response: 7E8056211BA325D
+  expected_values:
+    GOLF_OIL_LEVEL: 51.572
+- response: 7E8056211BA32C1
+  expected_values:
+    GOLF_OIL_LEVEL: 51.972
+- response: 7E8056211BA32DC
+  expected_values:
+    GOLF_OIL_LEVEL: 52.08
+- response: 7E8056211BA331B
+  expected_values:
+    GOLF_OIL_LEVEL: 52.332
+- response: 7E8056211BA332F
+  expected_values:
+    GOLF_OIL_LEVEL: 52.412
+- response: 7E8056211BA3383
+  expected_values:
+    GOLF_OIL_LEVEL: 52.748
+- response: 7E8056211BA339A
+  expected_values:
+    GOLF_OIL_LEVEL: 52.84
+- response: 7E8056211BA350C
+  expected_values:
+    GOLF_OIL_LEVEL: 54.32
+- response: 7E8056211BA351C
+  expected_values:
+    GOLF_OIL_LEVEL: 54.384
+- response: 7E8056211BA357A
+  expected_values:
+    GOLF_OIL_LEVEL: 54.76
+- response: 7E8056211BA3753
+  expected_values:
+    GOLF_OIL_LEVEL: 56.652
+- response: 7E8056211BA37B7
+  expected_values:
+    GOLF_OIL_LEVEL: 57.052
+- response: 7E8056211BA3936
+  expected_values:
+    GOLF_OIL_LEVEL: 58.584
+- response: 7E8056211BA3A27
+  expected_values:
+    GOLF_OIL_LEVEL: 59.548
+- response: 7E8056211BA3A69
+  expected_values:
+    GOLF_OIL_LEVEL: 59.812
+- response: 7E8056211BA3AD7
+  expected_values:
+    GOLF_OIL_LEVEL: 60.252
+- response: 7E8056211BA3BE5
+  expected_values:
+    GOLF_OIL_LEVEL: 61.332
+- response: 7E8056211BA3C24
+  expected_values:
+    GOLF_OIL_LEVEL: 61.584
+- response: 7E8056211BA3C85
+  expected_values:
+    GOLF_OIL_LEVEL: 61.972
+- response: 7E8056211BA3CAD
+  expected_values:
+    GOLF_OIL_LEVEL: 62.132
+- response: 7E8056211BA3CE6
+  expected_values:
+    GOLF_OIL_LEVEL: 62.36
+- response: 7E8056211BA3FD7
+  expected_values:
+    GOLF_OIL_LEVEL: 65.372
+- response: 7E8056211BA4225
+  expected_values:
+    GOLF_OIL_LEVEL: 67.732
