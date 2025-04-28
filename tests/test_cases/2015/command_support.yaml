@@ -85,3 +85,6 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0143:LOAD_ABS
   - 0149:APP_D
+unsupported_commands_by_ecu:
+  7E0:
+  - 7E0.2211BA
