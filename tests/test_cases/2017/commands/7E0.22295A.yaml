@@ -5,6 +5,45 @@ test_cases:
 - response: 7E80662295A00F062
   expected_values:
     GOLF_ODO: 61538
+- response: 7E80662295A00F063
+  expected_values:
+    GOLF_ODO: 61539
+- response: 7E80662295A00F064
+  expected_values:
+    GOLF_ODO: 61540
+- response: 7E80662295A00F065
+  expected_values:
+    GOLF_ODO: 61541
+- response: 7E80662295A00F066
+  expected_values:
+    GOLF_ODO: 61542
+- response: 7E80662295A00F067
+  expected_values:
+    GOLF_ODO: 61543
+- response: 7E80662295A00F068
+  expected_values:
+    GOLF_ODO: 61544
+- response: 7E80662295A00F069
+  expected_values:
+    GOLF_ODO: 61545
+- response: 7E80662295A00F06A
+  expected_values:
+    GOLF_ODO: 61546
+- response: 7E80662295A00F06B
+  expected_values:
+    GOLF_ODO: 61547
+- response: 7E80662295A00F06C
+  expected_values:
+    GOLF_ODO: 61548
+- response: 7E80662295A00F06D
+  expected_values:
+    GOLF_ODO: 61549
+- response: 7E80662295A00F06E
+  expected_values:
+    GOLF_ODO: 61550
+- response: 7E80662295A00F06F
+  expected_values:
+    GOLF_ODO: 61551
 - response: 7E80662295A0185EB
   expected_values:
     GOLF_ODO: 99819
