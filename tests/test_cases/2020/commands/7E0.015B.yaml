@@ -1,0 +1,22 @@
+command_id: 7E0.015B
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7ED03415B37
+  expected_values:
+    BAT_SOC: 21.56863
+- response: 7ED03415B38
+  expected_values:
+    BAT_SOC: 21.96078
+- response: 7ED03415B39
+  expected_values:
+    BAT_SOC: 22.35294
+- response: 7ED03415B3F
+  expected_values:
+    BAT_SOC: 24.70588
+- response: 7ED03415B41
+  expected_values:
+    BAT_SOC: 25.4902
+- response: 7ED03415B42
+  expected_values:
+    BAT_SOC: 25.88235
