@@ -158,3 +158,99 @@ test_cases:
 - response: 7E80641A6000825C5
   expected_values:
     ODO: 53395.7
+- response: 7E80641A6000825C6
+  expected_values:
+    ODO: 53395.8
+- response: 7E80641A6000825C8
+  expected_values:
+    ODO: 53396
+- response: 7E80641A6000825C9
+  expected_values:
+    ODO: 53396.1
+- response: 7E80641A6000825CB
+  expected_values:
+    ODO: 53396.3
+- response: 7E80641A6000825CC
+  expected_values:
+    ODO: 53396.4
+- response: 7E80641A6000825CE
+  expected_values:
+    ODO: 53396.6
+- response: 7E80641A6000825D1
+  expected_values:
+    ODO: 53396.9
+- response: 7E80641A6000825D2
+  expected_values:
+    ODO: 53397
+- response: 7E80641A6000825D4
+  expected_values:
+    ODO: 53397.2
+- response: 7E80641A6000825D6
+  expected_values:
+    ODO: 53397.4
+- response: 7E80641A6000825D7
+  expected_values:
+    ODO: 53397.5
+- response: 7E80641A6000825D8
+  expected_values:
+    ODO: 53397.6
+- response: 7E80641A6000825DB
+  expected_values:
+    ODO: 53397.9
+- response: 7E80641A6000825DC
+  expected_values:
+    ODO: 53398
+- response: 7E80641A6000825DD
+  expected_values:
+    ODO: 53398.1
+- response: 7E80641A6000825DE
+  expected_values:
+    ODO: 53398.2
+- response: 7E80641A6000825E7
+  expected_values:
+    ODO: 53399.1
+- response: 7E80641A6000825ED
+  expected_values:
+    ODO: 53399.7
+- response: 7E80641A6000825EE
+  expected_values:
+    ODO: 53399.8
+- response: 7E80641A6000825F4
+  expected_values:
+    ODO: 53400.4
+- response: 7E80641A6000825FB
+  expected_values:
+    ODO: 53401.1
+- response: 7E80641A600082601
+  expected_values:
+    ODO: 53401.7
+- response: 7E80641A600082607
+  expected_values:
+    ODO: 53402.3
+- response: 7E80641A60008260A
+  expected_values:
+    ODO: 53402.6
+- response: 7E80641A60008260B
+  expected_values:
+    ODO: 53402.7
+- response: 7E80641A60008260C
+  expected_values:
+    ODO: 53402.8
+- response: 7E80641A60008260F
+  expected_values:
+    ODO: 53403.1
+- response: 7E80641A600082612
+  expected_values:
+    ODO: 53403.4
+- response: 7E80641A600082615
+  expected_values:
+    ODO: 53403.7
+- response: 7E80641A600082617
+  expected_values:
+    ODO: 53403.9
+- response: 7E80641A600082619
+  expected_values:
+    ODO: 53404.1
+- response: 7E80641A60008261A
+  expected_values:
+    ODO: 53404.2
