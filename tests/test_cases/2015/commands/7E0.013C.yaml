@@ -14,6 +14,9 @@ test_cases:
 - response: 7E804413C0C0B
   expected_values:
     CATEMP11: 268.3
+- response: 7E804413C0C1E
+  expected_values:
+    CATEMP11: 270.2
 - response: 7E804413C0D8E
   expected_values:
     CATEMP11: 307
@@ -44,6 +47,9 @@ test_cases:
 - response: 7E804413C0F4B
   expected_values:
     CATEMP11: 351.5
+- response: 7E804413C0F4F
+  expected_values:
+    CATEMP11: 351.9
 - response: 7E804413C0F64
   expected_values:
     CATEMP11: 354
@@ -71,6 +77,9 @@ test_cases:
 - response: 7E804413C100F
   expected_values:
     CATEMP11: 371.1
+- response: 7E804413C1048
+  expected_values:
+    CATEMP11: 376.8
 - response: 7E804413C1059
   expected_values:
     CATEMP11: 378.5
@@ -83,12 +92,18 @@ test_cases:
 - response: 7E804413C1089
   expected_values:
     CATEMP11: 383.3
+- response: 7E804413C1095
+  expected_values:
+    CATEMP11: 384.5
 - response: 7E804413C10CF
   expected_values:
     CATEMP11: 390.3
 - response: 7E804413C10EC
   expected_values:
     CATEMP11: 393.2
+- response: 7E804413C113D
+  expected_values:
+    CATEMP11: 401.3
 - response: 7E804413C114D
   expected_values:
     CATEMP11: 402.9
@@ -98,9 +113,21 @@ test_cases:
 - response: 7E804413C1246
   expected_values:
     CATEMP11: 427.8
+- response: 7E804413C125C
+  expected_values:
+    CATEMP11: 430
 - response: 7E804413C1291
   expected_values:
     CATEMP11: 435.3
+- response: 7E804413C1296
+  expected_values:
+    CATEMP11: 435.8
+- response: 7E804413C1299
+  expected_values:
+    CATEMP11: 436.1
+- response: 7E804413C12A7
+  expected_values:
+    CATEMP11: 437.5
 - response: 7E804413C12BE
   expected_values:
     CATEMP11: 439.8
@@ -110,9 +137,21 @@ test_cases:
 - response: 7E804413C12DE
   expected_values:
     CATEMP11: 443
+- response: 7E804413C12E1
+  expected_values:
+    CATEMP11: 443.3
+- response: 7E804413C1304
+  expected_values:
+    CATEMP11: 446.8
 - response: 7E804413C1318
   expected_values:
     CATEMP11: 448.8
+- response: 7E804413C1321
+  expected_values:
+    CATEMP11: 449.7
+- response: 7E804413C132E
+  expected_values:
+    CATEMP11: 451
 - response: 7E804413C1374
   expected_values:
     CATEMP11: 458
@@ -134,9 +173,15 @@ test_cases:
 - response: 7E804413C13B1
   expected_values:
     CATEMP11: 464.1
+- response: 7E804413C13C2
+  expected_values:
+    CATEMP11: 465.8
 - response: 7E804413C13DC
   expected_values:
     CATEMP11: 468.4
+- response: 7E804413C13DE
+  expected_values:
+    CATEMP11: 468.6
 - response: 7E804413C13E6
   expected_values:
     CATEMP11: 469.4
@@ -161,6 +206,9 @@ test_cases:
 - response: 7E804413C143A
   expected_values:
     CATEMP11: 477.8
+- response: 7E804413C143D
+  expected_values:
+    CATEMP11: 478.1
 - response: 7E804413C1458
   expected_values:
     CATEMP11: 480.8
@@ -182,6 +230,12 @@ test_cases:
 - response: 7E804413C14B8
   expected_values:
     CATEMP11: 490.4
+- response: 7E804413C14BA
+  expected_values:
+    CATEMP11: 490.6
+- response: 7E804413C14BD
+  expected_values:
+    CATEMP11: 490.9
 - response: 7E804413C14BF
   expected_values:
     CATEMP11: 491.1
@@ -233,6 +287,9 @@ test_cases:
 - response: 7E804413C1555
   expected_values:
     CATEMP11: 506.1
+- response: 7E804413C1575
+  expected_values:
+    CATEMP11: 509.3
 - response: 7E804413C1579
   expected_values:
     CATEMP11: 509.7
@@ -266,6 +323,9 @@ test_cases:
 - response: 7E804413C15EA
   expected_values:
     CATEMP11: 521
+- response: 7E804413C15F1
+  expected_values:
+    CATEMP11: 521.7
 - response: 7E804413C15F7
   expected_values:
     CATEMP11: 522.3
@@ -281,18 +341,27 @@ test_cases:
 - response: 7E804413C1603
   expected_values:
     CATEMP11: 523.5
+- response: 7E804413C160B
+  expected_values:
+    CATEMP11: 524.3
 - response: 7E804413C160E
   expected_values:
     CATEMP11: 524.6
 - response: 7E804413C1613
   expected_values:
     CATEMP11: 525.1
+- response: 7E804413C161A
+  expected_values:
+    CATEMP11: 525.8
 - response: 7E804413C161D
   expected_values:
     CATEMP11: 526.1
 - response: 7E804413C1621
   expected_values:
     CATEMP11: 526.5
+- response: 7E804413C1622
+  expected_values:
+    CATEMP11: 526.6
 - response: 7E804413C1629
   expected_values:
     CATEMP11: 527.3
@@ -332,6 +401,9 @@ test_cases:
 - response: 7E804413C1663
   expected_values:
     CATEMP11: 533.1
+- response: 7E804413C1666
+  expected_values:
+    CATEMP11: 533.4
 - response: 7E804413C1667
   expected_values:
     CATEMP11: 533.5
@@ -347,12 +419,24 @@ test_cases:
 - response: 7E804413C1678
   expected_values:
     CATEMP11: 535.2
+- response: 7E804413C167B
+  expected_values:
+    CATEMP11: 535.5
 - response: 7E804413C167D
   expected_values:
     CATEMP11: 535.7
 - response: 7E804413C167E
   expected_values:
     CATEMP11: 535.8
+- response: 7E804413C1680
+  expected_values:
+    CATEMP11: 536
+- response: 7E804413C1690
+  expected_values:
+    CATEMP11: 537.6
+- response: 7E804413C1693
+  expected_values:
+    CATEMP11: 537.9
 - response: 7E804413C1694
   expected_values:
     CATEMP11: 538
@@ -365,12 +449,18 @@ test_cases:
 - response: 7E804413C16AB
   expected_values:
     CATEMP11: 540.3
+- response: 7E804413C16AC
+  expected_values:
+    CATEMP11: 540.4
 - response: 7E804413C16AD
   expected_values:
     CATEMP11: 540.5
 - response: 7E804413C16AF
   expected_values:
     CATEMP11: 540.7
+- response: 7E804413C16B7
+  expected_values:
+    CATEMP11: 541.5
 - response: 7E804413C16B8
   expected_values:
     CATEMP11: 541.6
@@ -422,6 +512,9 @@ test_cases:
 - response: 7E804413C16F1
   expected_values:
     CATEMP11: 547.3
+- response: 7E804413C16F3
+  expected_values:
+    CATEMP11: 547.5
 - response: 7E804413C16F4
   expected_values:
     CATEMP11: 547.6
@@ -452,6 +545,9 @@ test_cases:
 - response: 7E804413C1721
   expected_values:
     CATEMP11: 552.1
+- response: 7E804413C1723
+  expected_values:
+    CATEMP11: 552.3
 - response: 7E804413C1724
   expected_values:
     CATEMP11: 552.4
@@ -506,6 +602,9 @@ test_cases:
 - response: 7E804413C1766
   expected_values:
     CATEMP11: 559
+- response: 7E804413C1768
+  expected_values:
+    CATEMP11: 559.2
 - response: 7E804413C1770
   expected_values:
     CATEMP11: 560
@@ -536,27 +635,51 @@ test_cases:
 - response: 7E804413C179B
   expected_values:
     CATEMP11: 564.3
+- response: 7E804413C17AC
+  expected_values:
+    CATEMP11: 566
 - response: 7E804413C17B1
   expected_values:
     CATEMP11: 566.5
+- response: 7E804413C17B2
+  expected_values:
+    CATEMP11: 566.6
 - response: 7E804413C17B4
   expected_values:
     CATEMP11: 566.8
 - response: 7E804413C17B5
   expected_values:
     CATEMP11: 566.9
+- response: 7E804413C17B7
+  expected_values:
+    CATEMP11: 567.1
 - response: 7E804413C17B8
   expected_values:
     CATEMP11: 567.2
 - response: 7E804413C17B9
   expected_values:
     CATEMP11: 567.3
+- response: 7E804413C17C4
+  expected_values:
+    CATEMP11: 568.4
+- response: 7E804413C17C8
+  expected_values:
+    CATEMP11: 568.8
+- response: 7E804413C17CA
+  expected_values:
+    CATEMP11: 569
 - response: 7E804413C17CE
   expected_values:
     CATEMP11: 569.4
+- response: 7E804413C17CF
+  expected_values:
+    CATEMP11: 569.5
 - response: 7E804413C17D0
   expected_values:
     CATEMP11: 569.6
+- response: 7E804413C17D5
+  expected_values:
+    CATEMP11: 570.1
 - response: 7E804413C17DA
   expected_values:
     CATEMP11: 570.6
@@ -581,6 +704,9 @@ test_cases:
 - response: 7E804413C17F2
   expected_values:
     CATEMP11: 573
+- response: 7E804413C17FB
+  expected_values:
+    CATEMP11: 573.9
 - response: 7E804413C17FC
   expected_values:
     CATEMP11: 574
@@ -599,6 +725,9 @@ test_cases:
 - response: 7E804413C180C
   expected_values:
     CATEMP11: 575.6
+- response: 7E804413C1810
+  expected_values:
+    CATEMP11: 576
 - response: 7E804413C1813
   expected_values:
     CATEMP11: 576.3
@@ -617,12 +746,18 @@ test_cases:
 - response: 7E804413C181F
   expected_values:
     CATEMP11: 577.5
+- response: 7E804413C182C
+  expected_values:
+    CATEMP11: 578.8
 - response: 7E804413C182F
   expected_values:
     CATEMP11: 579.1
 - response: 7E804413C1836
   expected_values:
     CATEMP11: 579.8
+- response: 7E804413C183D
+  expected_values:
+    CATEMP11: 580.5
 - response: 7E804413C183E
   expected_values:
     CATEMP11: 580.6
@@ -635,21 +770,36 @@ test_cases:
 - response: 7E804413C1855
   expected_values:
     CATEMP11: 582.9
+- response: 7E804413C1859
+  expected_values:
+    CATEMP11: 583.3
 - response: 7E804413C1860
   expected_values:
     CATEMP11: 584
+- response: 7E804413C1865
+  expected_values:
+    CATEMP11: 584.5
+- response: 7E804413C1867
+  expected_values:
+    CATEMP11: 584.7
 - response: 7E804413C1868
   expected_values:
     CATEMP11: 584.8
 - response: 7E804413C1869
   expected_values:
     CATEMP11: 584.9
+- response: 7E804413C1871
+  expected_values:
+    CATEMP11: 585.7
 - response: 7E804413C187C
   expected_values:
     CATEMP11: 586.8
 - response: 7E804413C1880
   expected_values:
     CATEMP11: 587.2
+- response: 7E804413C1883
+  expected_values:
+    CATEMP11: 587.5
 - response: 7E804413C1886
   expected_values:
     CATEMP11: 587.8
@@ -674,9 +824,15 @@ test_cases:
 - response: 7E804413C18AD
   expected_values:
     CATEMP11: 591.7
+- response: 7E804413C18AE
+  expected_values:
+    CATEMP11: 591.8
 - response: 7E804413C18B3
   expected_values:
     CATEMP11: 592.3
+- response: 7E804413C18B4
+  expected_values:
+    CATEMP11: 592.4
 - response: 7E804413C18BB
   expected_values:
     CATEMP11: 593.1
@@ -686,6 +842,9 @@ test_cases:
 - response: 7E804413C18CE
   expected_values:
     CATEMP11: 595
+- response: 7E804413C18D1
+  expected_values:
+    CATEMP11: 595.3
 - response: 7E804413C18D3
   expected_values:
     CATEMP11: 595.5
@@ -707,6 +866,9 @@ test_cases:
 - response: 7E804413C18F0
   expected_values:
     CATEMP11: 598.4
+- response: 7E804413C18F2
+  expected_values:
+    CATEMP11: 598.6
 - response: 7E804413C18F3
   expected_values:
     CATEMP11: 598.7
@@ -725,12 +887,18 @@ test_cases:
 - response: 7E804413C1914
   expected_values:
     CATEMP11: 602
+- response: 7E804413C1915
+  expected_values:
+    CATEMP11: 602.1
 - response: 7E804413C1916
   expected_values:
     CATEMP11: 602.2
 - response: 7E804413C191F
   expected_values:
     CATEMP11: 603.1
+- response: 7E804413C1924
+  expected_values:
+    CATEMP11: 603.6
 - response: 7E804413C1928
   expected_values:
     CATEMP11: 604
@@ -743,15 +911,24 @@ test_cases:
 - response: 7E804413C193E
   expected_values:
     CATEMP11: 606.2
+- response: 7E804413C1944
+  expected_values:
+    CATEMP11: 606.8
 - response: 7E804413C1949
   expected_values:
     CATEMP11: 607.3
 - response: 7E804413C194C
   expected_values:
     CATEMP11: 607.6
+- response: 7E804413C1953
+  expected_values:
+    CATEMP11: 608.3
 - response: 7E804413C1954
   expected_values:
     CATEMP11: 608.4
+- response: 7E804413C1967
+  expected_values:
+    CATEMP11: 610.3
 - response: 7E804413C1972
   expected_values:
     CATEMP11: 611.4
@@ -764,12 +941,18 @@ test_cases:
 - response: 7E804413C1983
   expected_values:
     CATEMP11: 613.1
+- response: 7E804413C1985
+  expected_values:
+    CATEMP11: 613.3
 - response: 7E804413C198D
   expected_values:
     CATEMP11: 614.1
 - response: 7E804413C1990
   expected_values:
     CATEMP11: 614.4
+- response: 7E804413C1993
+  expected_values:
+    CATEMP11: 614.7
 - response: 7E804413C1994
   expected_values:
     CATEMP11: 614.8
@@ -797,6 +980,9 @@ test_cases:
 - response: 7E804413C19CB
   expected_values:
     CATEMP11: 620.3
+- response: 7E804413C19CD
+  expected_values:
+    CATEMP11: 620.5
 - response: 7E804413C19CF
   expected_values:
     CATEMP11: 620.7
@@ -812,15 +998,24 @@ test_cases:
 - response: 7E804413C19DA
   expected_values:
     CATEMP11: 621.8
+- response: 7E804413C19DF
+  expected_values:
+    CATEMP11: 622.3
 - response: 7E804413C19EB
   expected_values:
     CATEMP11: 623.5
+- response: 7E804413C19EC
+  expected_values:
+    CATEMP11: 623.6
 - response: 7E804413C19F8
   expected_values:
     CATEMP11: 624.8
 - response: 7E804413C1A03
   expected_values:
     CATEMP11: 625.9
+- response: 7E804413C1A04
+  expected_values:
+    CATEMP11: 626
 - response: 7E804413C1A07
   expected_values:
     CATEMP11: 626.3
@@ -833,6 +1028,9 @@ test_cases:
 - response: 7E804413C1A14
   expected_values:
     CATEMP11: 627.6
+- response: 7E804413C1A18
+  expected_values:
+    CATEMP11: 628
 - response: 7E804413C1A19
   expected_values:
     CATEMP11: 628.1
@@ -857,15 +1055,27 @@ test_cases:
 - response: 7E804413C1A34
   expected_values:
     CATEMP11: 630.8
+- response: 7E804413C1A35
+  expected_values:
+    CATEMP11: 630.9
 - response: 7E804413C1A3A
   expected_values:
     CATEMP11: 631.4
+- response: 7E804413C1A3C
+  expected_values:
+    CATEMP11: 631.6
+- response: 7E804413C1A40
+  expected_values:
+    CATEMP11: 632
 - response: 7E804413C1A43
   expected_values:
     CATEMP11: 632.3
 - response: 7E804413C1A46
   expected_values:
     CATEMP11: 632.6
+- response: 7E804413C1A4B
+  expected_values:
+    CATEMP11: 633.1
 - response: 7E804413C1A4C
   expected_values:
     CATEMP11: 633.2
@@ -887,6 +1097,9 @@ test_cases:
 - response: 7E804413C1A5F
   expected_values:
     CATEMP11: 635.1
+- response: 7E804413C1A6B
+  expected_values:
+    CATEMP11: 636.3
 - response: 7E804413C1A71
   expected_values:
     CATEMP11: 636.9
@@ -914,6 +1127,9 @@ test_cases:
 - response: 7E804413C1AA5
   expected_values:
     CATEMP11: 642.1
+- response: 7E804413C1AA6
+  expected_values:
+    CATEMP11: 642.2
 - response: 7E804413C1AA7
   expected_values:
     CATEMP11: 642.3
@@ -923,6 +1139,9 @@ test_cases:
 - response: 7E804413C1AAC
   expected_values:
     CATEMP11: 642.8
+- response: 7E804413C1AAE
+  expected_values:
+    CATEMP11: 643
 - response: 7E804413C1AB4
   expected_values:
     CATEMP11: 643.6
@@ -932,6 +1151,9 @@ test_cases:
 - response: 7E804413C1ABB
   expected_values:
     CATEMP11: 644.3
+- response: 7E804413C1ABE
+  expected_values:
+    CATEMP11: 644.6
 - response: 7E804413C1AC0
   expected_values:
     CATEMP11: 644.8
@@ -974,9 +1196,15 @@ test_cases:
 - response: 7E804413C1ADE
   expected_values:
     CATEMP11: 647.8
+- response: 7E804413C1AE7
+  expected_values:
+    CATEMP11: 648.7
 - response: 7E804413C1AE8
   expected_values:
     CATEMP11: 648.8
+- response: 7E804413C1AED
+  expected_values:
+    CATEMP11: 649.3
 - response: 7E804413C1AF7
   expected_values:
     CATEMP11: 650.3
@@ -1019,6 +1247,9 @@ test_cases:
 - response: 7E804413C1B21
   expected_values:
     CATEMP11: 654.5
+- response: 7E804413C1B27
+  expected_values:
+    CATEMP11: 655.1
 - response: 7E804413C1B2C
   expected_values:
     CATEMP11: 655.6
@@ -1034,18 +1265,33 @@ test_cases:
 - response: 7E804413C1B31
   expected_values:
     CATEMP11: 656.1
+- response: 7E804413C1B33
+  expected_values:
+    CATEMP11: 656.3
 - response: 7E804413C1B37
   expected_values:
     CATEMP11: 656.7
+- response: 7E804413C1B3B
+  expected_values:
+    CATEMP11: 657.1
 - response: 7E804413C1B3D
   expected_values:
     CATEMP11: 657.3
+- response: 7E804413C1B41
+  expected_values:
+    CATEMP11: 657.7
 - response: 7E804413C1B44
   expected_values:
     CATEMP11: 658
 - response: 7E804413C1B45
   expected_values:
     CATEMP11: 658.1
+- response: 7E804413C1B46
+  expected_values:
+    CATEMP11: 658.2
+- response: 7E804413C1B47
+  expected_values:
+    CATEMP11: 658.3
 - response: 7E804413C1B49
   expected_values:
     CATEMP11: 658.5
@@ -1067,6 +1313,9 @@ test_cases:
 - response: 7E804413C1B57
   expected_values:
     CATEMP11: 659.9
+- response: 7E804413C1B58
+  expected_values:
+    CATEMP11: 660
 - response: 7E804413C1B5B
   expected_values:
     CATEMP11: 660.3
@@ -1100,18 +1349,30 @@ test_cases:
 - response: 7E804413C1B76
   expected_values:
     CATEMP11: 663
+- response: 7E804413C1B7B
+  expected_values:
+    CATEMP11: 663.5
 - response: 7E804413C1B7C
   expected_values:
     CATEMP11: 663.6
 - response: 7E804413C1B80
   expected_values:
     CATEMP11: 664
+- response: 7E804413C1B81
+  expected_values:
+    CATEMP11: 664.1
 - response: 7E804413C1B83
   expected_values:
     CATEMP11: 664.3
+- response: 7E804413C1B86
+  expected_values:
+    CATEMP11: 664.6
 - response: 7E804413C1B89
   expected_values:
     CATEMP11: 664.9
+- response: 7E804413C1B8B
+  expected_values:
+    CATEMP11: 665.1
 - response: 7E804413C1B91
   expected_values:
     CATEMP11: 665.7
@@ -1130,9 +1391,18 @@ test_cases:
 - response: 7E804413C1B9C
   expected_values:
     CATEMP11: 666.8
+- response: 7E804413C1B9E
+  expected_values:
+    CATEMP11: 667
+- response: 7E804413C1BA0
+  expected_values:
+    CATEMP11: 667.2
 - response: 7E804413C1BA1
   expected_values:
     CATEMP11: 667.3
+- response: 7E804413C1BA4
+  expected_values:
+    CATEMP11: 667.6
 - response: 7E804413C1BA7
   expected_values:
     CATEMP11: 667.9
@@ -1142,6 +1412,12 @@ test_cases:
 - response: 7E804413C1BAC
   expected_values:
     CATEMP11: 668.4
+- response: 7E804413C1BAF
+  expected_values:
+    CATEMP11: 668.7
+- response: 7E804413C1BB0
+  expected_values:
+    CATEMP11: 668.8
 - response: 7E804413C1BB3
   expected_values:
     CATEMP11: 669.1
@@ -1154,18 +1430,30 @@ test_cases:
 - response: 7E804413C1BBA
   expected_values:
     CATEMP11: 669.8
+- response: 7E804413C1BBB
+  expected_values:
+    CATEMP11: 669.9
 - response: 7E804413C1BBC
   expected_values:
     CATEMP11: 670
+- response: 7E804413C1BBD
+  expected_values:
+    CATEMP11: 670.1
 - response: 7E804413C1BBE
   expected_values:
     CATEMP11: 670.2
+- response: 7E804413C1BC0
+  expected_values:
+    CATEMP11: 670.4
 - response: 7E804413C1BC4
   expected_values:
     CATEMP11: 670.8
 - response: 7E804413C1BC7
   expected_values:
     CATEMP11: 671.1
+- response: 7E804413C1BC9
+  expected_values:
+    CATEMP11: 671.3
 - response: 7E804413C1BCC
   expected_values:
     CATEMP11: 671.6
@@ -1178,18 +1466,51 @@ test_cases:
 - response: 7E804413C1BD3
   expected_values:
     CATEMP11: 672.3
+- response: 7E804413C1BD6
+  expected_values:
+    CATEMP11: 672.6
+- response: 7E804413C1BDA
+  expected_values:
+    CATEMP11: 673
+- response: 7E804413C1BDD
+  expected_values:
+    CATEMP11: 673.3
 - response: 7E804413C1BE1
   expected_values:
     CATEMP11: 673.7
+- response: 7E804413C1BE2
+  expected_values:
+    CATEMP11: 673.8
+- response: 7E804413C1BEA
+  expected_values:
+    CATEMP11: 674.6
+- response: 7E804413C1BED
+  expected_values:
+    CATEMP11: 674.9
+- response: 7E804413C1BF3
+  expected_values:
+    CATEMP11: 675.5
 - response: 7E804413C1BF7
   expected_values:
     CATEMP11: 675.9
+- response: 7E804413C1BF8
+  expected_values:
+    CATEMP11: 676
+- response: 7E804413C1BFB
+  expected_values:
+    CATEMP11: 676.3
 - response: 7E804413C1BFF
   expected_values:
     CATEMP11: 676.7
 - response: 7E804413C1C02
   expected_values:
     CATEMP11: 677
+- response: 7E804413C1C03
+  expected_values:
+    CATEMP11: 677.1
+- response: 7E804413C1C04
+  expected_values:
+    CATEMP11: 677.2
 - response: 7E804413C1C05
   expected_values:
     CATEMP11: 677.3
@@ -1199,18 +1520,33 @@ test_cases:
 - response: 7E804413C1C0B
   expected_values:
     CATEMP11: 677.9
+- response: 7E804413C1C0D
+  expected_values:
+    CATEMP11: 678.1
 - response: 7E804413C1C11
   expected_values:
     CATEMP11: 678.5
+- response: 7E804413C1C13
+  expected_values:
+    CATEMP11: 678.7
+- response: 7E804413C1C15
+  expected_values:
+    CATEMP11: 678.9
 - response: 7E804413C1C19
   expected_values:
     CATEMP11: 679.3
 - response: 7E804413C1C1C
   expected_values:
     CATEMP11: 679.6
+- response: 7E804413C1C1E
+  expected_values:
+    CATEMP11: 679.8
 - response: 7E804413C1C27
   expected_values:
     CATEMP11: 680.7
+- response: 7E804413C1C2A
+  expected_values:
+    CATEMP11: 681
 - response: 7E804413C1C2B
   expected_values:
     CATEMP11: 681.1
@@ -1220,12 +1556,21 @@ test_cases:
 - response: 7E804413C1C30
   expected_values:
     CATEMP11: 681.6
+- response: 7E804413C1C34
+  expected_values:
+    CATEMP11: 682
 - response: 7E804413C1C35
   expected_values:
     CATEMP11: 682.1
+- response: 7E804413C1C38
+  expected_values:
+    CATEMP11: 682.4
 - response: 7E804413C1C3B
   expected_values:
     CATEMP11: 682.7
+- response: 7E804413C1C3C
+  expected_values:
+    CATEMP11: 682.8
 - response: 7E804413C1C3F
   expected_values:
     CATEMP11: 683.1
@@ -1238,12 +1583,21 @@ test_cases:
 - response: 7E804413C1C45
   expected_values:
     CATEMP11: 683.7
+- response: 7E804413C1C50
+  expected_values:
+    CATEMP11: 684.8
+- response: 7E804413C1C51
+  expected_values:
+    CATEMP11: 684.9
 - response: 7E804413C1C55
   expected_values:
     CATEMP11: 685.3
 - response: 7E804413C1C57
   expected_values:
     CATEMP11: 685.5
+- response: 7E804413C1C58
+  expected_values:
+    CATEMP11: 685.6
 - response: 7E804413C1C5A
   expected_values:
     CATEMP11: 685.8
@@ -1253,9 +1607,24 @@ test_cases:
 - response: 7E804413C1C5C
   expected_values:
     CATEMP11: 686
+- response: 7E804413C1C6F
+  expected_values:
+    CATEMP11: 687.9
+- response: 7E804413C1C71
+  expected_values:
+    CATEMP11: 688.1
+- response: 7E804413C1C74
+  expected_values:
+    CATEMP11: 688.4
 - response: 7E804413C1C7A
   expected_values:
     CATEMP11: 689
+- response: 7E804413C1C7C
+  expected_values:
+    CATEMP11: 689.2
+- response: 7E804413C1C80
+  expected_values:
+    CATEMP11: 689.6
 - response: 7E804413C1C89
   expected_values:
     CATEMP11: 690.5
@@ -1271,9 +1640,15 @@ test_cases:
 - response: 7E804413C1C9C
   expected_values:
     CATEMP11: 692.4
+- response: 7E804413C1CA2
+  expected_values:
+    CATEMP11: 693
 - response: 7E804413C1CA3
   expected_values:
     CATEMP11: 693.1
+- response: 7E804413C1CA5
+  expected_values:
+    CATEMP11: 693.3
 - response: 7E804413C1CA7
   expected_values:
     CATEMP11: 693.5
@@ -1286,15 +1661,30 @@ test_cases:
 - response: 7E804413C1CB8
   expected_values:
     CATEMP11: 695.2
+- response: 7E804413C1CBB
+  expected_values:
+    CATEMP11: 695.5
+- response: 7E804413C1CBC
+  expected_values:
+    CATEMP11: 695.6
 - response: 7E804413C1CC7
   expected_values:
     CATEMP11: 696.7
+- response: 7E804413C1CCB
+  expected_values:
+    CATEMP11: 697.1
 - response: 7E804413C1CDF
   expected_values:
     CATEMP11: 699.1
 - response: 7E804413C1CE4
   expected_values:
     CATEMP11: 699.6
+- response: 7E804413C1CEB
+  expected_values:
+    CATEMP11: 700.3
+- response: 7E804413C1CED
+  expected_values:
+    CATEMP11: 700.5
 - response: 7E804413C1CF2
   expected_values:
     CATEMP11: 701
@@ -1310,6 +1700,9 @@ test_cases:
 - response: 7E804413C1D11
   expected_values:
     CATEMP11: 704.1
+- response: 7E804413C1D16
+  expected_values:
+    CATEMP11: 704.6
 - response: 7E804413C1D17
   expected_values:
     CATEMP11: 704.7
@@ -1319,6 +1712,9 @@ test_cases:
 - response: 7E804413C1D1B
   expected_values:
     CATEMP11: 705.1
+- response: 7E804413C1D20
+  expected_values:
+    CATEMP11: 705.6
 - response: 7E804413C1D22
   expected_values:
     CATEMP11: 705.8
@@ -1331,27 +1727,60 @@ test_cases:
 - response: 7E804413C1D27
   expected_values:
     CATEMP11: 706.3
+- response: 7E804413C1D2E
+  expected_values:
+    CATEMP11: 707
+- response: 7E804413C1D2F
+  expected_values:
+    CATEMP11: 707.1
+- response: 7E804413C1D31
+  expected_values:
+    CATEMP11: 707.3
 - response: 7E804413C1D32
   expected_values:
     CATEMP11: 707.4
+- response: 7E804413C1D34
+  expected_values:
+    CATEMP11: 707.6
 - response: 7E804413C1D3A
   expected_values:
     CATEMP11: 708.2
+- response: 7E804413C1D4D
+  expected_values:
+    CATEMP11: 710.1
 - response: 7E804413C1D4F
   expected_values:
     CATEMP11: 710.3
 - response: 7E804413C1D59
   expected_values:
     CATEMP11: 711.3
+- response: 7E804413C1D5D
+  expected_values:
+    CATEMP11: 711.7
+- response: 7E804413C1D6D
+  expected_values:
+    CATEMP11: 713.3
 - response: 7E804413C1D70
   expected_values:
     CATEMP11: 713.6
+- response: 7E804413C1D75
+  expected_values:
+    CATEMP11: 714.1
 - response: 7E804413C1D7A
   expected_values:
     CATEMP11: 714.6
+- response: 7E804413C1D7C
+  expected_values:
+    CATEMP11: 714.8
+- response: 7E804413C1D80
+  expected_values:
+    CATEMP11: 715.2
 - response: 7E804413C1D87
   expected_values:
     CATEMP11: 715.9
+- response: 7E804413C1D93
+  expected_values:
+    CATEMP11: 717.1
 - response: 7E804413C1D97
   expected_values:
     CATEMP11: 717.5
@@ -1367,6 +1796,12 @@ test_cases:
 - response: 7E804413C1DAE
   expected_values:
     CATEMP11: 719.8
+- response: 7E804413C1DB3
+  expected_values:
+    CATEMP11: 720.3
+- response: 7E804413C1DC2
+  expected_values:
+    CATEMP11: 721.8
 - response: 7E804413C1DD3
   expected_values:
     CATEMP11: 723.5
@@ -1379,9 +1814,21 @@ test_cases:
 - response: 7E804413C1DE3
   expected_values:
     CATEMP11: 725.1
+- response: 7E804413C1DF3
+  expected_values:
+    CATEMP11: 726.7
 - response: 7E804413C1DFE
   expected_values:
     CATEMP11: 727.8
+- response: 7E804413C1E09
+  expected_values:
+    CATEMP11: 728.9
+- response: 7E804413C1E23
+  expected_values:
+    CATEMP11: 731.5
+- response: 7E804413C1E40
+  expected_values:
+    CATEMP11: 734.4
 - response: 7E804413C1E5C
   expected_values:
     CATEMP11: 737.2
@@ -1403,6 +1850,12 @@ test_cases:
 - response: 7E804413C1ECA
   expected_values:
     CATEMP11: 748.2
+- response: 7E804413C1ECB
+  expected_values:
+    CATEMP11: 748.3
 - response: 7E804413C1ECD
   expected_values:
     CATEMP11: 748.5
+- response: 7E804413C1F10
+  expected_values:
+    CATEMP11: 755.2

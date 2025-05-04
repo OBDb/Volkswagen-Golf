@@ -956,3 +956,426 @@ test_cases:
 - response: 7E80662295A021654
   expected_values:
     GOLF_ODO: 136788
+- response: 7E80662295A021655
+  expected_values:
+    GOLF_ODO: 136789
+- response: 7E80662295A021656
+  expected_values:
+    GOLF_ODO: 136790
+- response: 7E80662295A021657
+  expected_values:
+    GOLF_ODO: 136791
+- response: 7E80662295A021658
+  expected_values:
+    GOLF_ODO: 136792
+- response: 7E80662295A021659
+  expected_values:
+    GOLF_ODO: 136793
+- response: 7E80662295A02165A
+  expected_values:
+    GOLF_ODO: 136794
+- response: 7E80662295A02165B
+  expected_values:
+    GOLF_ODO: 136795
+- response: 7E80662295A02165C
+  expected_values:
+    GOLF_ODO: 136796
+- response: 7E80662295A02165D
+  expected_values:
+    GOLF_ODO: 136797
+- response: 7E80662295A02165E
+  expected_values:
+    GOLF_ODO: 136798
+- response: 7E80662295A02165F
+  expected_values:
+    GOLF_ODO: 136799
+- response: 7E80662295A021660
+  expected_values:
+    GOLF_ODO: 136800
+- response: 7E80662295A021661
+  expected_values:
+    GOLF_ODO: 136801
+- response: 7E80662295A021662
+  expected_values:
+    GOLF_ODO: 136802
+- response: 7E80662295A021663
+  expected_values:
+    GOLF_ODO: 136803
+- response: 7E80662295A021664
+  expected_values:
+    GOLF_ODO: 136804
+- response: 7E80662295A021666
+  expected_values:
+    GOLF_ODO: 136806
+- response: 7E80662295A021667
+  expected_values:
+    GOLF_ODO: 136807
+- response: 7E80662295A021668
+  expected_values:
+    GOLF_ODO: 136808
+- response: 7E80662295A021669
+  expected_values:
+    GOLF_ODO: 136809
+- response: 7E80662295A02166A
+  expected_values:
+    GOLF_ODO: 136810
+- response: 7E80662295A02166B
+  expected_values:
+    GOLF_ODO: 136811
+- response: 7E80662295A02166C
+  expected_values:
+    GOLF_ODO: 136812
+- response: 7E80662295A02166D
+  expected_values:
+    GOLF_ODO: 136813
+- response: 7E80662295A02166E
+  expected_values:
+    GOLF_ODO: 136814
+- response: 7E80662295A02166F
+  expected_values:
+    GOLF_ODO: 136815
+- response: 7E80662295A021670
+  expected_values:
+    GOLF_ODO: 136816
+- response: 7E80662295A021671
+  expected_values:
+    GOLF_ODO: 136817
+- response: 7E80662295A021672
+  expected_values:
+    GOLF_ODO: 136818
+- response: 7E80662295A021673
+  expected_values:
+    GOLF_ODO: 136819
+- response: 7E80662295A021674
+  expected_values:
+    GOLF_ODO: 136820
+- response: 7E80662295A021675
+  expected_values:
+    GOLF_ODO: 136821
+- response: 7E80662295A021676
+  expected_values:
+    GOLF_ODO: 136822
+- response: 7E80662295A021677
+  expected_values:
+    GOLF_ODO: 136823
+- response: 7E80662295A021678
+  expected_values:
+    GOLF_ODO: 136824
+- response: 7E80662295A021679
+  expected_values:
+    GOLF_ODO: 136825
+- response: 7E80662295A02167A
+  expected_values:
+    GOLF_ODO: 136826
+- response: 7E80662295A02167B
+  expected_values:
+    GOLF_ODO: 136827
+- response: 7E80662295A02167C
+  expected_values:
+    GOLF_ODO: 136828
+- response: 7E80662295A02167D
+  expected_values:
+    GOLF_ODO: 136829
+- response: 7E80662295A02167E
+  expected_values:
+    GOLF_ODO: 136830
+- response: 7E80662295A02167F
+  expected_values:
+    GOLF_ODO: 136831
+- response: 7E80662295A021680
+  expected_values:
+    GOLF_ODO: 136832
+- response: 7E80662295A021681
+  expected_values:
+    GOLF_ODO: 136833
+- response: 7E80662295A021682
+  expected_values:
+    GOLF_ODO: 136834
+- response: 7E80662295A021683
+  expected_values:
+    GOLF_ODO: 136835
+- response: 7E80662295A021684
+  expected_values:
+    GOLF_ODO: 136836
+- response: 7E80662295A021685
+  expected_values:
+    GOLF_ODO: 136837
+- response: 7E80662295A021686
+  expected_values:
+    GOLF_ODO: 136838
+- response: 7E80662295A021687
+  expected_values:
+    GOLF_ODO: 136839
+- response: 7E80662295A021688
+  expected_values:
+    GOLF_ODO: 136840
+- response: 7E80662295A021689
+  expected_values:
+    GOLF_ODO: 136841
+- response: 7E80662295A02168A
+  expected_values:
+    GOLF_ODO: 136842
+- response: 7E80662295A02168B
+  expected_values:
+    GOLF_ODO: 136843
+- response: 7E80662295A02168C
+  expected_values:
+    GOLF_ODO: 136844
+- response: 7E80662295A02168D
+  expected_values:
+    GOLF_ODO: 136845
+- response: 7E80662295A02168E
+  expected_values:
+    GOLF_ODO: 136846
+- response: 7E80662295A02168F
+  expected_values:
+    GOLF_ODO: 136847
+- response: 7E80662295A021690
+  expected_values:
+    GOLF_ODO: 136848
+- response: 7E80662295A021691
+  expected_values:
+    GOLF_ODO: 136849
+- response: 7E80662295A021692
+  expected_values:
+    GOLF_ODO: 136850
+- response: 7E80662295A021693
+  expected_values:
+    GOLF_ODO: 136851
+- response: 7E80662295A021694
+  expected_values:
+    GOLF_ODO: 136852
+- response: 7E80662295A021695
+  expected_values:
+    GOLF_ODO: 136853
+- response: 7E80662295A021696
+  expected_values:
+    GOLF_ODO: 136854
+- response: 7E80662295A021697
+  expected_values:
+    GOLF_ODO: 136855
+- response: 7E80662295A021698
+  expected_values:
+    GOLF_ODO: 136856
+- response: 7E80662295A021699
+  expected_values:
+    GOLF_ODO: 136857
+- response: 7E80662295A02169A
+  expected_values:
+    GOLF_ODO: 136858
+- response: 7E80662295A02169B
+  expected_values:
+    GOLF_ODO: 136859
+- response: 7E80662295A02169C
+  expected_values:
+    GOLF_ODO: 136860
+- response: 7E80662295A02169D
+  expected_values:
+    GOLF_ODO: 136861
+- response: 7E80662295A02169E
+  expected_values:
+    GOLF_ODO: 136862
+- response: 7E80662295A02169F
+  expected_values:
+    GOLF_ODO: 136863
+- response: 7E80662295A0216A0
+  expected_values:
+    GOLF_ODO: 136864
+- response: 7E80662295A0216A1
+  expected_values:
+    GOLF_ODO: 136865
+- response: 7E80662295A0216A2
+  expected_values:
+    GOLF_ODO: 136866
+- response: 7E80662295A0216A3
+  expected_values:
+    GOLF_ODO: 136867
+- response: 7E80662295A0216A4
+  expected_values:
+    GOLF_ODO: 136868
+- response: 7E80662295A0216A5
+  expected_values:
+    GOLF_ODO: 136869
+- response: 7E80662295A0216A6
+  expected_values:
+    GOLF_ODO: 136870
+- response: 7E80662295A0216A7
+  expected_values:
+    GOLF_ODO: 136871
+- response: 7E80662295A0216A8
+  expected_values:
+    GOLF_ODO: 136872
+- response: 7E80662295A0216A9
+  expected_values:
+    GOLF_ODO: 136873
+- response: 7E80662295A0216AA
+  expected_values:
+    GOLF_ODO: 136874
+- response: 7E80662295A0216AB
+  expected_values:
+    GOLF_ODO: 136875
+- response: 7E80662295A0216AC
+  expected_values:
+    GOLF_ODO: 136876
+- response: 7E80662295A0216AD
+  expected_values:
+    GOLF_ODO: 136877
+- response: 7E80662295A0216AE
+  expected_values:
+    GOLF_ODO: 136878
+- response: 7E80662295A0216AF
+  expected_values:
+    GOLF_ODO: 136879
+- response: 7E80662295A0216B0
+  expected_values:
+    GOLF_ODO: 136880
+- response: 7E80662295A0216B1
+  expected_values:
+    GOLF_ODO: 136881
+- response: 7E80662295A0216B2
+  expected_values:
+    GOLF_ODO: 136882
+- response: 7E80662295A0216B3
+  expected_values:
+    GOLF_ODO: 136883
+- response: 7E80662295A0216B4
+  expected_values:
+    GOLF_ODO: 136884
+- response: 7E80662295A0216B5
+  expected_values:
+    GOLF_ODO: 136885
+- response: 7E80662295A0216B6
+  expected_values:
+    GOLF_ODO: 136886
+- response: 7E80662295A0216B7
+  expected_values:
+    GOLF_ODO: 136887
+- response: 7E80662295A0216B8
+  expected_values:
+    GOLF_ODO: 136888
+- response: 7E80662295A0216B9
+  expected_values:
+    GOLF_ODO: 136889
+- response: 7E80662295A0216BA
+  expected_values:
+    GOLF_ODO: 136890
+- response: 7E80662295A0216BB
+  expected_values:
+    GOLF_ODO: 136891
+- response: 7E80662295A0216BC
+  expected_values:
+    GOLF_ODO: 136892
+- response: 7E80662295A0216BD
+  expected_values:
+    GOLF_ODO: 136893
+- response: 7E80662295A0216BE
+  expected_values:
+    GOLF_ODO: 136894
+- response: 7E80662295A0216BF
+  expected_values:
+    GOLF_ODO: 136895
+- response: 7E80662295A0216C0
+  expected_values:
+    GOLF_ODO: 136896
+- response: 7E80662295A0216C1
+  expected_values:
+    GOLF_ODO: 136897
+- response: 7E80662295A0216C2
+  expected_values:
+    GOLF_ODO: 136898
+- response: 7E80662295A0216C3
+  expected_values:
+    GOLF_ODO: 136899
+- response: 7E80662295A0216C5
+  expected_values:
+    GOLF_ODO: 136901
+- response: 7E80662295A0216C6
+  expected_values:
+    GOLF_ODO: 136902
+- response: 7E80662295A0216C7
+  expected_values:
+    GOLF_ODO: 136903
+- response: 7E80662295A0216C8
+  expected_values:
+    GOLF_ODO: 136904
+- response: 7E80662295A0216C9
+  expected_values:
+    GOLF_ODO: 136905
+- response: 7E80662295A0216CA
+  expected_values:
+    GOLF_ODO: 136906
+- response: 7E80662295A0216CB
+  expected_values:
+    GOLF_ODO: 136907
+- response: 7E80662295A0216CC
+  expected_values:
+    GOLF_ODO: 136908
+- response: 7E80662295A0216CD
+  expected_values:
+    GOLF_ODO: 136909
+- response: 7E80662295A0216CE
+  expected_values:
+    GOLF_ODO: 136910
+- response: 7E80662295A0216CF
+  expected_values:
+    GOLF_ODO: 136911
+- response: 7E80662295A0216D0
+  expected_values:
+    GOLF_ODO: 136912
+- response: 7E80662295A0216D1
+  expected_values:
+    GOLF_ODO: 136913
+- response: 7E80662295A0216D2
+  expected_values:
+    GOLF_ODO: 136914
+- response: 7E80662295A0216D3
+  expected_values:
+    GOLF_ODO: 136915
+- response: 7E80662295A0216D4
+  expected_values:
+    GOLF_ODO: 136916
+- response: 7E80662295A0216D5
+  expected_values:
+    GOLF_ODO: 136917
+- response: 7E80662295A0216D6
+  expected_values:
+    GOLF_ODO: 136918
+- response: 7E80662295A0216D7
+  expected_values:
+    GOLF_ODO: 136919
+- response: 7E80662295A0216D8
+  expected_values:
+    GOLF_ODO: 136920
+- response: 7E80662295A0216D9
+  expected_values:
+    GOLF_ODO: 136921
+- response: 7E80662295A0216DA
+  expected_values:
+    GOLF_ODO: 136922
+- response: 7E80662295A0216DB
+  expected_values:
+    GOLF_ODO: 136923
+- response: 7E80662295A0216DC
+  expected_values:
+    GOLF_ODO: 136924
+- response: 7E80662295A0216DD
+  expected_values:
+    GOLF_ODO: 136925
+- response: 7E80662295A0216DE
+  expected_values:
+    GOLF_ODO: 136926
+- response: 7E80662295A0216DF
+  expected_values:
+    GOLF_ODO: 136927
+- response: 7E80662295A0216E0
+  expected_values:
+    GOLF_ODO: 136928
+- response: 7E80662295A0216E1
+  expected_values:
+    GOLF_ODO: 136929
+- response: 7E80662295A0216E2
+  expected_values:
+    GOLF_ODO: 136930
+- response: 7E80662295A0216E3
+  expected_values:
+    GOLF_ODO: 136931

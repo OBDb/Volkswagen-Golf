@@ -50,6 +50,9 @@ test_cases:
 - response: 7E803410D13
   expected_values:
     VSS: 19
+- response: 7E803410D14
+  expected_values:
+    VSS: 20
 - response: 7E803410D15
   expected_values:
     VSS: 21
@@ -107,6 +110,9 @@ test_cases:
 - response: 7E803410D27
   expected_values:
     VSS: 39
+- response: 7E803410D28
+  expected_values:
+    VSS: 40
 - response: 7E803410D29
   expected_values:
     VSS: 41
@@ -125,6 +131,9 @@ test_cases:
 - response: 7E803410D2F
   expected_values:
     VSS: 47
+- response: 7E803410D30
+  expected_values:
+    VSS: 48
 - response: 7E803410D31
   expected_values:
     VSS: 49
@@ -146,12 +155,18 @@ test_cases:
 - response: 7E803410D43
   expected_values:
     VSS: 67
+- response: 7E803410D44
+  expected_values:
+    VSS: 68
 - response: 7E803410D45
   expected_values:
     VSS: 69
 - response: 7E803410D47
   expected_values:
     VSS: 71
+- response: 7E803410D49
+  expected_values:
+    VSS: 73
 - response: 7E803410D4A
   expected_values:
     VSS: 74
@@ -170,9 +185,15 @@ test_cases:
 - response: 7E803410D51
   expected_values:
     VSS: 81
+- response: 7E803410D52
+  expected_values:
+    VSS: 82
 - response: 7E803410D55
   expected_values:
     VSS: 85
+- response: 7E803410D5D
+  expected_values:
+    VSS: 93
 - response: 7E803410D61
   expected_values:
     VSS: 97
@@ -185,3 +206,6 @@ test_cases:
 - response: 7E803410D6F
   expected_values:
     VSS: 111
+- response: 7E803410D78
+  expected_values:
+    VSS: 120
