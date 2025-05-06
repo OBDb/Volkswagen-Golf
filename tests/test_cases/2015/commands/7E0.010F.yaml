@@ -98,12 +98,27 @@ test_cases:
 - response: 7E803410F55
   expected_values:
     IAT: 45
+- response: 7E803410F56
+  expected_values:
+    IAT: 46
 - response: 7E803410F57
   expected_values:
     IAT: 47
 - response: 7E803410F58
   expected_values:
     IAT: 48
+- response: 7E803410F59
+  expected_values:
+    IAT: 49
+- response: 7E803410F5A
+  expected_values:
+    IAT: 50
 - response: 7E803410F5B
   expected_values:
     IAT: 51
+- response: 7E803410F5D
+  expected_values:
+    IAT: 53
+- response: 7E803410F5E
+  expected_values:
+    IAT: 54

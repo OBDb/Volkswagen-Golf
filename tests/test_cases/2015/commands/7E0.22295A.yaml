@@ -1379,3 +1379,84 @@ test_cases:
 - response: 7E80662295A0216E3
   expected_values:
     GOLF_ODO: 136931
+- response: 7E80662295A0216ED
+  expected_values:
+    GOLF_ODO: 136941
+- response: 7E80662295A0216EE
+  expected_values:
+    GOLF_ODO: 136942
+- response: 7E80662295A0216EF
+  expected_values:
+    GOLF_ODO: 136943
+- response: 7E80662295A0216F0
+  expected_values:
+    GOLF_ODO: 136944
+- response: 7E80662295A0216F1
+  expected_values:
+    GOLF_ODO: 136945
+- response: 7E80662295A0216F2
+  expected_values:
+    GOLF_ODO: 136946
+- response: 7E80662295A0216F3
+  expected_values:
+    GOLF_ODO: 136947
+- response: 7E80662295A0216F4
+  expected_values:
+    GOLF_ODO: 136948
+- response: 7E80662295A0216F5
+  expected_values:
+    GOLF_ODO: 136949
+- response: 7E80662295A0216F6
+  expected_values:
+    GOLF_ODO: 136950
+- response: 7E80662295A0216F7
+  expected_values:
+    GOLF_ODO: 136951
+- response: 7E80662295A0216F8
+  expected_values:
+    GOLF_ODO: 136952
+- response: 7E80662295A0216F9
+  expected_values:
+    GOLF_ODO: 136953
+- response: 7E80662295A0216FA
+  expected_values:
+    GOLF_ODO: 136954
+- response: 7E80662295A0216FB
+  expected_values:
+    GOLF_ODO: 136955
+- response: 7E80662295A0216FC
+  expected_values:
+    GOLF_ODO: 136956
+- response: 7E80662295A0216FD
+  expected_values:
+    GOLF_ODO: 136957
+- response: 7E80662295A0216FE
+  expected_values:
+    GOLF_ODO: 136958
+- response: 7E80662295A0216FF
+  expected_values:
+    GOLF_ODO: 136959
+- response: 7E80662295A021700
+  expected_values:
+    GOLF_ODO: 136960
+- response: 7E80662295A021749
+  expected_values:
+    GOLF_ODO: 137033
+- response: 7E80662295A02174A
+  expected_values:
+    GOLF_ODO: 137034
+- response: 7E80662295A02174B
+  expected_values:
+    GOLF_ODO: 137035
+- response: 7E80662295A021797
+  expected_values:
+    GOLF_ODO: 137111
+- response: 7E80662295A021798
+  expected_values:
+    GOLF_ODO: 137112
+- response: 7E80662295A021799
+  expected_values:
+    GOLF_ODO: 137113
+- response: 7E80662295A02179A
+  expected_values:
+    GOLF_ODO: 137114
