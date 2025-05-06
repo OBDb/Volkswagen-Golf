@@ -1,7 +1,7 @@
-command_id: 7E0.010D
+command_id: 7E0.2211C4
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E803410D00
+- response: 7E8056211C415F8
   expected_values:
-    VSS: 0
+    GOLF_OIL_MAX: 22.496

@@ -89,6 +89,33 @@ test_cases:
 - response: '7E80441310906'
   expected_values:
     CLR_DIST: 2310
+- response: '7E80441310909'
+  expected_values:
+    CLR_DIST: 2313
+- response: 7E8044131090A
+  expected_values:
+    CLR_DIST: 2314
+- response: 7E8044131090B
+  expected_values:
+    CLR_DIST: 2315
+- response: 7E8044131090C
+  expected_values:
+    CLR_DIST: 2316
+- response: 7E8044131090D
+  expected_values:
+    CLR_DIST: 2317
+- response: 7E8044131093E
+  expected_values:
+    CLR_DIST: 2366
+- response: 7E8044131093F
+  expected_values:
+    CLR_DIST: 2367
+- response: '7E80441310940'
+  expected_values:
+    CLR_DIST: 2368
+- response: '7E80441310941'
+  expected_values:
+    CLR_DIST: 2369
 - response: '7E80441311292'
   expected_values:
     CLR_DIST: 4754
@@ -164,3 +191,60 @@ test_cases:
 - response: 7E804413112AB
   expected_values:
     CLR_DIST: 4779
+- response: 7E804413112B3
+  expected_values:
+    CLR_DIST: 4787
+- response: 7E804413112B4
+  expected_values:
+    CLR_DIST: 4788
+- response: 7E804413112B5
+  expected_values:
+    CLR_DIST: 4789
+- response: 7E804413112B6
+  expected_values:
+    CLR_DIST: 4790
+- response: 7E804413112B7
+  expected_values:
+    CLR_DIST: 4791
+- response: 7E804413112B8
+  expected_values:
+    CLR_DIST: 4792
+- response: 7E804413112B9
+  expected_values:
+    CLR_DIST: 4793
+- response: 7E804413112BA
+  expected_values:
+    CLR_DIST: 4794
+- response: 7E804413112BB
+  expected_values:
+    CLR_DIST: 4795
+- response: 7E804413112BC
+  expected_values:
+    CLR_DIST: 4796
+- response: 7E804413112C4
+  expected_values:
+    CLR_DIST: 4804
+- response: 7E804413112C5
+  expected_values:
+    CLR_DIST: 4805
+- response: 7E804413112C6
+  expected_values:
+    CLR_DIST: 4806
+- response: 7E804413112C7
+  expected_values:
+    CLR_DIST: 4807
+- response: 7E804413112C8
+  expected_values:
+    CLR_DIST: 4808
+- response: 7E804413112C9
+  expected_values:
+    CLR_DIST: 4809
+- response: 7E804413112CA
+  expected_values:
+    CLR_DIST: 4810
+- response: 7E804413112CB
+  expected_values:
+    CLR_DIST: 4811
+- response: 7E804413112CC
+  expected_values:
+    CLR_DIST: 4812
