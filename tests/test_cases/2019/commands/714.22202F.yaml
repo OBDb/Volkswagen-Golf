@@ -1,0 +1,7 @@
+command_id: 714.22202F
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 77E0462202F82
+  expected_values:
+    GOLF_EOT: 72

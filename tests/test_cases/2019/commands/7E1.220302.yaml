@@ -1,0 +1,9 @@
+command_id: 7E1.220302
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8100A620302434132
+    7E82150453541555555
+  expected_values:
+    GOLF_DRIVE_TIME: 4304.25
