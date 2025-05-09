@@ -55,6 +55,6 @@ supported_commands_by_ecu:
   - 01A6:ODO
 unsupported_commands_by_ecu:
   70B:
-  - 70B.2218A0
-  - 70B.2218A1
-  - 70B.2218A2
+  - 70B.2218A0:GOLF_TP_FR
+  - 70B.2218A1:GOLF_TP_FL
+  - 70B.2218A2:GOLF_TP_RL
