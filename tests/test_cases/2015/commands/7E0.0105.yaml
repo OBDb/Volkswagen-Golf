@@ -2,9 +2,9 @@ command_id: 7E0.0105
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: '7E803410539'
+- response: '7E803410537'
   expected_values:
-    ECT: 17
+    ECT: 15
 - response: '7E803410594'
   expected_values:
     ECT: 108

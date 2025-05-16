@@ -1,0 +1,19 @@
+command_id: 7E0.0123
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E804412301C0
+  expected_values:
+    FRP: 4480
+- response: '7E80441230224'
+  expected_values:
+    FRP: 5480
+- response: '7E80441230246'
+  expected_values:
+    FRP: 5820
+- response: '7E80441230253'
+  expected_values:
+    FRP: 5950
+- response: '7E80441230270'
+  expected_values:
+    FRP: 6240
