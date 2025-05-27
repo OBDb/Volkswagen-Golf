@@ -1,6 +1,4 @@
 command_id: 7E0.22295A
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80662295A0160F4
   expected_values:
@@ -11,6 +9,6 @@ test_cases:
 - response: 7E80662295A016400
   expected_values:
     GOLF_ODO: 91136
-- response: 7E80662295A016516
+- response: 7E80662295A016600
   expected_values:
-    GOLF_ODO: 91414
+    GOLF_ODO: 91648

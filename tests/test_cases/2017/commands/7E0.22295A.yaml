@@ -1,6 +1,4 @@
 command_id: 7E0.22295A
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80662295A00F062
   expected_values:
@@ -17,3 +15,10 @@ test_cases:
 - response: 7E80662295A0FFFFF
   expected_values:
     GOLF_ODO: 1048575
+- response: |-
+    > 7E0.2211C4
+    > 7E0.22295A
+    7E80662295A0382E6AA
+    CAN ERROR
+  expected_values:
+    GOLF_ODO: 230118
