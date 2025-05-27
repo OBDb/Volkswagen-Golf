@@ -1,12 +1,10 @@
 model_year: 2006
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 unsupported_commands_by_ecu:
   70B:
-  - 70B.2218A0:GOLF_TP_FR
-  - 70B.2218A1:GOLF_TP_FL
-  - 70B.2218A2:GOLF_TP_RL
-  - 70B.2218A3:GOLF_TP_RR
+  - 70B.2218A0|fc=1:GOLF_TP_FR
+  - 70B.2218A1|fc=1:GOLF_TP_FL
+  - 70B.2218A2|fc=1:GOLF_TP_RL
+  - 70B.2218A3|fc=1:GOLF_TP_RR
   710:
   - 710.222A0A:GOLF_ODO_2
   714:
@@ -23,7 +21,7 @@ unsupported_commands_by_ecu:
   - 715.222356:GOLF_CRASH_CNT_REAR
   - 715.222357:GOLF_CRASH_CNT_ROLL
   746:
-  - 746.2227C4:GOLF_WNDSHLD_TEMP
+  - 746.2227C4|fc=1:GOLF_WNDSHLD_TEMP
   7E0:
   - 7E0.2211BA:GOLF_OIL_LEVEL
   - 7E0.2211C4:GOLF_OIL_MAX

@@ -1,0 +1,5 @@
+command_id: '715.222353'
+test_cases:
+- response: 77F0462235300
+  expected_values:
+    GOLF_CRSH_FRONT: 0

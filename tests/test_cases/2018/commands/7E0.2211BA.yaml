@@ -1,31 +1,14 @@
 command_id: 7E0.2211BA
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
+- response: 7E8056211BA2F3F
+  expected_values:
+    GOLF_OIL_LEVEL: 48.38
+- response: 7E8056211BA3129
+  expected_values:
+    GOLF_OIL_LEVEL: 50.34
 - response: 7E8056211BA3390
   expected_values:
     GOLF_OIL_LEVEL: 52.8
-- response: 7E8056211BA3395
-  expected_values:
-    GOLF_OIL_LEVEL: 52.82
-- response: 7E8056211BA339A
-  expected_values:
-    GOLF_OIL_LEVEL: 52.84
-- response: 7E8056211BA339F
-  expected_values:
-    GOLF_OIL_LEVEL: 52.86
-- response: 7E8056211BA33A4
-  expected_values:
-    GOLF_OIL_LEVEL: 52.88
-- response: 7E8056211BA33AE
-  expected_values:
-    GOLF_OIL_LEVEL: 52.92
-- response: 7E8056211BA33B3
-  expected_values:
-    GOLF_OIL_LEVEL: 52.94
-- response: 7E8056211BA33BD
-  expected_values:
-    GOLF_OIL_LEVEL: 52.98
 - response: 7E8056211BA33CC
   expected_values:
     GOLF_OIL_LEVEL: 53.04
