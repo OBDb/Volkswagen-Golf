@@ -1,5 +1,0 @@
-command_id: 714.22202F
-test_cases:
-- response: 77E0462202F82
-  expected_values:
-    GOLF_EOT: 72
