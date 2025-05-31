@@ -18,6 +18,7 @@ supported_commands_by_ecu:
   - 011C:OBDSUP
   - 011F:RUNTM
   - 0121:MIL_DIST
+  - 0123:FRP
   - 012E:EVAP_PCT
   - 012F:FLI
   - 0130:WARM_UPS
