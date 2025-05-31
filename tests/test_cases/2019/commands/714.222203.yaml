@@ -1,5 +1,0 @@
-command_id: '714.222203'
-test_cases:
-- response: 77E0662220301D944
-  expected_values:
-    GOLF_ODO_DASH: 255
