@@ -1,8 +1,8 @@
 command_id: 7E0.22295A
 test_cases:
-- response: 7E80662295A00C747
-  expected_values:
+- expected_values:
     GOLF_ODO: 51015
-- response: 7E80662295A00C783
-  expected_values:
+  response: 7E80662295A00C747
+- expected_values:
     GOLF_ODO: 51075
+  response: 7E80662295A00C783

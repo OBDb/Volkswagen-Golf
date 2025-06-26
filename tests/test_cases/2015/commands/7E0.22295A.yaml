@@ -1,14 +1,14 @@
 command_id: 7E0.22295A
 test_cases:
-- response: 7E80662295A0214E5
-  expected_values:
+- expected_values:
     GOLF_ODO: 136421
-- response: 7E80662295A0214FF
-  expected_values:
+  response: 7E80662295A0214E5
+- expected_values:
     GOLF_ODO: 136447
-- response: 7E80662295A021500
-  expected_values:
+  response: 7E80662295A0214FF
+- expected_values:
     GOLF_ODO: 136448
-- response: 7E80662295A0FFFFF
-  expected_values:
+  response: 7E80662295A021500
+- expected_values:
     GOLF_ODO: 1048575
+  response: 7E80662295A0FFFFF

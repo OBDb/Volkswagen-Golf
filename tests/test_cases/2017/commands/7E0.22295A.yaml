@@ -1,17 +1,17 @@
 command_id: 7E0.22295A
 test_cases:
-- response: 7E80662295A00F062
-  expected_values:
+- expected_values:
     GOLF_ODO: 61538
-- response: 7E80662295A00F0FF
-  expected_values:
+  response: 7E80662295A00F062
+- expected_values:
     GOLF_ODO: 61695
-- response: 7E80662295A00F100
-  expected_values:
+  response: 7E80662295A00F0FF
+- expected_values:
     GOLF_ODO: 61696
-- response: 7E80662295A0185EB
-  expected_values:
+  response: 7E80662295A00F100
+- expected_values:
     GOLF_ODO: 99819
-- response: 7E80662295A0FFFFF
-  expected_values:
+  response: 7E80662295A0185EB
+- expected_values:
     GOLF_ODO: 1048575
+  response: 7E80662295A0FFFFF
