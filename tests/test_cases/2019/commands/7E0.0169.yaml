@@ -1,9 +1,6 @@
 command_id: 7E0.0169
 test_cases:
-- response: |-
-    7E8100941693F000080
-    7E82100008000000000
-  expected_values:
+- expected_values:
     EGR_A_ACT: 0
     EGR_A_ACT_SUP: 1
     EGR_A_CMD: 0
@@ -16,10 +13,10 @@ test_cases:
     EGR_B_CMD_SUP: 1
     EGR_B_ERR: 0
     EGR_B_ERR_SUP: 1
-- response: |-
-    7E8100941693F0E0D77
-    7E82190908000000000
-  expected_values:
+  response: |-
+    7E8100941693F000080
+    7E82100008000000000
+- expected_values:
     EGR_A_ACT: 5.09804
     EGR_A_ACT_SUP: 1
     EGR_A_CMD: 5.4902
@@ -32,10 +29,10 @@ test_cases:
     EGR_B_CMD_SUP: 1
     EGR_B_ERR: 0
     EGR_B_ERR_SUP: 1
-- response: |-
-    7E8100941693F111079
-    7E82150508055555555
-  expected_values:
+  response: |-
+    7E8100941693F0E0D77
+    7E82190908000000000
+- expected_values:
     EGR_A_ACT: 6.27451
     EGR_A_ACT_SUP: 1
     EGR_A_CMD: 6.66667
@@ -48,10 +45,10 @@ test_cases:
     EGR_B_CMD_SUP: 1
     EGR_B_ERR: 0
     EGR_B_ERR_SUP: 1
-- response: |-
-    7E8100941693F111287
-    7E82173748100000000
-  expected_values:
+  response: |-
+    7E8100941693F111079
+    7E82150508055555555
+- expected_values:
     EGR_A_ACT: 7.05882
     EGR_A_ACT_SUP: 1
     EGR_A_CMD: 6.66667
@@ -64,10 +61,10 @@ test_cases:
     EGR_B_CMD_SUP: 1
     EGR_B_ERR: 0.78125
     EGR_B_ERR_SUP: 1
-- response: |-
-    7E8100941693F393A82
-    7E8212E2F8200000000
-  expected_values:
+  response: |-
+    7E8100941693F111287
+    7E82173748100000000
+- expected_values:
     EGR_A_ACT: 22.7451
     EGR_A_ACT_SUP: 1
     EGR_A_CMD: 22.35294
@@ -80,10 +77,10 @@ test_cases:
     EGR_B_CMD_SUP: 1
     EGR_B_ERR: 1.5625
     EGR_B_ERR_SUP: 1
-- response: |-
-    7E8100941693F545784
-    7E82134337E00000000
-  expected_values:
+  response: |-
+    7E8100941693F393A82
+    7E8212E2F8200000000
+- expected_values:
     EGR_A_ACT: 34.11765
     EGR_A_ACT_SUP: 1
     EGR_A_CMD: 32.94118
@@ -96,10 +93,10 @@ test_cases:
     EGR_B_CMD_SUP: 1
     EGR_B_ERR: -1.5625
     EGR_B_ERR_SUP: 1
-- response: |-
-    7E8100941693F635B76
-    7E821494B8355555555
-  expected_values:
+  response: |-
+    7E8100941693F545784
+    7E82134337E00000000
+- expected_values:
     EGR_A_ACT: 35.68627
     EGR_A_ACT_SUP: 1
     EGR_A_CMD: 38.82353
@@ -112,3 +109,6 @@ test_cases:
     EGR_B_CMD_SUP: 1
     EGR_B_ERR: 2.34375
     EGR_B_ERR_SUP: 1
+  response: |-
+    7E8100941693F635B76
+    7E821494B8355555555

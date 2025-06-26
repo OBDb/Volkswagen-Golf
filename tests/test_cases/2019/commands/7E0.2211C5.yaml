@@ -1,5 +1,5 @@
 command_id: 7E0.2211C5
 test_cases:
-- response: 7E8056211C5FFD7
-  expected_values:
+- expected_values:
     GOLF_OIL_MIN: 261.98
+  response: 7E8056211C5FFD7
