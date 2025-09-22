@@ -13,8 +13,8 @@ test_cases:
     GOLF_ODO: 130838
   response: 7E80662295A01FF16
 - expected_values:
-    GOLF_ODO: 146777
-  response: 7E80662295A023D59
+    GOLF_ODO: 131084
+  response: 7E80662295A02000C
 - expected_values:
     GOLF_ODO: 1048575
   response: 7E80662295A0FFFFF

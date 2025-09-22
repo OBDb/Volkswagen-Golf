@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     GOLF_OIL_MIN: 12.104
   response: 7E8056211C50BD2
+- expected_values:
+    GOLF_OIL_MIN: 14.688
+  response: 7E8056211C50E58
