@@ -1,0 +1,11 @@
+command_id: 7E0.2211C5
+test_cases:
+- expected_values:
+    GOLF_OIL_MIN: 2.324
+  response: "2211C5\n7E8 05 62 11 C5 02 45 "
+- expected_values:
+    GOLF_OIL_MIN: 2.324
+  response: "2211C51\n7E8 05 62 11 C5 02 45 "
+- expected_values:
+    GOLF_OIL_MIN: 2.384
+  response: 7E8056211C50254

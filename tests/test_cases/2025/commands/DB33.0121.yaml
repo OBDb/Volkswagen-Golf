@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MIL_DIST: 19
   response: 18DAF1010441210013
+- expected_values:
+    MIL_DIST: 39
+  response: 18DAF1010441210027

@@ -1,5 +1,8 @@
 command_id: 7E0.2211C4
 test_cases:
 - expected_values:
+    GOLF_OIL_MAX: 15.768
+  response: 7E8056211C40F66
+- expected_values:
     GOLF_OIL_MAX: 22.496
   response: 7E8056211C415F8
