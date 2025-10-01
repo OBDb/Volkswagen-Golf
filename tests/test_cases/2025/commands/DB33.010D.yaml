@@ -61,9 +61,9 @@ test_cases:
     VSS: 128
   response: |-
     18DAF10303410D80
+    18DAF10103410D80
     18DAF10403410D80
     18DAF10203410D80
-    18DAF10103410D80
 - expected_values:
     VSS: 137
   response: |-
