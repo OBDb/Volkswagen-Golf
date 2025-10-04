@@ -4,8 +4,8 @@ test_cases:
     GOLF_OIL_LEVEL: 38.136
   response: 7E8056211BA253E
 - expected_values:
-    GOLF_OIL_LEVEL: 48.04
-  response: 7E8056211BA2EEA
+    GOLF_OIL_LEVEL: 42.736
+  response: 7E8056211BA29BC
 - expected_values:
     GOLF_OIL_LEVEL: 61.44
   response: 7E8056211BA3C00
