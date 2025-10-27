@@ -4,5 +4,8 @@ test_cases:
     GOLF_OIL_MAX: 15.768
   response: 7E8056211C40F66
 - expected_values:
+    GOLF_OIL_MAX: 17.348
+  response: 7E8056211C410F1
+- expected_values:
     GOLF_OIL_MAX: 22.496
   response: 7E8056211C415F8
