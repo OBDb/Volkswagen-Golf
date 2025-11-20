@@ -1,0 +1,42 @@
+command_id: 713.77D.221810|fc=1
+test_cases:
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C621810010000
+    77D21FC3500000276AA
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C621810010000
+    77D21FC40000002F4AA
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C621810010000
+    77D21FC5F00000000AA
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001000A
+    77D21FC2E0000029AAA
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001000A
+    77D21FC46000002BEAA
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001000A
+    77D21FD7E00000000AA
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001028A
+    77D21FC3A00000306AA
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181001FFF6
+    77D21FC3D000001C2AA
