@@ -1,0 +1,26 @@
+command_id: 714.77E.221014|fc=1
+test_cases:
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 5
+  response: 77E046210146E
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 5.5
+  response: 77E046210146F
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 6
+  response: '77E0462101470'
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 6.5
+  response: '77E0462101471'
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 7
+  response: '77E0462101472'
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 7.5
+  response: '77E0462101473'
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 8
+  response: '77E0462101474'
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 8.5
+  response: '77E0462101475'
