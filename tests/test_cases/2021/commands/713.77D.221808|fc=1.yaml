@@ -1,0 +1,22 @@
+command_id: 713.77D.221808|fc=1
+test_cases:
+- expected_values:
+    GOLF_HDC_ACTIVE: 0
+    GOLF_HDC_INCLINE: 8
+  response: 77D056218080008
+- expected_values:
+    GOLF_HDC_ACTIVE: 0
+    GOLF_HDC_INCLINE: 16
+  response: 77D056218080010
+- expected_values:
+    GOLF_HDC_ACTIVE: 0
+    GOLF_HDC_INCLINE: 24
+  response: 77D056218080018
+- expected_values:
+    GOLF_HDC_ACTIVE: 0
+    GOLF_HDC_INCLINE: 32
+  response: 77D056218080020
+- expected_values:
+    GOLF_HDC_ACTIVE: 0
+    GOLF_HDC_INCLINE: 40
+  response: 77D056218080028
