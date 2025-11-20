@@ -1,0 +1,6 @@
+command_id: 767.7D1.220838|fc=1
+test_cases:
+- expected_values:
+    GOLF_ECALL_SOC: 97
+    GOLF_ECALL_STATUS: NORMAL
+  response: 7D1056208380261
