@@ -1,7 +1,0 @@
-command_id: 7E1.220302
-test_cases:
-- expected_values:
-    GOLF_DRIVE_TIME: 4304.25
-  response: |-
-    7E8100A620302434132
-    7E82150453541555555

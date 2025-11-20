@@ -1,119 +1,945 @@
 { "commands": [
-{ "hdr": "70B", "fcm1": true, "dbg": true, "cmd": {"22": "18A0"}, "freq": 30,
+{ "hdr": "70E", "rax": "778", "fcm1": true, "dbg": true, "cmd": {"22": "1945"}, "freq": 2,
   "signals": [
-    {"id": "GOLF_TP_FR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "GOLF_HEATER_FOR_NOZZLES_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Heater for nozzles active"}
   ]},
-{ "hdr": "70B", "fcm1": true, "dbg": true, "cmd": {"22": "18A1"}, "freq": 30,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "08A7"}, "freq": 1,
   "signals": [
-    {"id": "GOLF_TP_FL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "GOLF_4WD_HALDEX_DIFF_LOCK_UP", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 1, "unit": "scalar" }, "name": "Haldex differential lock-up"}
   ]},
-{ "hdr": "70B", "fcm1": true, "dbg": true, "cmd": {"22": "18A2"}, "freq": 30,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "0C0A"}, "freq": 2,
   "signals": [
-    {"id": "GOLF_TP_RL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "GOLF_4WD_HALDEX_MODE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Haldex mode"}
   ]},
-{ "hdr": "70B", "fcm1": true, "dbg": true, "cmd": {"22": "18A3"}, "freq": 30,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1B"}, "freq": 1,
   "signals": [
-    {"id": "GOLF_TP_RR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "GOLF_4WD_FR_L_WHEEL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "710", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 30,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1C"}, "freq": 1,
   "signals": [
-    {"id": "GOLF_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 255, "unit": "kilometers" }, "name": "Odometer (alternative)", "suggestedMetric": "odometer"}
+    {"id": "GOLF_4WD_FR_R_WHEEL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "714", "dbg": true, "cmd": {"22": "202F"}, "freq": 30,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1D"}, "freq": 1,
   "signals": [
-    {"id": "GOLF_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "add": -58, "unit": "scalar" }, "name": "Engine oil temperature"}
+    {"id": "GOLF_4WD_RR_L_WHEEL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "714", "dbg": true, "cmd": {"22": "2203"}, "freq": 30,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2B1E"}, "freq": 1,
   "signals": [
-    {"id": "GOLF_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 255, "unit": "kilometers" }, "name": "Odometer (dash)", "suggestedMetric": "odometer"}
+    {"id": "GOLF_4WD_RR_R_WHEEL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "714", "dbg": true, "cmd": {"22": "2294"}, "freq": 30,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE4"}, "freq": 5,
   "signals": [
-    {"id": "GOLF_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 255, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "fuelRange"}
+    {"id": "GOLF_4WD_HALDEX_FRICTION_DISC_T", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Haldex friction disc temperature"}
   ]},
-{ "hdr": "714", "dbg": true, "cmd": {"22": "229A"}, "freq": 30,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE6"}, "freq": 1,
   "signals": [
-    {"id": "GOLF_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 255, "div": 8, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
+    {"id": "GOLF_4WD_HALDEX_I", "path": "Engine", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "amps" }, "name": "Haldex current"}
   ]},
-{ "hdr": "714", "dbg": true, "cmd": {"22": "22B0"}, "freq": 30,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE7"}, "freq": 2,
   "signals": [
-    {"id": "GOLF_FLI_VOL", "path": "Fuel", "fmt": {"bix": 336, "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel level (volume)"}
+    {"id": "GOLF_4WD_HALDEX_PWM", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Haldex PWM"}
   ]},
-{ "hdr": "714", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BE9"}, "freq": 5,
   "signals": [
-    {"id": "GOLF_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
+    {"id": "GOLF_4WD_HALDEX_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Haldex voltage"}
   ]},
-{ "hdr": "715", "dbg": true, "cmd": {"22": "2353"}, "freq": 3600,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BF0"}, "freq": 1,
   "signals": [
-    {"id": "GOLF_CRSH_FRONT", "path": "Trips", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"}
+    {"id": "GOLF_4WD_HALDEX_FR_RR_SPD_DIFFERENCE", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Haldex front:rear speed difference"}
   ]},
-{ "hdr": "715", "dbg": true, "cmd": {"22": "2354"}, "freq": 3600,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BF1"}, "freq": 5,
   "signals": [
-    {"id": "GOLF_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
+    {"id": "GOLF_4WD_HALDEX_T", "path": "Engine", "fmt": { "len": 16, "max": 200, "min": -40, "unit": "celsius" }, "name": "Haldex temperature"}
   ]},
-{ "hdr": "715", "dbg": true, "cmd": {"22": "2355"}, "freq": 3600,
+{ "hdr": "70F", "rax": "779", "fcm1": true, "dbg": true, "cmd": {"22": "2BF3"}, "freq": 2,
   "signals": [
-    {"id": "GOLF_CRASH_CNT_PSNGR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, passenger side"}
+    {"id": "GOLF_4WD_HALDEX_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100.39, "div": 255, "unit": "percent" }, "name": "Haldex duty"}
   ]},
-{ "hdr": "715", "dbg": true, "cmd": {"22": "2356"}, "freq": 3600,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A07"}, "freq": 5,
   "signals": [
-    {"id": "GOLF_CRASH_CNT_REAR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rear"}
+    {"id": "GOLF_BAT_V_2A07", "path": "Battery", "fmt": { "len": 16, "max": 69.535, "min": 4, "div": 1000, "add": 4, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "715", "dbg": true, "cmd": {"22": "2357"}, "freq": 3600,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A08"}, "freq": 1,
   "signals": [
-    {"id": "GOLF_CRASH_CNT_ROLL", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
+    {"id": "GOLF_BAT_I_FILT", "path": "Battery", "fmt": { "len": 24, "max": 13777.215, "min": -3000, "mul": 10, "div": 10000, "add": -3000, "unit": "amps" }, "name": "Battery current filtered"}
   ]},
-{ "hdr": "746", "fcm1": true, "dbg": true, "cmd": {"22": "27C4"}, "freq": 30,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A09"}, "freq": 1,
   "signals": [
-    {"id": "GOLF_WNDSHLD_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576, "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"}
+    {"id": "GOLF_BAT_I", "path": "Battery", "fmt": { "len": 24, "max": 13777.215, "min": -3000, "mul": 10, "div": 10000, "add": -3000, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11BA"}, "freq": 15, "dbgfilter": { "to": 2011, "years": [2013, 2014], "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A0B"}, "freq": 5,
   "signals": [
-    {"id": "GOLF_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "unknown" }, "name": "Oil level"}
+    {"id": "GOLF_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11C4"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018], "from": 2020 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A0C"}, "freq": 10,
+  "signals": [
+    {"id": "GOLF_BAT_CHG_LVL", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Battery charge level"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A0D"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_BAT_COND_FOR_DISP", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 10, "unit": "percent" }, "name": "Battery condition for display"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A0E"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_BAT_INT_R", "path": "Battery", "fmt": { "len": 8, "max": 51, "mul": 20, "div": 100, "unit": "unknown" }, "name": "Battery internal resistance"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A0F"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_USE_BAT_CHG", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Usable battery charge"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A10"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A1D"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_BAT_ACID_STRAT", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 10, "add": 9, "unit": "percent" }, "name": "Battery acid stratification"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "03E8"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_FL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "GOLF_FR_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "GOLF_RL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "GOLF_RR_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1800"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_FL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1801"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_FR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1802"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_RL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1803"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_RR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1808"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_HDC_ACTIVE",  "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1,   "unit": "offon"   }, "name": "Hill descent control"},
+    {"id": "GOLF_HDC_INCLINE", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "percent" }, "name": "Hill descent control, incline"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "180C"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_EDL_ACTIVE",       "path": "Control", "fmt": {"bix": 1,  "len": 1,  "max": 1,                                         "unit": "offon"   }, "name": "Electronic differential lock: active"},
+    {"id": "GOLF_EDL_FR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front left brake temperature"},
+    {"id": "GOLF_EDL_FR_R_BRAKE_T", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front right brake temperature"},
+    {"id": "GOLF_EDL_RR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 40, "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear left brake temperature"},
+    {"id": "GOLF_EDL_RR_R_BRAKE_T", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear right brake temperature"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "180E"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_BDD_ACTIVE", "path": "Control", "fmt": {"bix": 1, "len": 1,  "max": 1,      "unit": "offon"      }, "name": "Brake disk drying"},
+    {"id": "GOLF_BDD_ODO",    "path": "Control", "fmt": {"bix": 8, "len": 24, "max": 200000, "unit": "kilometers" }, "name": "Brake disk drying, odometer at last activation"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1810"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_HYD_BRAKE_BOOST_ACTIVE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Hydraulic brake booster: active"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1816"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_BRAKE_P_SNS",        "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 327.67, "div": 100, "sign": true, "unit": "bars"    }, "name": "Brake pressure sensor"},
+    {"id": "GOLF_AIR_GAB_VACUUM_SNS", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 32767,              "sign": true, "unit": "unknown" }, "name": "Air gab vacuum sensor"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1821"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_TPMS_AVAIL",                          "path": "Tires", "fmt": {"bix": 7,   "len": 1,  "max": 1,      "unit": "noyes"      }, "name": "TPMS available?"},
+    {"id": "GOLF_TPMS_ODO_RDG_AT_LAST_ADAPT",          "path": "Trips", "fmt": {"bix": 8,   "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading at last adaptation"},
+    {"id": "GOLF_TPMS_ODO_RDG_TWO_ADAPTATIONS_AGO",    "path": "Trips", "fmt": {"bix": 40,  "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading two adaptations ago"},
+    {"id": "GOLF_TPMS_ODO_RDG_THREE_ADAPTATIONS_AGO",  "path": "Trips", "fmt": {"bix": 72,  "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading three adaptations ago"},
+    {"id": "GOLF_TPMS_ODO_RDG_FOUR_ADAPTATIONS_AGO",   "path": "Trips", "fmt": {"bix": 104, "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading four adaptations ago"},
+    {"id": "GOLF_TPMS_ODO_RDG_AT_LAST_WARN",           "path": "Trips", "fmt": {"bix": 136, "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading at last warning"},
+    {"id": "GOLF_TPMS_ODO_RDG_AT_NEXT_TO_LAST_WARN",   "path": "Trips", "fmt": {"bix": 168, "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading at next-to-last warning"},
+    {"id": "GOLF_TPMS_ODO_RDG_AT_THIRD_TO_LAST_WARN",  "path": "Trips", "fmt": {"bix": 200, "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading at third-to-last warning"},
+    {"id": "GOLF_TPMS_ODO_RDG_AT_FOURTH_TO_LAST_WARN", "path": "Trips", "fmt": {"bix": 232, "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading at fourth-to-last warning"},
+    {"id": "GOLF_TPMS_FR_L_TIRE_P_DIFF_IND",           "path": "Tires", "fmt": {"bix": 264, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Front left tire pressure diffusion indicator"},
+    {"id": "GOLF_TPMS_FR_R_TIRE_P_DIFF_IND",           "path": "Tires", "fmt": {"bix": 272, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Front right tire pressure diffusion indicator"},
+    {"id": "GOLF_TPMS_RR_L_TIRE_P_DIFF_IND",           "path": "Tires", "fmt": {"bix": 280, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear left tire pressure diffusion indicator"},
+    {"id": "GOLF_TPMS_RR_R_TIRE_P_DIFF_IND",           "path": "Tires", "fmt": {"bix": 288, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear right tire pressure diffusion indicator"},
+    {"id": "GOLF_TPMS_FR_L_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 296, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Front left flat tire indicator"},
+    {"id": "GOLF_TPMS_FR_R_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 304, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Front right flat tire indicator"},
+    {"id": "GOLF_TPMS_RR_L_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 312, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear left flat tire indicator"},
+    {"id": "GOLF_TPMS_RR_R_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 320, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear right flat tire indicator"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "18B6"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_CNT_STEER_SUPPORT_ACTIVE",              "path": "Engine", "fmt": {"bix": 6,  "len": 1,  "max": 1,              "unit": "offon"        }, "name": "Counter steer support"},
+    {"id": "GOLF_CNT_STEER_SUPPORT_ODO_RDG_OF_LAST_ACT", "path": "Trips",  "fmt": {"bix": 8,  "len": 24, "max": 1,              "unit": "kilometers"   }, "name": "Counter steer support, odometer, last activated"},
+    {"id": "GOLF_CNT_STEER_SUPPORT_STEERING_TRQ",        "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 1, "div": 1000, "unit": "newtonMeters" }, "name": "Counter steer support, steering torque"}
+  ]},
+{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "1014"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_DASH_AMBIENT_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "mul": 0.5, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
+  ]},
+{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "224B"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DASH_OIL_THERMAL_WEAR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
+  ]},
+{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "2299"}, "freq": 30,
+  "signals": [
+    {"id": "GOLF_DASH_AVG_FUEL_CONS", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Average fuel consumption"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2603"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_CLIMATE_A_C_COMP_SPD", "path": "Movement", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "rpm" }, "name": "A/C compressor speed"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2604"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_A_C_COMP_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "newtonMeters" }, "name": "A/C compressor load"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2605"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_REFRIG_P", "path": "Engine", "fmt": { "len": 8, "max": 51, "mul": 0.2, "unit": "bars" }, "name": "Refrigerant pressure"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2606"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_CLIMATE_RAD_FAN_ACT_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "Radiator fan actual duty"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2607"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_CLIMATE_RAD_FAN_CMD_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "Radiator fan commanded duty"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2609"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_AAT", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "260C"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_FR_L_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Front left deflector temperature"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "260D"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_FR_R_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Front right deflector temperature"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2611"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_LEG_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Leg deflector temperature"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2612"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_T_AFTER_EVAP", "path": "Engine", "fmt": { "len": 8, "max": 42.291, "min": -42.624, "mul": 0.333, "sign": true, "unit": "celsius" }, "name": "Temperature after evaporator"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2613"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CABIN_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 0.1, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2622"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_FR_L_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Front left temperature flap actual value"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "2626"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_FR_R_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Front right temperature flap actual value"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "263D"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_RR_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Rear deflector temperature"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "26ED"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_AIR_POLUTION_LVL", "path": "Engine", "fmt": { "len": 8, "max": 12.7, "min": -12.8, "mul": 0.1, "sign": true, "unit": "scalar" }, "name": "Air pollution level"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "27D6"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CLIMATE_A_C_COMP_POWER_CONS", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 10.2, "mul": 0.04, "unit": "kilowatts" }, "name": "A/C compressor power consumption"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "482B"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_CLIMATE_A_C_CLCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C clutch"}
+  ]},
+{ "hdr": "74F", "rax": "7B9", "fcm1": true, "dbg": true, "cmd": {"22": "F41B"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_ASSIST_DIST_TO_DET_PED", "path": "Trips", "fmt": { "len": 16, "max": 16383.75, "mul": 0.25, "unit": "meters" }, "name": "Distance to detected pedestrian"}
+  ]},
+{ "hdr": "752", "rax": "7BC", "fcm1": true, "dbg": true, "cmd": {"22": "0005"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_L", "path": "Brakes", "fmt": {           "len": 16, "max": 65.535, "div": 1000, "unit": "millimeters" }, "name": "Parking brake: air gap - left"},
+    {"id": "GOLF_R", "path": "Brakes", "fmt": {"bix": 16, "len": 16, "max": 65.535, "div": 1000, "unit": "millimeters" }, "name": "Parking brake: air gap - right"}
+  ]},
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "dbg": true, "cmd": {"22": "0838"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_ECALL_SOC", "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "percent" }, "name": "eCall battery charge level"},
+    {"id": "GOLF_ECALL_STATUS", "path": "Battery", "name": "eCall battery status", "fmt": {"len": 8, "map": {
+          "1": { "description": "CRITICAL", "value": "CRITICAL" },
+          "2": { "description": "NORMAL",   "value": "NORMAL" }
+        }}
+    }
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "100C"}, "freq": 10,
+  "signals": [
+    {"id": "GOLF_FUEL_LVL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "1044"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_SFC_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "DPF surface temperature"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "105C"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_GENERATOR_LOAD", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "Generator load"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "105E"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_BAT_V_105E", "path": "Battery", "fmt": { "len": 16, "max": 1310.7, "mul": 0.02, "unit": "volts" }, "name": "Battery voltage"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "10F9"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_OUTPUT_GAS_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "DPF output gas temperature"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "114E"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_SOOT_MASS_MEASURED", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Soot mass measured"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "114F"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_SOOT_MASS_CALCULATED", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Soot mass calculated"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "1156"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_DIST_SINCE_LAST_REGEN_", "path": "Trips", "fmt": { "len": 32, "max": 4294967.2949999999, "div": 1000, "unit": "kilometers" }, "name": "Distance since last DPF regen"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "115E"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_TIME_SINCE_LAST_REGEN", "path": "Engine", "fmt": { "len": 32, "max": 71582788, "div": 60, "unit": "minutes" }, "name": "Time since last DPF regen"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "11B2"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_INPUT_GAS_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "DPF input gas temperature"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "11F6"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FIELD_LIMIT", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Field limit"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "123C"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_OIL_LAST_DYNAMIC_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "mul": 0.004, "unit": "millimeters" }, "name": "Oil last dynamic value"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "123F"}, "freq": 30,
+  "signals": [
+    {"id": "GOLF_OIL_DYNAMIC_AVG", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "mul": 0.004, "unit": "millimeters" }, "name": "Oil dynamic average"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "12CB"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_SERVICE_LIMIT", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Service limit"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "1314"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.0122070312, "unit": "percent" }, "name": "Low press. EGR closing (%)"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "1347"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_REGEN_DUR", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "minutes" }, "name": "Regen. duration"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "14F5"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_DIFF_P", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Differential pressure"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "1628"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_INTERCOOLER_AIR_OUTPUT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Intercooler air output temperature"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "163B"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_POSTINJ_2_QTY_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Post injection 2: quantity specified value"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "163C"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_POSTINJ_1_QTY_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Post injection 1: quantity specified value"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "167D"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_POSTINJ_3_QTY_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Post injection 3: quantity specified value"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "16A9"}, "freq": 30,
+  "signals": [
+    {"id": "GOLF_MILEAGE_", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer (mileage)"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "178C"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_OIL_ASH_RESIDUE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Oil ash residue"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "F42C"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_VAR_2", "path": "Engine", "fmt": { "len": 8, "max": 100, "sign": true, "unit": "percent" }, "name": "High pressure EGR closing (%) var.2"}
+  ]},
+{ "hdr": "7E0", "din": "03", "dbg": true, "cmd": {"22": "F469"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_VAR_1", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 100, "sign": true, "unit": "percent" }, "name": "High pressure EGR closing (%) var.1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1007"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_SOP", "path": "Engine", "fmt": { "len": 16, "max": 719.989291, "min": -720.011264, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Camshaft position: start of phase window"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "100D"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_GEAR_ENG", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear engaged"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1010"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_ENG_TRQ_1010", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 0.1, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1026"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_AIR_MASS_ACT", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 0.1, "sign": true, "unit": "unknown" }, "name": "Air mass: actual value"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "102E"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_SNS_2", "path": "Movement", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "mul": 0.2, "sign": true, "unit": "millivolts" }, "name": "Accelerator pedal: sensor 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1047"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_ENG_TRQ_1047", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 0.1, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "104B"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_A_C_COMP_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 0.1, "sign": true, "unit": "newtonMeters" }, "name": "A/C compressor torque"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "104C"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_AIR_MASS_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 0.1, "sign": true, "unit": "unknown" }, "name": "Air mass: specified value"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1057"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CHG_P", "path": "Battery", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Charge pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "106B"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 0.1, "sign": true, "unit": "newtonMeters" }, "name": "Limitation: torque"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D0"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_1_RAIL_P_CAL_PT_1_BIX", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 1: rail pressure calibration point 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D1"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_5_RAIL_P_CAL_1", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 5: rail pressure calibration point 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D2"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_4_RAIL_P_CAL_1", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 4: rail pressure calibration point 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D3"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_8_RAIL_P_CAL_1", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 8: rail pressure calibration point 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D4"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_6_RAIL_P_CAL_1", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 6: rail pressure calibration point 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D5"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_5_RAIL_P_CAL_1_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 5: rail pressure calibration point 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D6"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_1_RAIL_P_CAL_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 1: rail pressure calibration point 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D7"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_5_RAIL_P_CAL_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 5: rail pressure calibration point 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D8"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_4_RAIL_P_CAL_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 4: rail pressure calibration point 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10D9"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_8_RAIL_P_CAL_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 8: rail pressure calibration point 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DA"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_6_RAIL_P_CAL_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 6: rail pressure calibration point 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DB"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_3_RAIL_P_CAL_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 3: rail pressure calibration point 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DC"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_1_RAIL_P_CAL_3", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 1: rail pressure calibration point 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DD"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_5_RAIL_P_CAL_3", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 5: rail pressure calibration point 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DE"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_4_RAIL_P_CAL_3", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 4: rail pressure calibration point 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10DF"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_8_RAIL_P_CAL_3", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 8: rail pressure calibration point 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E0"}, "freq": 30,
+  "signals": [
+    {"id": "GOLF_ODO_10E0", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E1"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_3_RAIL_P_CAL_PT_3_10E1", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 3: rail pressure calibration point 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E2"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_KNOCK_RETARD_1", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees" }, "name": "Knock retard #1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E3"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_KNOCK_RETARD_5", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees" }, "name": "Knock retard #5"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E4"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_KNOCK_RETARD_3", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees" }, "name": "Knock retard #3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E5"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_KNOCK_RETARD_6", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees" }, "name": "Knock retard #6"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E6"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_KNOCK_RETARD_2", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees" }, "name": "Knock retard #2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10E7"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_KNOCK_RETARD_4", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees" }, "name": "Knock retard #4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10F1"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_OFFSET_FOR_DIFF_P", "path": "Fuel", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "DPF: offset for differential pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10FF"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_INJ_QUANTITY_DEVIATION_CYLINDER_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Injection quantity deviation cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1100"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_INJ_QUANTITY_DEVIATION_CYLINDER_4", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Injection quantity deviation cylinder 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1104"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_INJ_QUANTITY_DEVIATION_CYLINDER_3", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Injection quantity deviation cylinder 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1105"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_INJ_QUANTITY_DEVIATION_CYLINDER_6", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Injection quantity deviation cylinder 6"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1106"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_INJ_QUANTITY_DEVIATION_CYLINDER_2", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Injection quantity deviation cylinder 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1107"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_INJ_QUANTITY_DEVIATION_CYLINDER_5", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Injection quantity deviation cylinder 5"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1111"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CMD", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Radiator output coolant temperature: commanded"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1114"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_COOLANT_FAN_2_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.01, "sign": true, "unit": "percent" }, "name": "Coolant fan 2 duty"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1116"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_COOLANT_FAN_1_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.01, "sign": true, "unit": "percent" }, "name": "Coolant fan 1 duty"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "111A"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_INSTANT_FUEL_FLOW", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "liters" }, "name": "Instant fuel flow"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "111F"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_PREHEAT_TIME", "path": "Engine", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "milliseconds" }, "name": "Preheat time"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1125"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_CAM_ADAPT_INT_BNK_1_PHASE_POS_1125", "path": "Engine", "fmt": { "len": 16, "max": 719.989291, "min": -720.011264, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation intake bank 1: phase position"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1128"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_CAM_ADAPT_EXH_BNK_1_PHASE_POS", "path": "Engine", "fmt": { "len": 16, "max": 719.989291, "min": -720.011264, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation exhaust bank 1: phase position"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "112C"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_ACT", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.01, "sign": true, "unit": "percent" }, "name": "Turbine actuator 1 bank 1: activation"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1131"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_ACT_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "mul": 0.02, "sign": true, "unit": "degrees" }, "name": "Post-injection 3: activation start"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1139"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_MEAN_INJ_QUANTITY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Mean injection quantity"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "113F"}, "freq": 30,
+  "signals": [
+    {"id": "GOLF_FUEL_CONS", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel consumption"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1146"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MISFIRE_TOT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires total"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1147"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MISFIRE_PER_1K_REV_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions #1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1148"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FUEL_METERING_VALVE", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 0.01, "sign": true, "unit": "percent" }, "name": "Fuel metering valve"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1149"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CHG_AIR_P_SPEC", "path": "Battery", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Charge air pressure: specified value"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "114A"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MISFIRE_PER_1K_REV_6", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions #6"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "114B"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MISFIRE_PER_1K_REV_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions #2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "114C"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MISFIRE_PER_1K_REV_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 revolutions #4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1150"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MISFIRE_5", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires #5"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1151"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MISFIRE_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires #3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1152"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MISFIRE_6", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires #6"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1153"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MISFIRE_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires #2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1154"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MISFIRE_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires #4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115A"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_FUEL_CONS_SINCE_LAST_REGEN", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "liters" }, "name": "Particle filter: fuel consumption since last regeneration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115B"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FIELD_REGEN_REQUEST_STATUS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Particle filter: field regeneration request status"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115C"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_STATUS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Service regeneration: status"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1164"}, "freq": 1,
+  "signals": [
+    {"id": "GOLF_I_DURATION", "path": "Engine", "fmt": { "len": 32, "max": 715827, "div": 60, "unit": "minutes" }, "name": "Service regeneration: current duration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1169"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FUEL_HIGH_P_ACT", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "Fuel high-pressure: actual value"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "116A"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FUEL_HIGH_P_SPEC", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "Fuel high-pressure: specified value"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1187"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_ACCELERATION", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "mul": 0.001, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Acceleration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11A6"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_ACCEL_PDL", "path": "Movement", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 0.1, "sign": true, "unit": "newtonMeters" }, "name": "Limitation: accelerator pedal"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BA"}, "freq": 10, "filter": { "to": 2020 }, "dbgfilter": { "to": 2011, "years": [2013, 2014] },
+  "signals": [
+    {"id": "GOLF_OIL_LVL", "path": "Engine", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "unknown" }, "name": "Oil level"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BB"}, "freq": 10,
+  "signals": [
+    {"id": "GOLF_OIL_LVL_WARN_THRESHOLD_11BB", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "mul": 0.004, "unit": "millimeters" }, "name": "Oil level warning threshold"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BC"}, "freq": 10,
+  "signals": [
+    {"id": "GOLF_ENG_OIL_LVL", "path": "Engine", "fmt": { "len": 16, "max": 131.068, "min": -131.072, "mul": 0.004, "sign": true, "unit": "millimeters" }, "name": "Engine oil level"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BD"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_EOT", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BE"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_EOT_V2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BF"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FUEL_P_REGULATOR", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 0.01, "sign": true, "unit": "percent" }, "name": "Fuel pressure regulator"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11C1"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FIELD_REGEN_LOCK_STATUS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Particle filter: field regeneration lock status"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11C4"}, "freq": 10, "filter": { "to": 2020 }, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "GOLF_OIL_MAX", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level (max)"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11C5"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11C5"}, "freq": 10, "filter": { "to": 2020 }, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "GOLF_OIL_MIN", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level (min)"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "295A"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11C8"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FUEL_LOW_P_ACT", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Fuel low pressure: actual value"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11CC"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_BOOST_REGULATOR_FEEDBACK", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.01, "sign": true, "unit": "percent" }, "name": "Boost regulator feedback"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11CE"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FUEL_LOW_P_SPEC", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Fuel low pressure: specified value"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F1"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_TRANSMISSION_INPUT_SHAFT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "mul": 0.5, "sign": true, "unit": "rpm" }, "name": "Transmission input shaft speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F2"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_MAIN_INJ_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "mul": 0.02, "sign": true, "unit": "degrees" }, "name": "Main injection: start"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F3"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_POSTINJ_2_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "mul": 0.02, "sign": true, "unit": "degrees" }, "name": "Post-injection 2: start"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F4"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_POSTINJ_1_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "mul": 0.02, "sign": true, "unit": "degrees" }, "name": "Post-injection 1: start"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "121E"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_SPEC_VALUE_RAIL_P", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "Fuel pressure regulator valve: specified value rail pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "121F"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_HIGH_FUEL_P_CONTROL_DEVIATION", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High fuel pressure control deviation"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1221"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_SNS_1", "path": "Movement", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "mul": 0.2, "sign": true, "unit": "millivolts" }, "name": "Accelerator pedal: sensor 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "128A"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FUEL_T_128A", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Fuel temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "128C"}, "freq": 60,
+  "signals": [
+    {"id": "GOLF_MEDIAN_INJ_TIMING", "path": "Engine", "fmt": { "len": 32, "max": 4294967.2949999999, "div": 1000, "unit": "milliseconds" }, "name": "Median injection timing"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "12FC"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_THRTL_VLV_ADPT_ACT", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.01, "sign": true, "unit": "percent" }, "name": "Throttle valve adapter: actual value"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "12FE"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_CAM_ADAPT_INT_BNK_1_PHASE_POS_12FE", "path": "Engine", "fmt": { "len": 16, "max": 719.989291, "min": -720.011264, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation intake bank 1: phase position"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1301"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_SMOKE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "mul": 0.1, "sign": true, "unit": "newtonMeters" }, "name": "Limitation: smoke"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "133B"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CAM_SPD", "path": "Movement", "fmt": { "len": 16, "max": 100, "mul": 0.3, "sign": true, "unit": "percent" }, "name": "Camshaft speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1341"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_END_OF_PHASE_WINDOW", "path": "Engine", "fmt": { "len": 16, "max": 719.989291, "min": -720.011264, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Camshaft position: end of phase window"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1354"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_SOOT_INDEX", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "meters" }, "name": "Soot index"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1356"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_CHG_LIMIT_OVER_CHG", "path": "Battery", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Charge limit over-charge"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1434"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_DPF_TIME_SINCE_REGEN_1", "path": "Fuel", "fmt": { "len": 32, "max": 4294967295, "unit": "seconds" }, "name": "Time since last DPF regeneration, bank 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "145D"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_SOOT_MASS_MEAS_BNK_2", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "DPF soot mass measured, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "145E"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_SOOT_MASS_CALC_BNK_2", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "DPF soot mass calculated, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "145F"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_OIL_ASH_VOL_BNK_2", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "liters" }, "name": "DPF oil ash volume, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1460"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_DPF_DIST_SINCE_REGEN_BNK_2", "path": "Trips", "fmt": { "len": 32, "max": 4294967.2949999999, "div": 1000, "unit": "kilometers" }, "name": "DPF distance since last regeneration, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1461"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_DPF_FUEL_CONS_SINCE_REGEN_BNK_2", "path": "Fuel", "fmt": { "len": 16, "max": 1310.7, "mul": 0.02, "unit": "liters" }, "name": "DPF fuel consumption since last regeneration, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1464"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_DPF_TIME_SINCE_REGEN_2", "path": "Fuel", "fmt": { "len": 32, "max": 4294967295, "unit": "seconds" }, "name": "Time since last DPF regeneration, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "146D"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_7_RAIL_P_CAL_PT_1", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 7: rail pressure calibration point 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "146E"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_2_RAIL_P_CAL_PT_1_146E", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1473"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_7_RAIL_P_CAL_PT_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 7: rail pressure calibration point 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1474"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_2_RAIL_P_CAL_PT_2_1474", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1479"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_7_RAIL_P_CAL_PT_3", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 7: rail pressure calibration point 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "147A"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_INJ_2_RAIL_P_CAL_PT_3_147A", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14B4"}, "freq": 10,
+  "signals": [
+    {"id": "GOLF_FUEL_LVL_14B4", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14B6"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_DPF_FUEL_CONS_SINCE_REGEN_BNK_1", "path": "Fuel", "fmt": { "len": 16, "max": 1310.7, "mul": 0.02, "unit": "liters" }, "name": "Fuel consumption since last DPF regeneration, bank 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14B8"}, "freq": 900,
+  "signals": [
+    {"id": "GOLF_DPF_DIST_SINCE_REGEN_BNK_1", "path": "Trips", "fmt": { "len": 32, "max": 4294967.2949999999, "div": 1000, "unit": "kilometers" }, "name": "Distance since last DPF regeneration, bank 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14B9"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_OIL_ASH_VOL_BNK_1", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "liters" }, "name": "DPF oil ash volume, bank 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14BA"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_SOOT_MASS_CALC_BNK_1", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "DPF soot mass calculated, bank 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14BB"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_SOOT_MASS_MEAS_BNK_1", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "DPF soot mass measured, bank 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14BE"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_EXHAUST_GAS_T_SNS_3", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "mul": 10, "div": 100, "add": -273.1, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14C7"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_PREINJ_1_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "mul": 0.02, "sign": true, "unit": "degrees" }, "name": "Pre-injection 1: start"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14C8"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_PREINJ_2_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "mul": 0.02, "sign": true, "unit": "degrees" }, "name": "Pre-injection 2: start"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14CC"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_POSTINJ_1_DUR", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 1: duration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14CD"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_POSTINJ_2_DUR", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 2: duration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14CE"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_ACT_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Post-injection 3: activation duration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14CF"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_MAIN_INJ_DUR", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Main injection: duration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14D0"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_PREINJ_1_DUR", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Pre-injection 1: duration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14D1"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_PREINJ_2_DUR", "path": "Engine", "fmt": { "len": 16, "max": 13.1068, "min": -13.1072, "mul": 0.4, "div": 1000, "sign": true, "unit": "milliseconds" }, "name": "Pre-injection 2: duration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "156F"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_EXH_GAS_T_SNS_3_BNK_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "mul": 10, "div": 100, "add": -273.1, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 3: bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1626"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_RAD_COOLANT_T_ACT", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Radiator output coolant temperature: actual"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "162D"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_FUEL_T_162D", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Fuel temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "166B"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_DIFF_P_RAW_BNK_1", "path": "Fuel", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "DPF differential pressure raw value, bank 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "166C"}, "freq": 300,
+  "signals": [
+    {"id": "GOLF_DPF_DIFF_P_RAW_BNK_2", "path": "Fuel", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "DPF differential pressure raw value, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "166F"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_EXHAUST_GAS_T_SNS_1", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "mul": 10, "div": 100, "add": -273.1, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1670"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_EXH_GAS_T_SNS_1_BNK_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "mul": 10, "div": 100, "add": -273.1, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 1: bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "179C"}, "freq": 5,
+  "signals": [
+    {"id": "GOLF_ENG_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "18D0"}, "freq": 2,
+  "signals": [
+    {"id": "GOLF_BRK_P", "path": "Brakes", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Brake pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295A"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2020 },
   "signals": [
     {"id": "GOLF_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "0302"}, "freq": 900, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "10AF"}, "freq": 30,
   "signals": [
-    {"id": "GOLF_DRIVE_TIME", "path": "Stats", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hours" }, "name": "Total drive time"}
+    {"id": "GOLF_ANALYSIS_39_DRV_RECORDER_TOT_TIME", "path": "Engine", "fmt": { "len": 32, "max": 858993459, "mul": 0.2, "unit": "seconds" }, "name": "Driving time, total"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "0303"}, "freq": 900, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "10B0"}, "freq": 5,
   "signals": [
-    {"id": "GOLF_DRIVE_TIME_ECO", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (eco)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in eco mode"}
+    {"id": "GOLF_65_C_TIME",                     "path": "Engine", "fmt": {            "len": 32, "max": 858993459, "mul": 0.2, "unit": "seconds" }, "name": "ATF temperature, time spent <65°C"},
+    {"id": "GOLF_80_C_TIME",                     "path": "Engine", "fmt": {"bix": 32,  "len": 32, "max": 858993459, "mul": 0.2, "unit": "seconds" }, "name": "ATF temperature, time spent 65°C..80°C"},
+    {"id": "GOLF_110_C_TIME",                    "path": "Engine", "fmt": {"bix": 64,  "len": 32, "max": 858993459, "mul": 0.2, "unit": "seconds" }, "name": "ATF temperature, time spent 80°C..110°C"},
+    {"id": "GOLF_ANLYS_40_ATF_T_110_135C_TIME",  "path": "Engine", "fmt": {"bix": 96,  "len": 32, "max": 858993459, "mul": 0.2, "unit": "seconds" }, "name": "ATF temperature, time spent 110°C..135°C"},
+    {"id": "GOLF_ANLYS_40_ATF_T_OVER_135C_TIME", "path": "Engine", "fmt": {"bix": 128, "len": 32, "max": 858993459, "mul": 0.2, "unit": "seconds" }, "name": "ATF temperature, time spent >135°Ce"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0304"}, "freq": 900,
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "2104"}, "freq": 5,
   "signals": [
-    {"id": "GOLF_DRIVE_TIME_SPORT", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (sport)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in sport mode"}
+    {"id": "GOLF_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "ATF temperature"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0305"}, "freq": 900,
+{ "hdr": "7E1", "rax": "7E9", "fcm1": true, "dbg": true, "cmd": {"22": "3841"}, "freq": 30,
   "signals": [
-    {"id": "GOLF_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (manual)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
-  ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1B"}, "freq": 30,
-  "signals": [
-    {"id": "GOLF_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
-  ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1C"}, "freq": 30,
-  "signals": [
-    {"id": "GOLF_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
-  ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1D"}, "freq": 30,
-  "signals": [
-    {"id": "GOLF_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
-  ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1E"}, "freq": 30,
-  "signals": [
-    {"id": "GOLF_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+    {"id": "GOLF_ODO_3841", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]}
 ]
 }

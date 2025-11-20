@@ -1,17 +1,17 @@
-command_id: 7E0.2211BA
+command_id: 7E0.7E8.2211BA|f=-2020
 test_cases:
 - expected_values:
-    GOLF_OIL_LEVEL: 38.136
+    GOLF_OIL_LVL: 38.136
   response: 7E8056211BA253E
 - expected_values:
-    GOLF_OIL_LEVEL: 39.536
+    GOLF_OIL_LVL: 39.536
   response: 7E8056211BA269C
 - expected_values:
-    GOLF_OIL_LEVEL: 54.268
+    GOLF_OIL_LVL: 54.268
   response: 7E8056211BA34FF
 - expected_values:
-    GOLF_OIL_LEVEL: 61.44
+    GOLF_OIL_LVL: 61.44
   response: 7E8056211BA3C00
 - expected_values:
-    GOLF_OIL_LEVEL: 77.08
+    GOLF_OIL_LVL: 77.08
   response: 7E8056211BA4B46
