@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.22295A
+command_id: 7E0.7E8.22295A|f=-2020
 test_cases:
 - expected_values:
     GOLF_ODO: 61538

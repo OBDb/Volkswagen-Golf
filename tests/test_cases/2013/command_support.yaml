@@ -94,7 +94,7 @@ unsupported_commands_by_ecu:
   - 746.2227C4
   "7E0":
   - 7E0.7E8.2211BA|f=-2020:GOLF_OIL_LVL
-  - 7E0.7E8.22295A:GOLF_ODO
+  - 7E0.7E8.22295A|f=-2020:GOLF_ODO
   "7E1":
   - 7E1.220302
   - 7E1.220303
