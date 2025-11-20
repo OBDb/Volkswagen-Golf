@@ -115,6 +115,8 @@ unsupported_commands_by_ecu:
   - 70B.2218A1
   - 70B.2218A2
   - 70B.2218A3
+  "70E":
+  - 70E.778.221945|fc=1:GOLF_HEATER_FOR_NOZZLES_ACTIVE
   "710":
   - 710.222A0A
   "714":
