@@ -1,0 +1,5 @@
+command_id: 70E.778.221945|fc=1
+test_cases:
+- expected_values:
+    GOLF_HEATER_FOR_NOZZLES_ACTIVE: 1
+  response: '7780462194501'
