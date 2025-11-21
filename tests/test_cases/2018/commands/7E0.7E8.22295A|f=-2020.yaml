@@ -4,11 +4,11 @@ test_cases:
     GOLF_ODO: 51015
   response: 7E80662295A00C747
 - expected_values:
-    GOLF_ODO: 52887
-  response: 7E80662295A00CE97
-- expected_values:
     GOLF_ODO: 52891
   response: 7E80662295A00CE9B
+- expected_values:
+    GOLF_ODO: 53360
+  response: 7E80662295A00D070
 - expected_values:
     GOLF_ODO: 109957
   response: 7E80662295A01AD85
