@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     GOLF_HIGH_FUEL_P_CONTROL_DEVIATION: 228400
   response: 7E80562121F08EC
+- expected_values:
+    GOLF_HIGH_FUEL_P_CONTROL_DEVIATION: 228500
+  response: 7E80562121F08ED
+- expected_values:
+    GOLF_HIGH_FUEL_P_CONTROL_DEVIATION: 228600
+  response: 7E80562121F08EE
