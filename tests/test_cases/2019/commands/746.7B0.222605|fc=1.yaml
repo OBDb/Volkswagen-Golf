@@ -1,8 +1,8 @@
 command_id: 746.7B0.222605|fc=1
 test_cases:
 - expected_values:
-    GOLF_CLIMATE_REFRIG_P: 3.4
-  response: 7B00462260511
+    GOLF_CLIMATE_REFRIG_P: 0
+  response: 7B00462260500
 - expected_values:
     GOLF_CLIMATE_REFRIG_P: 8
   response: 7B00462260528
