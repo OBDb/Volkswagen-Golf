@@ -1,0 +1,5 @@
+command_id: 710.77A.222A09|fc=1
+test_cases:
+- expected_values:
+    GOLF_BAT_I: -3000
+  response: 77A07622A0900000000
