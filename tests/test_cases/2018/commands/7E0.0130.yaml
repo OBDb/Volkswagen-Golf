@@ -1,6 +1,9 @@
 command_id: 7E0.0130
 test_cases:
 - expected_values:
+    WARM_UPS: 22
+  response: '7E803413016'
+- expected_values:
     WARM_UPS: 226
   response: 7E8034130E2
 - expected_values:
