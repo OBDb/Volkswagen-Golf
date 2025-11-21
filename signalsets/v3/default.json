@@ -253,7 +253,7 @@
   "signals": [
     {"id": "GOLF_INJ_2_RAIL_P_CAL_PT_3_147A", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295A"}, "freq": 30, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295A"}, "freq": 30, "filter": { "to": 2020 }, "dbgfilter": { "to": 2013, "from": 2020 },
   "signals": [
     {"id": "GOLF_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]}
