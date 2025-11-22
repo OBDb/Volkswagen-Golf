@@ -1,0 +1,32 @@
+command_id: 746.7B0.222605|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 0
+  response: 7B00462260500
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 10.4
+  response: 7B00462260534
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 11.8
+  response: 7B0046226053B
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 12.4
+  response: 7B0046226053E
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 12.8
+  response: 7B00462260540
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 13
+  response: 7B00462260541
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 13.2
+  response: 7B00462260542
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 13.6
+  response: 7B00462260544
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 14
+  response: 7B00462260546
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 16
+  response: 7B00462260550
