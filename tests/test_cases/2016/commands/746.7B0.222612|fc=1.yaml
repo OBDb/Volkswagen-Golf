@@ -1,0 +1,8 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_T_AFTER_EVAP: 0.999
+  response: 7B00462261203
+- expected_values:
+    GOLF_CLIMATE_T_AFTER_EVAP: 22.644
+  response: 7B00462261244

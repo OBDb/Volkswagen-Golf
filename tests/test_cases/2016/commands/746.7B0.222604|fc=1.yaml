@@ -1,0 +1,32 @@
+command_id: 746.7B0.222604|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 0.5
+  response: 7B00462260405
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 6.8
+  response: 7B00462260444
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 7.5
+  response: 7B0046226044B
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 9.8
+  response: 7B00462260462
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 9.9
+  response: 7B00462260463
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 10.3
+  response: 7B00462260467
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 11
+  response: 7B0046226046E
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 11.5
+  response: 7B00462260473
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 12.9
+  response: 7B00462260481
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 15.5
+  response: 7B0046226049B

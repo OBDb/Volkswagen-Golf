@@ -1,0 +1,20 @@
+command_id: 746.7B0.222603|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_SPD: 0
+  response: 7B00462260300
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_SPD: 800
+  response: 7B00462260308
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_SPD: 900
+  response: 7B00462260309
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_SPD: 1600
+  response: 7B00462260310
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_SPD: 1800
+  response: 7B00462260312
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_SPD: 2600
+  response: 7B0046226031A
