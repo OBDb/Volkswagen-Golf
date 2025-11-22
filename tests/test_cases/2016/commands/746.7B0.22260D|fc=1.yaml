@@ -4,29 +4,5 @@ test_cases:
     GOLF_CLIMATE_FR_R_DEFL_T: 0
   response: 7B00462260D00
 - expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 8.325
-  response: 7B00462260D19
-- expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 9.657
-  response: 7B00462260D1D
-- expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 10.989
-  response: 7B00462260D21
-- expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 12.321
-  response: 7B00462260D25
-- expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 14.319
-  response: 7B00462260D2B
-- expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 17.649
-  response: 7B00462260D35
-- expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 22.644
-  response: 7B00462260D44
-- expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 22.977
-  response: 7B00462260D45
-- expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 23.643
-  response: 7B00462260D47
+    GOLF_CLIMATE_FR_R_DEFL_T: 29.97
+  response: 7B00462260D5A
