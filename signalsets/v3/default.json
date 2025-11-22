@@ -108,7 +108,7 @@
   "signals": [
     {"id": "GOLF_DASH_OIL_THERMAL_WEAR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "2299"}, "freq": 30,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2299"}, "freq": 30, "dbg": true,
   "signals": [
     {"id": "GOLF_DASH_AVG_FUEL_CONS", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Average fuel consumption"}
   ]},
