@@ -1,0 +1,5 @@
+command_id: 714.77E.221014|fc=1
+test_cases:
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 24
+  response: '77E0462101494'
