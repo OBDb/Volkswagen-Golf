@@ -1,14 +1,8 @@
 command_id: 746.7B0.222613|fc=1
 test_cases:
 - expected_values:
-    GOLF_CABIN_T: 16.3
-  response: 7B00562261300A3
+    GOLF_CABIN_T: 0
+  response: 7B0056226130000
 - expected_values:
-    GOLF_CABIN_T: 16.8
-  response: 7B00562261300A8
-- expected_values:
-    GOLF_CABIN_T: 17.7
-  response: 7B00562261300B1
-- expected_values:
-    GOLF_CABIN_T: 18.8
-  response: 7B00562261300BC
+    GOLF_CABIN_T: 23.2
+  response: 7B00562261300E8
