@@ -2,6 +2,10 @@ command_id: 713.77D.221808|fc=1
 test_cases:
 - expected_values:
     GOLF_HDC_ACTIVE: 0
+    GOLF_HDC_INCLINE: 0
+  response: 77D056218080000
+- expected_values:
+    GOLF_HDC_ACTIVE: 0
     GOLF_HDC_INCLINE: 8
   response: 77D056218080008
 - expected_values:

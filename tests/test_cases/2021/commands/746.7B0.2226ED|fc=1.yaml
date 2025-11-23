@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     GOLF_CLIMATE_AIR_POLUTION_LVL: 0
   response: 7B0046226ED00
+- expected_values:
+    GOLF_CLIMATE_AIR_POLUTION_LVL: 0.4
+  response: 7B0046226ED04
