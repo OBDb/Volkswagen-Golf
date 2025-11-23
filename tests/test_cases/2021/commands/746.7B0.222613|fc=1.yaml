@@ -1,6 +1,9 @@
 command_id: 746.7B0.222613|fc=1
 test_cases:
 - expected_values:
+    GOLF_CABIN_T: 23.3
+  response: 7B00562261300E9
+- expected_values:
     GOLF_CABIN_T: 23.6
   response: 7B00562261300EC
 - expected_values:
