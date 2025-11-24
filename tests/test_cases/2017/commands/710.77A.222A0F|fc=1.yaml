@@ -1,0 +1,14 @@
+command_id: 710.77A.222A0F|fc=1
+test_cases:
+- expected_values:
+    GOLF_USE_BAT_CHG: 21
+  response: 77A04622A0F15
+- expected_values:
+    GOLF_USE_BAT_CHG: 22
+  response: 77A04622A0F16
+- expected_values:
+    GOLF_USE_BAT_CHG: 23
+  response: 77A04622A0F17
+- expected_values:
+    GOLF_USE_BAT_CHG: 24
+  response: 77A04622A0F18
