@@ -1,0 +1,11 @@
+command_id: 710.77A.222A10|fc=1
+test_cases:
+- expected_values:
+    GOLF_BAT_V_AT_REST: 16.2
+  response: 77A04622A1022
+- expected_values:
+    GOLF_BAT_V_AT_REST: 16.41176
+  response: 77A04622A1023
+- expected_values:
+    GOLF_BAT_V_AT_REST: 16.62353
+  response: 77A04622A1024

@@ -1,0 +1,8 @@
+command_id: 710.77A.222A0C|fc=1
+test_cases:
+- expected_values:
+    GOLF_BAT_SOC: 72
+  response: 77A04622A0C48
+- expected_values:
+    GOLF_BAT_SOC: 84
+  response: 77A04622A0C54
