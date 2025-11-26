@@ -44,6 +44,13 @@ test_cases:
     77D22FFAAAAAAAAAAAA
 - expected_values:
     GOLF_AIR_GAB_VACUUM_SNS: 0
+    GOLF_BRAKE_P_SNS: 25.1
+  response: |-
+    77D100E6218160109CE
+    77D21FFFFFFFFFFFF00
+    77D225BAAAAAAAAAAAA
+- expected_values:
+    GOLF_AIR_GAB_VACUUM_SNS: 0
     GOLF_BRAKE_P_SNS: 25.3
   response: |-
     77D100E6218160109E2
