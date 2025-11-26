@@ -18,3 +18,9 @@ test_cases:
 - expected_values:
     GOLF_DASH_AMBIENT_AIR_T: 21
   response: 77E046210148E
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 22
+  response: '77E0462101490'
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 22.5
+  response: '77E0462101491'
