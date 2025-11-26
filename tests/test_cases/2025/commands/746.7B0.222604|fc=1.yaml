@@ -1,0 +1,8 @@
+command_id: 746.7B0.222604|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 0
+  response: 7B00462260400
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 6.9
+  response: 7B00462260445
