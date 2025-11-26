@@ -185,7 +185,7 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "din": "03", "cmd": {"22": "1044"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2020 },
+{ "hdr": "7E0", "din": "03", "cmd": {"22": "1044"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2017], "from": 2020 },
   "signals": [
     {"id": "GOLF_DPF_SFC_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "DPF surface temperature"}
   ]},
@@ -245,11 +245,11 @@
   "signals": [
     {"id": "GOLF_INJ_2_RAIL_P_CAL_PT_2_1474", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1479"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1479"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2017], "from": 2020 },
   "signals": [
     {"id": "GOLF_INJ_7_RAIL_P_CAL_PT_3", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 7: rail pressure calibration point 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "147A"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "147A"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2017], "from": 2020 },
   "signals": [
     {"id": "GOLF_INJ_2_RAIL_P_CAL_PT_3_147A", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 3"}
   ]},
