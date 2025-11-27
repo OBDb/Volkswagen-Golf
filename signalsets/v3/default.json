@@ -229,7 +229,7 @@
   "signals": [
     {"id": "GOLF_HIGH_FUEL_P_CONTROL_DEVIATION", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High fuel pressure control deviation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "146D"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "146D"}, "freq": 300, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "GOLF_INJ_7_RAIL_P_CAL_PT_1", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 7: rail pressure calibration point 1"}
   ]},
@@ -241,7 +241,7 @@
   "signals": [
     {"id": "GOLF_INJ_7_RAIL_P_CAL_PT_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 7: rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1474"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1474"}, "freq": 300, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "GOLF_INJ_2_RAIL_P_CAL_PT_2_1474", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 2"}
   ]},
