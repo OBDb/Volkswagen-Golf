@@ -6,3 +6,21 @@ test_cases:
 - expected_values:
     GOLF_SPEC_VALUE_RAIL_P: 34800
   response: 7E80562121E015C
+- expected_values:
+    GOLF_SPEC_VALUE_RAIL_P: 252200
+  response: 7E80562121E09DA
+- expected_values:
+    GOLF_SPEC_VALUE_RAIL_P: 258500
+  response: 7E80562121E0A19
+- expected_values:
+    GOLF_SPEC_VALUE_RAIL_P: 359400
+  response: 7E80562121E0E0A
+- expected_values:
+    GOLF_SPEC_VALUE_RAIL_P: 487100
+  response: 7E80562121E1307
+- expected_values:
+    GOLF_SPEC_VALUE_RAIL_P: 535800
+  response: 7E80562121E14EE
+- expected_values:
+    GOLF_SPEC_VALUE_RAIL_P: 818800
+  response: 7E80562121E1FFC
