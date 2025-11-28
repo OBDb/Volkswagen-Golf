@@ -1,0 +1,8 @@
+command_id: 746.7B0.222626|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_FR_R_T_FLP_ACT_VALUE: 24.5
+  response: 7B006622626004C31
+- expected_values:
+    GOLF_CLIMATE_FR_R_T_FLP_ACT_VALUE: 100
+  response: 7B00662262600E8C8

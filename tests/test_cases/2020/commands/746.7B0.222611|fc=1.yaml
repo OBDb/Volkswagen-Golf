@@ -1,0 +1,23 @@
+command_id: 746.7B0.222611|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_LEG_DEFL_T: 13.986
+  response: 7B0046226112A
+- expected_values:
+    GOLF_CLIMATE_LEG_DEFL_T: 14.985
+  response: 7B0046226112D
+- expected_values:
+    GOLF_CLIMATE_LEG_DEFL_T: 27.972
+  response: 7B00462261154
+- expected_values:
+    GOLF_CLIMATE_LEG_DEFL_T: 28.305
+  response: 7B00462261155
+- expected_values:
+    GOLF_CLIMATE_LEG_DEFL_T: 28.638
+  response: 7B00462261156
+- expected_values:
+    GOLF_CLIMATE_LEG_DEFL_T: 28.971
+  response: 7B00462261157
+- expected_values:
+    GOLF_CLIMATE_LEG_DEFL_T: 29.304
+  response: 7B00462261158
