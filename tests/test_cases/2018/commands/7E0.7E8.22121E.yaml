@@ -13,6 +13,9 @@ test_cases:
     GOLF_SPEC_VALUE_RAIL_P: 258500
   response: 7E80562121E0A19
 - expected_values:
+    GOLF_SPEC_VALUE_RAIL_P: 258600
+  response: 7E80562121E0A1A
+- expected_values:
     GOLF_SPEC_VALUE_RAIL_P: 359400
   response: 7E80562121E0E0A
 - expected_values:

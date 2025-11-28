@@ -1,6 +1,9 @@
 command_id: 710.77A.222A0F|fc=1
 test_cases:
 - expected_values:
+    GOLF_USE_BAT_CHG: 30
+  response: 77A04622A0F1E
+- expected_values:
     GOLF_USE_BAT_CHG: 31
   response: 77A04622A0F1F
 - expected_values:
