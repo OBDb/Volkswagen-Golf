@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     GOLF_CLIMATE_FR_R_T_FLP_ACT_VALUE: 0
   response: 7B006622626001800
+- expected_values:
+    GOLF_CLIMATE_FR_R_T_FLP_ACT_VALUE: 63.5
+  response: 7B00662262600907F
