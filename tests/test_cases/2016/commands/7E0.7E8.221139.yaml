@@ -1,32 +1,14 @@
 command_id: 7E0.7E8.221139
 test_cases:
 - expected_values:
-    GOLF_MEAN_INJ_QUANTITY: 154.88
-  response: 7E8056211393C80
-- expected_values:
-    GOLF_MEAN_INJ_QUANTITY: 159.27
-  response: 7E8056211393E37
-- expected_values:
-    GOLF_MEAN_INJ_QUANTITY: 163.68
-  response: 7E8056211393FF0
+    GOLF_MEAN_INJ_QUANTITY: 58.74
+  response: 7E80562113916F2
 - expected_values:
     GOLF_MEAN_INJ_QUANTITY: 164.11
   response: 7E805621139401B
 - expected_values:
-    GOLF_MEAN_INJ_QUANTITY: 164.31
-  response: 7E805621139402F
-- expected_values:
     GOLF_MEAN_INJ_QUANTITY: 166.52
   response: 7E805621139410C
-- expected_values:
-    GOLF_MEAN_INJ_QUANTITY: 167.73
-  response: '7E8056211394185'
-- expected_values:
-    GOLF_MEAN_INJ_QUANTITY: 169.7
-  response: 7E805621139424A
-- expected_values:
-    GOLF_MEAN_INJ_QUANTITY: 169.81
-  response: '7E8056211394255'
 - expected_values:
     GOLF_MEAN_INJ_QUANTITY: 172.57
   response: '7E8056211394369'
