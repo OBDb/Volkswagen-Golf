@@ -31,6 +31,7 @@ supported_commands_by_ecu:
   "767":
   - 767.7D1.220838|fc=1:GOLF_ECALL_SOC,GOLF_ECALL_STATUS
   "7DF":
+  - 7DF.0106
   - 7DF.010D
   - 7DF.012F
   - 7DF.0131
