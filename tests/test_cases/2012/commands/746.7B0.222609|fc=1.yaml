@@ -7,6 +7,9 @@ test_cases:
     GOLF_AAT: 10
   response: 7B00462260914
 - expected_values:
+    GOLF_AAT: 10.5
+  response: 7B00462260915
+- expected_values:
     GOLF_AAT: 11.5
   response: 7B00462260917
 - expected_values:
