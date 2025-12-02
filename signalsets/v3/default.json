@@ -104,7 +104,7 @@
   "signals": [
     {"id": "GOLF_DASH_AMBIENT_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "mul": 0.5, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "224B"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "224B"}, "freq": 300, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "GOLF_DASH_OIL_THERMAL_WEAR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
@@ -120,19 +120,19 @@
   "signals": [
     {"id": "GOLF_CLIMATE_A_C_COMP_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "newtonMeters" }, "name": "A/C compressor load"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2605"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2605"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "GOLF_CLIMATE_REFRIG_P", "path": "Engine", "fmt": { "len": 8, "max": 51, "mul": 0.2, "unit": "bars" }, "name": "Refrigerant pressure"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2606"}, "freq": 2, "dbgfilter": { "to": 2014, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2606"}, "freq": 2, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "GOLF_CLIMATE_RAD_FAN_ACT_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "Radiator fan actual duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2607"}, "freq": 2, "dbgfilter": { "to": 2014, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2607"}, "freq": 2, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "GOLF_CLIMATE_RAD_FAN_CMD_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "Radiator fan commanded duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "GOLF_AAT", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
@@ -148,7 +148,7 @@
   "signals": [
     {"id": "GOLF_CLIMATE_LEG_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Leg deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2612"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2612"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "GOLF_CLIMATE_T_AFTER_EVAP", "path": "Engine", "fmt": { "len": 8, "max": 42.291, "min": -42.624, "mul": 0.333, "sign": true, "unit": "celsius" }, "name": "Temperature after evaporator"}
   ]},

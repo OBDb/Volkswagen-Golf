@@ -1,0 +1,8 @@
+command_id: 746.7B0.222609|fc=1
+test_cases:
+- expected_values:
+    GOLF_AAT: 37
+  response: 7B0046226094A
+- expected_values:
+    GOLF_AAT: 37.5
+  response: 7B0046226094B
