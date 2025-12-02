@@ -1,0 +1,29 @@
+command_id: 746.7B0.222606|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 22.8
+  response: 7B00462260639
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 23.6
+  response: 7B0046226063B
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 24.4
+  response: 7B0046226063D
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 25.2
+  response: 7B0046226063F
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 26
+  response: 7B00462260641
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 27.2
+  response: 7B00462260644
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 28.4
+  response: 7B00462260647
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 28.8
+  response: 7B00462260648
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 30.4
+  response: 7B0046226064C
