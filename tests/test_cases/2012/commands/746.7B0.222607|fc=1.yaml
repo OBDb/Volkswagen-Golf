@@ -1,0 +1,23 @@
+command_id: 746.7B0.222607|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 20
+  response: 7B00462260732
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 21.6
+  response: 7B00462260736
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 23.2
+  response: 7B0046226073A
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 23.6
+  response: 7B0046226073B
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 25.2
+  response: 7B0046226073F
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 26.4
+  response: 7B00462260742
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 27.6
+  response: 7B00462260745
