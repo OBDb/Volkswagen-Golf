@@ -1,0 +1,5 @@
+command_id: 746.7B0.222604|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 4.2
+  response: 7B0046226042A
