@@ -1,37 +1,37 @@
 { "commands": [
-{ "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 2, "dbgfilter": { "to": 2015, "from": 2021 },
+{ "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 2, "dbgfilter": { "to": 2014, "from": 2021 },
   "signals": [
     {"id": "GOLF_HEATER_FOR_NOZZLES_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Heater for nozzles active"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A07"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A07"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2021 },
   "signals": [
     {"id": "GOLF_BAT_V_2A07", "path": "Battery", "fmt": { "len": 16, "max": 69.535, "min": 4, "div": 1000, "add": 4, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A09"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A09"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2021 },
   "signals": [
     {"id": "GOLF_BAT_I", "path": "Battery", "fmt": { "len": 24, "max": 13777.215, "min": -3000, "mul": 10, "div": 10000, "add": -3000, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2021 },
   "signals": [
     {"id": "GOLF_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0C"}, "freq": 10, "dbgfilter": { "to": 2015, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0C"}, "freq": 10, "dbgfilter": { "to": 2014, "from": 2021 },
   "signals": [
     {"id": "GOLF_BAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Battery charge level"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2023 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2023 },
   "signals": [
     {"id": "GOLF_BAT_INT_R", "path": "Battery", "fmt": { "len": 8, "max": 51, "mul": 20, "div": 100, "unit": "unknown" }, "name": "Battery internal resistance"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2021 },
   "signals": [
     {"id": "GOLF_USE_BAT_CHG", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Usable battery charge"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A10"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A10"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2021 },
   "signals": [
     {"id": "GOLF_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1800"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1800"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "GOLF_FL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
