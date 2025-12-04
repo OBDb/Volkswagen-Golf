@@ -13,6 +13,9 @@ test_cases:
     GOLF_CLIMATE_FR_R_DEFL_T: 45.288
   response: 7B00462260D88
 - expected_values:
+    GOLF_CLIMATE_FR_R_DEFL_T: 49.95
+  response: 7B00462260D96
+- expected_values:
     GOLF_CLIMATE_FR_R_DEFL_T: 51.948
   response: 7B00462260D9C
 - expected_values:

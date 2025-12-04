@@ -4,3 +4,7 @@ test_cases:
     GOLF_ECALL_SOC: 97
     GOLF_ECALL_STATUS: NORMAL
   response: 7D1056208380261
+- expected_values:
+    GOLF_ECALL_SOC: 100
+    GOLF_ECALL_STATUS: NORMAL
+  response: 7D1056208380264
