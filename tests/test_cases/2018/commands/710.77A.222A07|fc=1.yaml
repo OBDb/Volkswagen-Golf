@@ -7,5 +7,5 @@ test_cases:
     GOLF_BAT_V_2A07: 14.469
   response: 77A05622A0728E5
 - expected_values:
-    GOLF_BAT_V_2A07: 14.528
-  response: 77A05622A072920
+    GOLF_BAT_V_2A07: 14.885
+  response: 77A05622A072A85

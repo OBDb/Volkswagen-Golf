@@ -16,5 +16,8 @@ test_cases:
     GOLF_BAT_SOC: 70
   response: 77A04622A0C46
 - expected_values:
+    GOLF_BAT_SOC: 71
+  response: 77A04622A0C47
+- expected_values:
     GOLF_BAT_SOC: 100
   response: 77A04622A0C64

@@ -172,7 +172,7 @@
   "signals": [
     {"id": "GOLF_CLIMATE_AIR_POLUTION_LVL", "path": "Engine", "fmt": { "len": 8, "max": 12.7, "min": -12.8, "mul": 0.1, "sign": true, "unit": "scalar" }, "name": "Air pollution level"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "482B"}, "freq": 2, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "482B"}, "freq": 2, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "GOLF_CLIMATE_A_C_CLCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C clutch"}
   ]},
