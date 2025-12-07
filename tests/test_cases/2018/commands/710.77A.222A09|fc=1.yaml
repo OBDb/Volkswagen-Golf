@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     GOLF_BAT_I: -2999.988
   response: 77A07622A0900000CAD
+- expected_values:
+    GOLF_BAT_I: -2999.983
+  response: 77A07622A0900001151
