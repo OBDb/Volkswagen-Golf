@@ -189,15 +189,15 @@
   "signals": [
     {"id": "GOLF_DPF_SFC_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "DPF surface temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112C"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2017], "from": 2021 },
   "signals": [
     {"id": "GOLF_ACT", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.01, "sign": true, "unit": "percent" }, "name": "Turbine actuator 1 bank 1: activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1139"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1139"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014], "from": 2021 },
   "signals": [
     {"id": "GOLF_MEAN_INJ_QUANTITY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 0.01, "sign": true, "unit": "unknown" }, "name": "Mean injection quantity"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113F"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "113F"}, "freq": 30, "dbgfilter": { "to": 2011, "years": [2013, 2014], "from": 2021 },
   "signals": [
     {"id": "GOLF_FUEL_CONS", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel consumption"}
   ]},
@@ -221,15 +221,15 @@
   "signals": [
     {"id": "GOLF_BOOST_REGULATOR_FEEDBACK", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.01, "sign": true, "unit": "percent" }, "name": "Boost regulator feedback"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "121E"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "121E"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2017], "from": 2021 },
   "signals": [
     {"id": "GOLF_SPEC_VALUE_RAIL_P", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "Fuel pressure regulator valve: specified value rail pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "121F"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "121F"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2017], "from": 2021 },
   "signals": [
     {"id": "GOLF_HIGH_FUEL_P_CONTROL_DEVIATION", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "High fuel pressure control deviation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "146D"}, "freq": 300, "dbgfilter": { "to": 2017, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "146D"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2021 },
   "signals": [
     {"id": "GOLF_INJ_7_RAIL_P_CAL_PT_1", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 7: rail pressure calibration point 1"}
   ]},
@@ -241,7 +241,7 @@
   "signals": [
     {"id": "GOLF_INJ_7_RAIL_P_CAL_PT_2", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 7: rail pressure calibration point 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1474"}, "freq": 300, "dbgfilter": { "to": 2017, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1474"}, "freq": 300, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2021 },
   "signals": [
     {"id": "GOLF_INJ_2_RAIL_P_CAL_PT_2_1474", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 2"}
   ]},
