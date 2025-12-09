@@ -4,29 +4,8 @@ test_cases:
     GOLF_BAT_I: -3000
   response: 77A07622A0900000000
 - expected_values:
-    GOLF_BAT_I: -2999.997
-  response: 77A07622A090000031E
-- expected_values:
-    GOLF_BAT_I: -2999.997
-  response: 77A07622A090000036E
-- expected_values:
-    GOLF_BAT_I: -2999.997
-  response: 77A07622A090000036F
-- expected_values:
-    GOLF_BAT_I: -2999.997
-  response: 77A07622A0900000380
-- expected_values:
-    GOLF_BAT_I: -2999.997
-  response: 77A07622A090000038B
-- expected_values:
-    GOLF_BAT_I: -2999.996
-  response: 77A07622A090000043D
-- expected_values:
-    GOLF_BAT_I: -2999.989
-  response: 77A07622A0900000BD0
-- expected_values:
-    GOLF_BAT_I: -2999.988
-  response: 77A07622A0900000CAD
+    GOLF_BAT_I: -2999.999
+  response: 77A07622A09000001F5
 - expected_values:
     GOLF_BAT_I: -2999.983
   response: 77A07622A0900001151

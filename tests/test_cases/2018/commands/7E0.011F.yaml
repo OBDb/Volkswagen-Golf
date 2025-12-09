@@ -16,6 +16,9 @@ test_cases:
     RUNTM: 639
   response: 7E804411F027F
 - expected_values:
+    RUNTM: 1019
+  response: 7E804411F03FB
+- expected_values:
     RUNTM: 1067
   response: 7E804411F042B
 - expected_values:
