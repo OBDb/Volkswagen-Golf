@@ -7,5 +7,8 @@ test_cases:
     GOLF_DPF_SFC_T: 118.8
   response: 7E8056210440F4F
 - expected_values:
+    GOLF_DPF_SFC_T: 182.3
+  response: 7E80562104411CA
+- expected_values:
     GOLF_DPF_SFC_T: 3003.6
   response: 7E8056210447FFF
