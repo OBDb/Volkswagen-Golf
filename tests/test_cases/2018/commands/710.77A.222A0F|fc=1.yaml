@@ -13,5 +13,11 @@ test_cases:
     GOLF_USE_BAT_CHG: 31
   response: 77A04622A0F1F
 - expected_values:
+    GOLF_USE_BAT_CHG: 32
+  response: 77A04622A0F20
+- expected_values:
+    GOLF_USE_BAT_CHG: 33
+  response: 77A04622A0F21
+- expected_values:
     GOLF_USE_BAT_CHG: 100
   response: 77A04622A0F64
