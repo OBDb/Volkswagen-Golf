@@ -19,6 +19,12 @@ test_cases:
     77D2100000000000000
     77D2200AAAAAAAAAAAA
 - expected_values:
+    GOLF_RR_VSS_V2: 68
+  response: |-
+    77D100E62180302A830
+    77D2100070000000000
+    77D2200AAAAAAAAAAAA
+- expected_values:
     GOLF_RR_VSS_V2: 117
   response: |-
     77D100E621803049280
