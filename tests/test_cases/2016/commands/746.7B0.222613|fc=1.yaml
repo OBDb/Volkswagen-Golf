@@ -7,26 +7,5 @@ test_cases:
     GOLF_CABIN_T: 21.4
   response: 7B00562261300D6
 - expected_values:
-    GOLF_CABIN_T: 27.6
-  response: 7B0056226130114
-- expected_values:
-    GOLF_CABIN_T: 27.8
-  response: 7B0056226130116
-- expected_values:
-    GOLF_CABIN_T: 28
-  response: 7B0056226130118
-- expected_values:
-    GOLF_CABIN_T: 28.3
-  response: 7B005622613011B
-- expected_values:
-    GOLF_CABIN_T: 28.5
-  response: 7B005622613011D
-- expected_values:
-    GOLF_CABIN_T: 28.7
-  response: 7B005622613011F
-- expected_values:
-    GOLF_CABIN_T: 29
-  response: 7B0056226130122
-- expected_values:
-    GOLF_CABIN_T: 29.2
-  response: 7B0056226130124
+    GOLF_CABIN_T: 27
+  response: 7B005622613010E
