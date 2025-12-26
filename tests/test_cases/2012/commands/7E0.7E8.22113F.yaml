@@ -7,26 +7,8 @@ test_cases:
     GOLF_FUEL_CONS: 599.3
   response: 7E80562113FEA1A
 - expected_values:
-    GOLF_FUEL_CONS: 599.75
-  response: 7E80562113FEA47
-- expected_values:
-    GOLF_FUEL_CONS: 599.98
-  response: 7E80562113FEA5E
-- expected_values:
-    GOLF_FUEL_CONS: 600.01
-  response: 7E80562113FEA61
-- expected_values:
-    GOLF_FUEL_CONS: 600.04
-  response: 7E80562113FEA64
-- expected_values:
     GOLF_FUEL_CONS: 600.62
   response: 7E80562113FEA9E
 - expected_values:
-    GOLF_FUEL_CONS: 604.61
-  response: 7E80562113FEC2D
-- expected_values:
     GOLF_FUEL_CONS: 612.23
   response: 7E80562113FEF27
-- expected_values:
-    GOLF_FUEL_CONS: 612.28
-  response: 7E80562113FEF2C

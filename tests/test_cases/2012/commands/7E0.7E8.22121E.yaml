@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22121E
 test_cases:
 - expected_values:
+    GOLF_SPEC_VALUE_RAIL_P: 305300
+  response: 7E80562121E0BED
+- expected_values:
     GOLF_SPEC_VALUE_RAIL_P: 473000
   response: 7E80562121E127A
