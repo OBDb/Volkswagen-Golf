@@ -3,6 +3,12 @@ test_cases:
 - expected_values:
     GOLF_RL_VSS_V2: 0
   response: |-
+    77D1010621802000000
+    77D21FFFF00FFFEFFFE
+    77D22FFFE01AAAAAAAA
+- expected_values:
+    GOLF_RL_VSS_V2: 0
+  response: |-
     77D1010621802000020
     77D21FFFF00FFFEFFFE
     77D22FFFE01AAAAAAAA
