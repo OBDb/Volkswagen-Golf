@@ -2,5 +2,9 @@ command_id: 713.77D.22180E|fc=1
 test_cases:
 - expected_values:
     GOLF_BDD_ACTIVE: 0
+    GOLF_BDD_ODO: 75046
+  response: 77D0762180E80012526
+- expected_values:
+    GOLF_BDD_ACTIVE: 0
     GOLF_BDD_ODO: 114193
   response: 77D0762180E8001BE11

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     GOLF_BAT_INT_R: 5.6
   response: 77A04622A0E1C
+- expected_values:
+    GOLF_BAT_INT_R: 7.2
+  response: 77A04622A0E24
