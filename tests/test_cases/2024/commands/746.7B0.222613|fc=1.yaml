@@ -1,0 +1,11 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    GOLF_CABIN_T: 29.7
+  response: 7B0056226130129
+- expected_values:
+    GOLF_CABIN_T: 29.8
+  response: 7B005622613012A
+- expected_values:
+    GOLF_CABIN_T: 29.9
+  response: 7B005622613012B
