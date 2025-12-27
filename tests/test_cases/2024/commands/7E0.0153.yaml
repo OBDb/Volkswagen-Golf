@@ -1,0 +1,8 @@
+command_id: 7E0.0153
+test_cases:
+- expected_values:
+    EVAP_VPA: 96.52
+  response: 7E80441534B68
+- expected_values:
+    EVAP_VPA: 98.295
+  response: 7E80441534CCB
