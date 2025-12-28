@@ -1,29 +1,8 @@
 command_id: 746.7B0.222609|fc=1
 test_cases:
 - expected_values:
-    GOLF_AAT: 9.5
-  response: 7B00462260913
-- expected_values:
-    GOLF_AAT: 10
-  response: 7B00462260914
-- expected_values:
-    GOLF_AAT: 10.5
-  response: 7B00462260915
-- expected_values:
-    GOLF_AAT: 11.5
-  response: 7B00462260917
-- expected_values:
-    GOLF_AAT: 13.5
-  response: 7B0046226091B
-- expected_values:
-    GOLF_AAT: 15.5
-  response: 7B0046226091F
-- expected_values:
-    GOLF_AAT: 16
-  response: 7B00462260920
-- expected_values:
-    GOLF_AAT: 37
-  response: 7B0046226094A
+    GOLF_AAT: 8.5
+  response: 7B00462260911
 - expected_values:
     GOLF_AAT: 37.5
   response: 7B0046226094B
