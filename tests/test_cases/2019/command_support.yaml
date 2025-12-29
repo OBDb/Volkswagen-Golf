@@ -59,11 +59,13 @@ supported_commands_by_ecu:
   - 746.7B0.222626|fc=1:GOLF_CLIMATE_FR_R_T_FLP_ACT_VALUE
   - 746.7B0.2226ED|fc=1:GOLF_CLIMATE_AIR_POLUTION_LVL
   "7DF":
+  - 7DF.0104
   - 7DF.0105
   - 7DF.0106
   - 7DF.010D
   - 7DF.0111
   - 7DF.012F
+  - 7DF.0131
   - 7DF.0134
   - 7DF.0144
   "7E0":
@@ -242,9 +244,6 @@ unsupported_commands_by_ecu:
   - 752.7BC.220005
   "767":
   - 767.7D1.220838|fc=1:GOLF_ECALL_SOC,GOLF_ECALL_STATUS
-  "7DF":
-  - 7DF.0104
-  - 7DF.0131
   "7E0":
   - 7E0.22100C
   - 7E0.22105C
