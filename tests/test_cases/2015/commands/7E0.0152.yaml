@@ -1,8 +1,8 @@
 command_id: 7E0.0152
 test_cases:
 - expected_values:
-    ALCH_PCT: 2.7451
-  response: '7E803415207'
+    ALCH_PCT: 0
+  response: '7E803415200'
 - expected_values:
     ALCH_PCT: 85.09804
   response: 7E8034152D9
