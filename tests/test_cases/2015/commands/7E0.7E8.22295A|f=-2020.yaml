@@ -4,6 +4,9 @@ test_cases:
     GOLF_ODO: 153928
   response: '7E8 06 62 29 5A 02 59 48 '
 - expected_values:
+    GOLF_ODO: 154108
+  response: '7E8 06 62 29 5A 02 59 FC '
+- expected_values:
     GOLF_ODO: 130384
   response: 7E80662295A01FD50
 - expected_values:
