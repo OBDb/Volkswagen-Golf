@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     GOLF_SPEC_VALUE_RAIL_P: 120600
   response: 7E80562121E04B6
+- expected_values:
+    GOLF_SPEC_VALUE_RAIL_P: 328100
+  response: 7E80562121E0CD1
