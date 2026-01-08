@@ -10,5 +10,9 @@ test_cases:
   response: 77D0762180E800252C6
 - expected_values:
     GOLF_BDD_ACTIVE: 0
+    GOLF_BDD_ODO: 154003
+  response: 77D0762180E80025993
+- expected_values:
+    GOLF_BDD_ACTIVE: 0
     GOLF_BDD_ODO: 99398
   response: 77D0762180EB0018446
