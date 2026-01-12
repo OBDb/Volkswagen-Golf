@@ -1,9 +1,9 @@
 command_id: 7E0.0170
 test_cases:
 - expected_values:
-    BP_A_ACT: 98.8125
+    BP_A_ACT: 102.96875
     BP_A_ACT_SUP: 1
-    BP_A_CMD: 78.6875
+    BP_A_CMD: 78.4375
     BP_A_CMD_SUP: 0
     BP_A_SUP: 0
     BP_B_ACT: 0
@@ -12,22 +12,8 @@ test_cases:
     BP_B_CMD_SUP: 0
     BP_B_SUP: 0
   response: |-
-    7E8100C41700209D60C
-    7E8215A0000000000AA
-- expected_values:
-    BP_A_ACT: 99.46875
-    BP_A_ACT_SUP: 1
-    BP_A_CMD: 78.6875
-    BP_A_CMD_SUP: 0
-    BP_A_SUP: 0
-    BP_B_ACT: 0
-    BP_B_ACT_SUP: 0
-    BP_B_CMD: 0
-    BP_B_CMD_SUP: 0
-    BP_B_SUP: 0
-  response: |-
-    7E8100C41700209D60C
-    7E8216F0000000000AA
+    7E8100C41700209CE0C
+    7E821DF0000000000AA
 - expected_values:
     BP_A_ACT: 107.5
     BP_A_ACT_SUP: 1
