@@ -19,5 +19,8 @@ test_cases:
     GOLF_AAT: 31
   response: 7B0046226093E
 - expected_values:
+    GOLF_AAT: 31.5
+  response: 7B0046226093F
+- expected_values:
     GOLF_AAT: 33
   response: 7B00462260942

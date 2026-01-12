@@ -7,6 +7,9 @@ test_cases:
     GOLF_DASH_OIL_THERMAL_WEAR: 15
   response: 77E0562224B000F
 - expected_values:
+    GOLF_DASH_OIL_THERMAL_WEAR: 109
+  response: 77E0562224B006D
+- expected_values:
     GOLF_DASH_OIL_THERMAL_WEAR: 133
   response: 77E0562224B0085
 - expected_values:
