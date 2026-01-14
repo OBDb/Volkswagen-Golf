@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22121F
+test_cases:
+- expected_values:
+    GOLF_HIGH_FUEL_P_CONTROL_DEVIATION: 290200
+  response: 7E80562121F0B56
+- expected_values:
+    GOLF_HIGH_FUEL_P_CONTROL_DEVIATION: 305400
+  response: 7E80562121F0BEE
+- expected_values:
+    GOLF_HIGH_FUEL_P_CONTROL_DEVIATION: -200
+  response: 7E80562121FFFFE

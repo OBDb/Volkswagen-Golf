@@ -1,0 +1,14 @@
+command_id: 714.77E.22224B|fc=1
+test_cases:
+- expected_values:
+    GOLF_DASH_OIL_THERMAL_WEAR: 9
+  response: 77E0562224B0009
+- expected_values:
+    GOLF_DASH_OIL_THERMAL_WEAR: 10
+  response: 77E0562224B000A
+- expected_values:
+    GOLF_DASH_OIL_THERMAL_WEAR: 29
+  response: 77E0562224B001D
+- expected_values:
+    GOLF_DASH_OIL_THERMAL_WEAR: 160
+  response: 77E0562224B00A0

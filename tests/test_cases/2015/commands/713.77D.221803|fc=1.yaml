@@ -1,0 +1,32 @@
+command_id: 713.77D.221803|fc=1
+test_cases:
+- expected_values:
+    GOLF_RR_VSS_V2: 0
+  response: |-
+    77D100E621803000000
+    77D210000FFFEFFFEFF
+    77D22FEAAAAAAAAAAAA
+- expected_values:
+    GOLF_RR_VSS_V2: 0
+  response: |-
+    77D100E621803000030
+    77D210007FFFEFFFEFF
+    77D22FEAAAAAAAAAAAA
+- expected_values:
+    GOLF_RR_VSS_V2: 3
+  response: |-
+    77D100E621803001E30
+    77D2100070000000000
+    77D2200AAAAAAAAAAAA
+- expected_values:
+    GOLF_RR_VSS_V2: 49.9
+  response: |-
+    77D100E62180301F330
+    77D2100070000000000
+    77D2200AAAAAAAAAAAA
+- expected_values:
+    GOLF_RR_VSS_V2: 110.6
+  response: |-
+    77D100E621803045230
+    77D2100070000000000
+    77D2200AAAAAAAAAAAA

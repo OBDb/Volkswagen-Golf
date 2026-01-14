@@ -1,0 +1,17 @@
+command_id: 714.77E.221014|fc=1
+test_cases:
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: -4
+  response: 77E046210145C
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: -3.5
+  response: 77E046210145D
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 1
+  response: '77E0462101466'
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 2
+  response: '77E0462101468'
+- expected_values:
+    GOLF_DASH_AMBIENT_AIR_T: 2.5
+  response: '77E0462101469'
