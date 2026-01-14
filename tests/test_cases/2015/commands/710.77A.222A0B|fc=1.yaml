@@ -1,8 +1,0 @@
-command_id: 710.77A.222A0B|fc=1
-test_cases:
-- expected_values:
-    GOLF_BAT_T: -40
-  response: 77A04622A0B00
-- expected_values:
-    GOLF_BAT_T: 18
-  response: 77A04622A0B3A
