@@ -2,6 +2,15 @@ command_id: 713.77D.22180C|fc=1
 test_cases:
 - expected_values:
     GOLF_EDL_ACTIVE: 0
+    GOLF_EDL_FR_L_BRAKE_T: 9
+    GOLF_EDL_FR_R_BRAKE_T: 9
+    GOLF_EDL_RR_L_BRAKE_T: 9
+    GOLF_EDL_RR_R_BRAKE_T: 9
+  response: |-
+    77D100C62180CBC0012
+    77D21001200120012AA
+- expected_values:
+    GOLF_EDL_ACTIVE: 0
     GOLF_EDL_FR_L_BRAKE_T: 16
     GOLF_EDL_FR_R_BRAKE_T: 16
     GOLF_EDL_RR_L_BRAKE_T: 15.5
