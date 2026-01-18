@@ -1,5 +1,7 @@
 model_year: 2024
 supported_commands_by_ecu:
+  "710":
+  - 710.77A.222A0E|fc=1:GOLF_BAT_INT_R
   "713":
   - 713.77D.221800|fc=1:GOLF_FL_VSS_V2
   - 713.77D.221801|fc=1:GOLF_FR_VSS_V2
@@ -174,7 +176,6 @@ unsupported_commands_by_ecu:
   - 710.77A.222A09|fc=1:GOLF_BAT_I
   - 710.77A.222A0B|fc=1:GOLF_BAT_T
   - 710.77A.222A0C|fc=1:GOLF_BAT_SOC
-  - 710.77A.222A0E|fc=1:GOLF_BAT_INT_R
   - 710.77A.222A0F|fc=1:GOLF_USE_BAT_CHG
   - 710.77A.222A10|fc=1:GOLF_BAT_V_AT_REST
   "713":
