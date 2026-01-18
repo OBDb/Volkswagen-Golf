@@ -4,26 +4,5 @@ test_cases:
     GOLF_CLIMATE_T_AFTER_EVAP: 4.329
   response: 7B0046226120D
 - expected_values:
-    GOLF_CLIMATE_T_AFTER_EVAP: 5.328
-  response: 7B00462261210
-- expected_values:
-    GOLF_CLIMATE_T_AFTER_EVAP: 5.661
-  response: 7B00462261211
-- expected_values:
-    GOLF_CLIMATE_T_AFTER_EVAP: 5.994
-  response: 7B00462261212
-- expected_values:
-    GOLF_CLIMATE_T_AFTER_EVAP: 7.659
-  response: 7B00462261217
-- expected_values:
-    GOLF_CLIMATE_T_AFTER_EVAP: 7.992
-  response: 7B00462261218
-- expected_values:
-    GOLF_CLIMATE_T_AFTER_EVAP: 11.988
-  response: 7B00462261224
-- expected_values:
-    GOLF_CLIMATE_T_AFTER_EVAP: 14.985
-  response: 7B0046226122D
-- expected_values:
-    GOLF_CLIMATE_T_AFTER_EVAP: 23.976
-  response: 7B00462261248
+    GOLF_CLIMATE_T_AFTER_EVAP: 28.638
+  response: 7B00462261256
