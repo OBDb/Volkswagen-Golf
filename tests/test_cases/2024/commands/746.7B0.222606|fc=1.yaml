@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 10
   response: 7B00462260619
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_ACT_DUTY: 24.8
+  response: 7B0046226063E
