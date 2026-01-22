@@ -176,7 +176,7 @@
   "signals": [
     {"id": "GOLF_CLIMATE_A_C_CLCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C clutch"}
   ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "0838"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2023], "from": 2026 },
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "0838"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2023], "from": 2026 },
   "signals": [
     {"id": "GOLF_ECALL_SOC", "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "percent" }, "name": "eCall battery charge level"},
     {"id": "GOLF_ECALL_STATUS", "path": "Battery", "name": "eCall battery status", "fmt": {"len": 8, "map": {
