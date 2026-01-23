@@ -19,5 +19,8 @@ test_cases:
     GOLF_CLIMATE_LEG_DEFL_T: 69.264
   response: 7B004622611D0
 - expected_values:
+    GOLF_CLIMATE_LEG_DEFL_T: 69.93
+  response: 7B004622611D2
+- expected_values:
     GOLF_CLIMATE_LEG_DEFL_T: 70.596
   response: 7B004622611D4
