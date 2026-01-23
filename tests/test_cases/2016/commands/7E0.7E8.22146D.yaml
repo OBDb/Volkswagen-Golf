@@ -4,5 +4,5 @@ test_cases:
     GOLF_INJ_7_RAIL_P_CAL_PT_1: 0
   response: 7E80562146D0000
 - expected_values:
-    GOLF_INJ_7_RAIL_P_CAL_PT_1: 74.65
-  response: 7E80562146D05D5
+    GOLF_INJ_7_RAIL_P_CAL_PT_1: 74.6
+  response: 7E80562146D05D4
