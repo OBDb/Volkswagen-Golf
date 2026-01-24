@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Volkswagen_Golf"
+
 generations:
   - name: "Golf I"
     start_year: 1974
