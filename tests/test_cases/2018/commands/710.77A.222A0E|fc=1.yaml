@@ -1,6 +1,9 @@
 command_id: 710.77A.222A0E|fc=1
 test_cases:
 - expected_values:
+    GOLF_BAT_INT_R: 4.4
+  response: 77A04622A0E16
+- expected_values:
     GOLF_BAT_INT_R: 5
   response: 77A04622A0E19
 - expected_values:
