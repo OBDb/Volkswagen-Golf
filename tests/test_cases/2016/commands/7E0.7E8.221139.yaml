@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221139
 test_cases:
 - expected_values:
+    GOLF_MEAN_INJ_QUANTITY: 56.95
+  response: 7E805621139163F
+- expected_values:
     GOLF_MEAN_INJ_QUANTITY: 58.74
   response: 7E80562113916F2
 - expected_values:
