@@ -1,23 +1,8 @@
 command_id: 710.77A.222A0C|fc=1
 test_cases:
 - expected_values:
-    GOLF_BAT_SOC: 59
-  response: 77A04622A0C3B
-- expected_values:
-    GOLF_BAT_SOC: 60
-  response: 77A04622A0C3C
-- expected_values:
-    GOLF_BAT_SOC: 61
-  response: 77A04622A0C3D
-- expected_values:
-    GOLF_BAT_SOC: 62
-  response: 77A04622A0C3E
-- expected_values:
-    GOLF_BAT_SOC: 74
-  response: 77A04622A0C4A
-- expected_values:
-    GOLF_BAT_SOC: 76
-  response: 77A04622A0C4C
+    GOLF_BAT_SOC: 20
+  response: 77A04622A0C14
 - expected_values:
     GOLF_BAT_SOC: 100
   response: 77A04622A0C64
