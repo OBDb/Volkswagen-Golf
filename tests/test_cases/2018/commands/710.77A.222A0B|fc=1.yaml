@@ -4,6 +4,9 @@ test_cases:
     GOLF_BAT_T: -40
   response: 77A04622A0B00
 - expected_values:
+    GOLF_BAT_T: 8
+  response: 77A04622A0B30
+- expected_values:
     GOLF_BAT_T: 11
   response: 77A04622A0B33
 - expected_values:
