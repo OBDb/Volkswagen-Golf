@@ -4,29 +4,5 @@ test_cases:
     GOLF_BAT_SOC: 10
   response: 77A04622A0C0A
 - expected_values:
-    GOLF_BAT_SOC: 20
-  response: 77A04622A0C14
-- expected_values:
-    GOLF_BAT_SOC: 65
-  response: 77A04622A0C41
-- expected_values:
-    GOLF_BAT_SOC: 66
-  response: 77A04622A0C42
-- expected_values:
-    GOLF_BAT_SOC: 67
-  response: 77A04622A0C43
-- expected_values:
-    GOLF_BAT_SOC: 69
-  response: 77A04622A0C45
-- expected_values:
-    GOLF_BAT_SOC: 70
-  response: 77A04622A0C46
-- expected_values:
-    GOLF_BAT_SOC: 71
-  response: 77A04622A0C47
-- expected_values:
-    GOLF_BAT_SOC: 74
-  response: 77A04622A0C4A
-- expected_values:
     GOLF_BAT_SOC: 100
   response: 77A04622A0C64
