@@ -230,6 +230,8 @@ unsupported_commands_by_ecu:
   - 74F.7B9.22F41B
   "752":
   - 752.7BC.220005
+  "7DF":
+  - 7DF.0111
   "7E0":
   - 7E0.22100C
   - 7E0.221044|din=03:GOLF_DPF_SFC_T
