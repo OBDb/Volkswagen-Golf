@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221187
+test_cases:
+- expected_values:
+    GOLF_ACCELERATION: 0.135
+  response: '7E8056211870087'
+- expected_values:
+    GOLF_ACCELERATION: -0.121
+  response: 7E805621187FF87
+- expected_values:
+    GOLF_ACCELERATION: -0.12
+  response: 7E805621187FF88
+- expected_values:
+    GOLF_ACCELERATION: -0.119
+  response: 7E805621187FF89
+- expected_values:
+    GOLF_ACCELERATION: -0.118
+  response: 7E805621187FF8A
+- expected_values:
+    GOLF_ACCELERATION: -0.117
+  response: 7E805621187FF8B
+- expected_values:
+    GOLF_ACCELERATION: -0.021
+  response: 7E805621187FFEB
