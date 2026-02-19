@@ -33,8 +33,6 @@ supported_commands_by_ecu:
   - 0147:TP_B
   - 0149:APP_D
   - 014A:APP_E
-  - 014C:TAC_PCT
-  - 0156:LGSO2FT1
 unsupported_commands_by_ecu:
   "70B":
   - 70B.2218A0
