@@ -17,6 +17,7 @@ supported_commands_by_ecu:
   - 746.7B0.222612|fc=1:GOLF_CLIMATE_T_AFTER_EVAP
   - 746.7B0.222613|fc=1:GOLF_CABIN_T
   "7DF":
+  - 7DF.0104
   - 7DF.0106
   - 7DF.010D
   "7E0":
