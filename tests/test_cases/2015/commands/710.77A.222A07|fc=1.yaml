@@ -1,8 +1,8 @@
 command_id: 710.77A.222A07|fc=1
 test_cases:
 - expected_values:
-    GOLF_BAT_V_2A07: 12.749
-  response: 77A05622A07222D
+    GOLF_BAT_V_2A07: 12.429
+  response: 77A05622A0720ED
 - expected_values:
     GOLF_BAT_V_2A07: 13.22
   response: 77A05622A072404
