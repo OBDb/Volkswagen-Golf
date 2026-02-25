@@ -4,5 +4,5 @@ test_cases:
     GOLF_DASH_AMBIENT_AIR_T: -14
   response: '77E0462101448'
 - expected_values:
-    GOLF_DASH_AMBIENT_AIR_T: 17.5
-  response: '77E0462101487'
+    GOLF_DASH_AMBIENT_AIR_T: 18
+  response: '77E0462101488'

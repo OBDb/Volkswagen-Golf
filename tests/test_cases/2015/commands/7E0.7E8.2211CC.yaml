@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     GOLF_BOOST_REGULATOR_FEEDBACK: 0
   response: 7E8056211CC0000
+- expected_values:
+    GOLF_BOOST_REGULATOR_FEEDBACK: 9.16
+  response: 7E8056211CC0394
+- expected_values:
+    GOLF_BOOST_REGULATOR_FEEDBACK: 81.91
+  response: 7E8056211CC1FFF
