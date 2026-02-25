@@ -4,6 +4,9 @@ test_cases:
     GOLF_ACCELERATION: 0.012
   response: 7E805621187000C
 - expected_values:
+    GOLF_ACCELERATION: 0.017
+  response: '7E8056211870011'
+- expected_values:
     GOLF_ACCELERATION: -0.014
   response: 7E805621187FFF2
 - expected_values:
