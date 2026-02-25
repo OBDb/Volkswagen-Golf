@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     GOLF_BAT_T: 18
   response: 77A04622A0B3A
+- expected_values:
+    GOLF_BAT_T: 34
+  response: 77A04622A0B4A
