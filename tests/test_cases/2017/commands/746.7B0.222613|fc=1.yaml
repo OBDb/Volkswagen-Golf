@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     GOLF_CABIN_T: 0
   response: 7B0056226130000
+- expected_values:
+    GOLF_CABIN_T: 20
+  response: 7B00562261300C8
