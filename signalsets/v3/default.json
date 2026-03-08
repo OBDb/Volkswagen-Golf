@@ -140,7 +140,7 @@
   "signals": [
     {"id": "GOLF_CLIMATE_FR_L_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Front left deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260D"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260D"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2023], "from": 2026 },
   "signals": [
     {"id": "GOLF_CLIMATE_FR_R_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Front right deflector temperature"}
   ]},
@@ -160,11 +160,11 @@
   "signals": [
     {"id": "GOLF_CLIMATE_FR_L_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Front left temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2626"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2626"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2023], "from": 2026 },
   "signals": [
     {"id": "GOLF_CLIMATE_FR_R_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Front right temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "263D"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "263D"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2023], "from": 2026 },
   "signals": [
     {"id": "GOLF_CLIMATE_RR_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "mul": 0.333, "unit": "celsius" }, "name": "Rear deflector temperature"}
   ]},
