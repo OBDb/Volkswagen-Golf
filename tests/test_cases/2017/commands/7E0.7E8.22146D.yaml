@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     GOLF_INJ_7_RAIL_P_CAL_PT_1: 1.2
   response: 7E80562146D0018
+- expected_values:
+    GOLF_INJ_7_RAIL_P_CAL_PT_1: 1.3
+  response: 7E80562146D001A
