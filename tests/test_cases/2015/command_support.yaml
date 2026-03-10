@@ -47,6 +47,7 @@ supported_commands_by_ecu:
   - 7DF.010D
   - 7DF.010F
   - 7DF.0110
+  - 7DF.0111
   - 7DF.012F
   - 7DF.0131
   - 7DF.0134
@@ -267,8 +268,6 @@ unsupported_commands_by_ecu:
   - 752.7BC.220005
   "767":
   - 767.7D1.220838|fc=1:GOLF_ECALL_SOC,GOLF_ECALL_STATUS
-  "7DF":
-  - 7DF.0111
   "7E0":
   - 7E0.0124:LAMBDA11_VOLT,O2S11_VOLT
   - 7E0.22100C
