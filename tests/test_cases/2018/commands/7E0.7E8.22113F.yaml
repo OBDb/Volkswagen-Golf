@@ -4,6 +4,9 @@ test_cases:
     GOLF_FUEL_CONS: 0.47
   response: 7E80562113F002F
 - expected_values:
+    GOLF_FUEL_CONS: 0.66
+  response: 7E80562113F0042
+- expected_values:
     GOLF_FUEL_CONS: 47.18
   response: 7E80562113F126E
 - expected_values:
