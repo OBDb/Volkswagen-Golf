@@ -18,5 +18,15 @@ test_cases:
 - expected_values:
     GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
   response: |-
+    77D100C621810010028
+    77D21FF2600000000AA
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C621810010032
+    77D21FD8100000000AA
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
     77D100C621810010BB8
     77D21FC25000002ACAA

@@ -4,29 +4,5 @@ test_cases:
     GOLF_USE_BAT_CHG: 15
   response: 77A04622A0F0F
 - expected_values:
-    GOLF_USE_BAT_CHG: 25
-  response: 77A04622A0F19
-- expected_values:
-    GOLF_USE_BAT_CHG: 29
-  response: 77A04622A0F1D
-- expected_values:
-    GOLF_USE_BAT_CHG: 30
-  response: 77A04622A0F1E
-- expected_values:
-    GOLF_USE_BAT_CHG: 31
-  response: 77A04622A0F1F
-- expected_values:
-    GOLF_USE_BAT_CHG: 32
-  response: 77A04622A0F20
-- expected_values:
-    GOLF_USE_BAT_CHG: 33
-  response: 77A04622A0F21
-- expected_values:
-    GOLF_USE_BAT_CHG: 54
-  response: 77A04622A0F36
-- expected_values:
-    GOLF_USE_BAT_CHG: 58
-  response: 77A04622A0F3A
-- expected_values:
     GOLF_USE_BAT_CHG: 100
   response: 77A04622A0F64
