@@ -13,8 +13,20 @@ test_cases:
     GOLF_CLIMATE_A_C_COMP_LOAD: 4.9
   response: 7B00462260431
 - expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 5.2
+  response: 7B00462260434
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 5.4
+  response: 7B00462260436
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 5.6
+  response: 7B00462260438
+- expected_values:
     GOLF_CLIMATE_A_C_COMP_LOAD: 6
   response: 7B0046226043C
 - expected_values:
     GOLF_CLIMATE_A_C_COMP_LOAD: 6.2
   response: 7B0046226043E
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 6.8
+  response: 7B00462260444
