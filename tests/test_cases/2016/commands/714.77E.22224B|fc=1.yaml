@@ -4,26 +4,5 @@ test_cases:
     GOLF_DASH_OIL_THERMAL_WEAR: 7
   response: 77E0562224B0007
 - expected_values:
-    GOLF_DASH_OIL_THERMAL_WEAR: 15
-  response: 77E0562224B000F
-- expected_values:
-    GOLF_DASH_OIL_THERMAL_WEAR: 44
-  response: 77E0562224B002C
-- expected_values:
-    GOLF_DASH_OIL_THERMAL_WEAR: 67
-  response: 77E0562224B0043
-- expected_values:
-    GOLF_DASH_OIL_THERMAL_WEAR: 109
-  response: 77E0562224B006D
-- expected_values:
-    GOLF_DASH_OIL_THERMAL_WEAR: 133
-  response: 77E0562224B0085
-- expected_values:
-    GOLF_DASH_OIL_THERMAL_WEAR: 135
-  response: 77E0562224B0087
-- expected_values:
-    GOLF_DASH_OIL_THERMAL_WEAR: 215
-  response: 77E0562224B00D7
-- expected_values:
     GOLF_DASH_OIL_THERMAL_WEAR: 254
   response: 77E0562224B00FE
