@@ -4,5 +4,5 @@ test_cases:
     GOLF_CLIMATE_A_C_COMP_SPD: 0
   response: 7B00462260300
 - expected_values:
-    GOLF_CLIMATE_A_C_COMP_SPD: 3500
-  response: 7B00462260323
+    GOLF_CLIMATE_A_C_COMP_SPD: 3700
+  response: 7B00462260325
