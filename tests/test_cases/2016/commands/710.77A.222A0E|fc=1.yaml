@@ -10,5 +10,8 @@ test_cases:
     GOLF_BAT_INT_R: 7
   response: 77A04622A0E23
 - expected_values:
+    GOLF_BAT_INT_R: 7.2
+  response: 77A04622A0E24
+- expected_values:
     GOLF_BAT_INT_R: 51
   response: 77A04622A0EFF
