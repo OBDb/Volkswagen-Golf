@@ -1,58 +1,58 @@
 { "commands": [
-{ "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 2, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 2, "dbgfilter": { "to": 2015, "from": 2021 },
   "signals": [
     {"id": "GOLF_HEATER_FOR_NOZZLES_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Heater for nozzles active"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A07"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014], "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A07"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015], "from": 2021 },
   "signals": [
     {"id": "GOLF_BAT_V_2A07", "path": "Battery", "fmt": { "len": 16, "max": 69.535, "min": 4, "div": 1000, "add": 4, "unit": "volts" }, "name": "Battery voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A09"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A09"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2021 },
   "signals": [
     {"id": "GOLF_BAT_I", "path": "Battery", "fmt": { "len": 24, "max": 13777.215, "min": -3000, "mul": 10, "div": 10000, "add": -3000, "unit": "amps" }, "name": "Battery current"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0B"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2021 },
   "signals": [
     {"id": "GOLF_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0C"}, "freq": 10, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0C"}, "freq": 10, "dbgfilter": { "to": 2015, "from": 2021 },
   "signals": [
     {"id": "GOLF_BAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Battery charge level"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2025 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2025 },
   "signals": [
     {"id": "GOLF_BAT_INT_R", "path": "Battery", "fmt": { "len": 8, "max": 51, "mul": 20, "div": 100, "unit": "unknown" }, "name": "Battery internal resistance"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2021 },
   "signals": [
     {"id": "GOLF_USE_BAT_CHG", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Usable battery charge"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A10"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A10"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2021 },
   "signals": [
     {"id": "GOLF_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1800"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1800"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2026 },
   "signals": [
     {"id": "GOLF_FL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1801"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1801"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2026 },
   "signals": [
     {"id": "GOLF_FR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1802"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1802"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2026 },
   "signals": [
     {"id": "GOLF_RL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1803"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1803"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2026 },
   "signals": [
     {"id": "GOLF_RR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1808"}, "freq": 2, "dbgfilter": { "to": 2014, "from": 2025 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1808"}, "freq": 2, "dbgfilter": { "to": 2015, "from": 2025 },
   "signals": [
     {"id": "GOLF_HDC_ACTIVE",  "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1,   "unit": "offon"   }, "name": "Hill descent control"},
     {"id": "GOLF_HDC_INCLINE", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "percent" }, "name": "Hill descent control, incline"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2021 },
   "signals": [
     {"id": "GOLF_EDL_ACTIVE",       "path": "Control", "fmt": {"bix": 1,  "len": 1,  "max": 1,                                         "unit": "offon"   }, "name": "Electronic differential lock: active"},
     {"id": "GOLF_EDL_FR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front left brake temperature"},
@@ -60,21 +60,21 @@
     {"id": "GOLF_EDL_RR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 40, "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear left brake temperature"},
     {"id": "GOLF_EDL_RR_R_BRAKE_T", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 300, "min": -20, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear right brake temperature"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180E"}, "freq": 2, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180E"}, "freq": 2, "dbgfilter": { "to": 2015, "from": 2021 },
   "signals": [
     {"id": "GOLF_BDD_ACTIVE", "path": "Control", "fmt": {"bix": 1, "len": 1,  "max": 1,      "unit": "offon"      }, "name": "Brake disk drying"},
     {"id": "GOLF_BDD_ODO",    "path": "Control", "fmt": {"bix": 8, "len": 24, "max": 200000, "unit": "kilometers" }, "name": "Brake disk drying, odometer at last activation"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1810"}, "freq": 2, "dbgfilter": { "to": 2014, "years": [2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1810"}, "freq": 2, "dbgfilter": { "to": 2015, "years": [2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "GOLF_HYD_BRAKE_BOOST_ACTIVE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Hydraulic brake booster: active"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1816"}, "freq": 2, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1816"}, "freq": 2, "dbgfilter": { "to": 2015, "from": 2021 },
   "signals": [
     {"id": "GOLF_BRAKE_P_SNS",        "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 327.67, "div": 100, "sign": true, "unit": "bars"    }, "name": "Brake pressure sensor"},
     {"id": "GOLF_AIR_GAB_VACUUM_SNS", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 32767,              "sign": true, "unit": "unknown" }, "name": "Air gab vacuum sensor"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1821"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2021 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1821"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2021 },
   "signals": [
     {"id": "GOLF_TPMS_AVAIL",                          "path": "Tires", "fmt": {"bix": 7,   "len": 1,  "max": 1,      "unit": "noyes"      }, "name": "TPMS available?"},
     {"id": "GOLF_TPMS_ODO_RDG_AT_LAST_ADAPT",          "path": "Trips", "fmt": {"bix": 8,   "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading at last adaptation"},
