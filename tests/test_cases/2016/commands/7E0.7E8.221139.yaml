@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221139
+test_cases:
+- expected_values:
+    GOLF_MEAN_INJ_QUANTITY: 55.38
+  response: 7E80562113915A2
+- expected_values:
+    GOLF_MEAN_INJ_QUANTITY: 163.74
+  response: 7E8056211393FF6
+- expected_values:
+    GOLF_MEAN_INJ_QUANTITY: 164.11
+  response: 7E805621139401B
+- expected_values:
+    GOLF_MEAN_INJ_QUANTITY: 166.52
+  response: 7E805621139410C
+- expected_values:
+    GOLF_MEAN_INJ_QUANTITY: -28.37
+  response: 7E805621139F4EB

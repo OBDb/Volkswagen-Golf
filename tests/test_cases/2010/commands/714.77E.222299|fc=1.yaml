@@ -1,0 +1,26 @@
+command_id: 714.77E.222299|fc=1
+test_cases:
+- expected_values:
+    GOLF_DASH_AVG_FUEL_CONS: 7.7
+  response: 77E05622299004D
+- expected_values:
+    GOLF_DASH_AVG_FUEL_CONS: 7.9
+  response: 77E05622299004F
+- expected_values:
+    GOLF_DASH_AVG_FUEL_CONS: 8
+  response: '77E056222990050'
+- expected_values:
+    GOLF_DASH_AVG_FUEL_CONS: 8.4
+  response: '77E056222990054'
+- expected_values:
+    GOLF_DASH_AVG_FUEL_CONS: 13.5
+  response: '77E056222990087'
+- expected_values:
+    GOLF_DASH_AVG_FUEL_CONS: 13.6
+  response: '77E056222990088'
+- expected_values:
+    GOLF_DASH_AVG_FUEL_CONS: 13.7
+  response: '77E056222990089'
+- expected_values:
+    GOLF_DASH_AVG_FUEL_CONS: 14.9
+  response: '77E056222990095'
