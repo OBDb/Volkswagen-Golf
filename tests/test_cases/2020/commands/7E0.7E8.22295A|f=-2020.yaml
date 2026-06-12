@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22295A|f=-2020
+test_cases:
+- expected_values:
+    GOLF_ODO: 59548
+  response: 7E80662295A00E89C
+- expected_values:
+    GOLF_ODO: 59647
+  response: 7E80662295A00E8FF
+- expected_values:
+    GOLF_ODO: 59648
+  response: 7E80662295A00E900
+- expected_values:
+    GOLF_ODO: 61855
+  response: 7E80662295A00F19F

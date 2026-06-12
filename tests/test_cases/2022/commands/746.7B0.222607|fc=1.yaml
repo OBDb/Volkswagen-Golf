@@ -1,0 +1,5 @@
+command_id: 746.7B0.222607|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 28
+  response: 7B00462260746
