@@ -13,6 +13,9 @@ test_cases:
     GOLF_DASH_AVG_FUEL_CONS: 8
   response: '77E056222990050'
 - expected_values:
+    GOLF_DASH_AVG_FUEL_CONS: 8.2
+  response: '77E056222990052'
+- expected_values:
     GOLF_DASH_AVG_FUEL_CONS: 8.4
   response: '77E056222990054'
 - expected_values:
