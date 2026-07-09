@@ -1,0 +1,5 @@
+command_id: 713.77D.221810|fc=1
+test_cases:
+- expected_values:
+    GOLF_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: 77D0762181080000000
