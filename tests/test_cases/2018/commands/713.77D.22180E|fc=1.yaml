@@ -1,0 +1,22 @@
+command_id: 713.77D.22180E|fc=1
+test_cases:
+- expected_values:
+    GOLF_BDD_ACTIVE: 0
+    GOLF_BDD_ODO: 28204
+  response: 77D0762180E80006E2C
+- expected_values:
+    GOLF_BDD_ACTIVE: 0
+    GOLF_BDD_ODO: 55310
+  response: 77D0762180E8000D80E
+- expected_values:
+    GOLF_BDD_ACTIVE: 0
+    GOLF_BDD_ODO: 55971
+  response: 77D0762180E8000DAA3
+- expected_values:
+    GOLF_BDD_ACTIVE: 0
+    GOLF_BDD_ODO: 84012
+  response: 77D0762180E8001482C
+- expected_values:
+    GOLF_BDD_ACTIVE: 0
+    GOLF_BDD_ODO: 200000
+  response: 77D0762180E8004BBCE

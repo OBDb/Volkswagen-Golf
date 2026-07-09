@@ -1,0 +1,5 @@
+command_id: 746.7B0.22482B|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_A_C_CLCH: 0
+  response: 7B00462482B00

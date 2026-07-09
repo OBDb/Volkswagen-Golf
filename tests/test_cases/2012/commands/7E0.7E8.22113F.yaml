@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22113F
+test_cases:
+- expected_values:
+    GOLF_FUEL_CONS: 592.83
+  response: 7E80562113FE793
+- expected_values:
+    GOLF_FUEL_CONS: 594.11
+  response: 7E80562113FE813
+- expected_values:
+    GOLF_FUEL_CONS: 595.83
+  response: 7E80562113FE8BF
+- expected_values:
+    GOLF_FUEL_CONS: 612.23
+  response: 7E80562113FEF27

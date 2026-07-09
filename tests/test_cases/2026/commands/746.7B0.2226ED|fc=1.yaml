@@ -1,0 +1,5 @@
+command_id: 746.7B0.2226ED|fc=1
+test_cases:
+- expected_values:
+    GOLF_CLIMATE_AIR_POLUTION_LVL: 1.3
+  response: 7B0046226ED0D

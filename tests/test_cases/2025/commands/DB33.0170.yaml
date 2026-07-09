@@ -1,0 +1,16 @@
+command_id: DB33.0170
+test_cases:
+- expected_values:
+    BP_A_ACT: 102.78125
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 0
+    BP_A_CMD_SUP: 0
+    BP_A_SUP: 0
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    18DAF101100C41700200000C
+    18DAF10121D90000000000AA
