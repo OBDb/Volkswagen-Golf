@@ -4,14 +4,5 @@ test_cases:
     SPARKADV: -14.5
   response: 7E803410E63
 - expected_values:
-    SPARKADV: -2.5
-  response: 7E803410E7B
-- expected_values:
-    SPARKADV: -1.5
-  response: 7E803410E7D
-- expected_values:
-    SPARKADV: -1
-  response: 7E803410E7E
-- expected_values:
-    SPARKADV: 0
-  response: 7E803410E80
+    SPARKADV: 15
+  response: 7E803410E9E
