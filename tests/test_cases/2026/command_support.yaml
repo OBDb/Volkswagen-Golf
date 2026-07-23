@@ -35,6 +35,7 @@ supported_commands_by_ecu:
   - 0105:ECT
   - 0106:SHRTFT1
   - 0107:LONGFT1
+  - 010B:MAP
   - 010C:RPM
   - 010D:VSS
   - 010E:SPARKADV
@@ -64,7 +65,10 @@ supported_commands_by_ecu:
   - 014A:APP_E
   - 014C:TAC_PCT
   - 0151:FUEL_TYP
+  - 0153:EVAP_VPA
+  - 0154:EVAP_VP_WIDE
   - 0156:LGSO2FT1
+  - 015E:FUEL_RATE
   - 0162:TQ_ACT
   - 0163:TQ_REF
   - 0167:ECT_1,ECT_1_SUP,ECT_2,ECT_2_SUP
