@@ -16,6 +16,9 @@ test_cases:
     WARM_UPS: 124
   response: 7E80341307C
 - expected_values:
+    WARM_UPS: 166
+  response: 7E8034130A6
+- expected_values:
     WARM_UPS: 198
   response: 7E8034130C6
 - expected_values:
