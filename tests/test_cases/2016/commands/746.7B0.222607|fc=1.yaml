@@ -4,5 +4,5 @@ test_cases:
     GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 0
   response: 7B00462260700
 - expected_values:
-    GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 58.4
-  response: 7B00462260792
+    GOLF_CLIMATE_RAD_FAN_CMD_DUTY: 72.8
+  response: 7B004622607B6

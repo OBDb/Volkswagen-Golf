@@ -7,8 +7,8 @@ test_cases:
     GOLF_BAT_I: -2999.973
   response: 77A07622A0900001BFF
 - expected_values:
-    GOLF_BAT_I: 13777.119
-  response: 77A07622A09FFFF9F9C
+    GOLF_BAT_I: 13777.104
+  response: 77A07622A09FFFF90A1
 - expected_values:
     GOLF_BAT_I: 13777.215
   response: 77A07622A09FFFFFFD3
