@@ -16,6 +16,9 @@ test_cases:
     GOLF_HIGH_FUEL_P_CONTROL_DEVIATION: 10700
   response: 7E80562121F006B
 - expected_values:
+    GOLF_HIGH_FUEL_P_CONTROL_DEVIATION: 35600
+  response: 7E80562121F0164
+- expected_values:
     GOLF_HIGH_FUEL_P_CONTROL_DEVIATION: 472600
   response: 7E80562121F1276
 - expected_values:
