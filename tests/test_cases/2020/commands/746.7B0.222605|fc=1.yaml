@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     GOLF_CLIMATE_REFRIG_P: 5
   response: 7B00462260519
+- expected_values:
+    GOLF_CLIMATE_REFRIG_P: 8
+  response: 7B00462260528
