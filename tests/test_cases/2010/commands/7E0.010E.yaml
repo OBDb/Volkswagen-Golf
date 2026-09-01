@@ -4,5 +4,5 @@ test_cases:
     SPARKADV: -21
   response: 7E803410E56
 - expected_values:
-    SPARKADV: 20
-  response: 7E803410EA8
+    SPARKADV: 33
+  response: 7E803410EC2
