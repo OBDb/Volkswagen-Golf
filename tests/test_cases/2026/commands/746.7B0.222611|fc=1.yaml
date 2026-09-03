@@ -1,6 +1,9 @@
 command_id: 746.7B0.222611|fc=1
 test_cases:
 - expected_values:
+    GOLF_CLIMATE_LEG_DEFL_T: 39.627
+  response: 7B00462261177
+- expected_values:
     GOLF_CLIMATE_LEG_DEFL_T: 43.29
   response: 7B00462261182
 - expected_values:
