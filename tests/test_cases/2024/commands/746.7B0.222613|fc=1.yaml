@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     GOLF_CABIN_T: 31.4
   response: 7B005622613013A
+- expected_values:
+    GOLF_CABIN_T: 32.9
+  response: 7B0056226130149
