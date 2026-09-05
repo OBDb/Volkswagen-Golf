@@ -16,5 +16,8 @@ test_cases:
     GOLF_BAT_V_AT_REST: 15.77647
   response: 77A04622A1020
 - expected_values:
+    GOLF_BAT_V_AT_REST: 16.2
+  response: 77A04622A1022
+- expected_values:
     GOLF_BAT_V_AT_REST: 16.41176
   response: 77A04622A1023
