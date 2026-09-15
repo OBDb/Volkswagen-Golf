@@ -1,0 +1,11 @@
+command_id: 710.77A.222A0B|fc=1
+test_cases:
+- expected_values:
+    GOLF_BAT_T: 10
+  response: 77A04622A0B32
+- expected_values:
+    GOLF_BAT_T: 11
+  response: 77A04622A0B33
+- expected_values:
+    GOLF_BAT_T: 12
+  response: 77A04622A0B34

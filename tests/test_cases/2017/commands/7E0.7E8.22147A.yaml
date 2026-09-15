@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22147A
+test_cases:
+- expected_values:
+    GOLF_INJ_2_RAIL_P_CAL_PT_3_147A: 0
+  response: 7E80562147A0000
