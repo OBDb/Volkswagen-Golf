@@ -1,0 +1,6 @@
+model_year: 2001
+unsupported_commands_by_ecu:
+  "710":
+  - 710.77A.222A09|fc=1:GOLF_BAT_I
+  "713":
+  - 713.77D.221810|fc=1:GOLF_HYD_BRAKE_BOOST_ACTIVE
