@@ -1,5 +1,0 @@
-command_id: 7E0.221044|din=03
-test_cases:
-- expected_values:
-    GOLF_DPF_SFC_T: 62.8
-  response: 7E8056210440D1F

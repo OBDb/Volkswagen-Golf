@@ -1,8 +1,0 @@
-command_id: 7E0.0151
-test_cases:
-- expected_values:
-    FUEL_TYP: GAS
-  response: '7E803415101'
-- expected_values:
-    FUEL_TYP: BI_ETH
-  response: 7E80341510B

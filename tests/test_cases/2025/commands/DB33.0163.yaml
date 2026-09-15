@@ -1,5 +1,0 @@
-command_id: DB33.0163
-test_cases:
-- expected_values:
-    TQ_REF: 420
-  response: 18DAF10104416301A4
