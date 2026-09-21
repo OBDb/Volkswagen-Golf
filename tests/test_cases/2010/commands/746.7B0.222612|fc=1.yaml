@@ -6,3 +6,8 @@ test_cases:
 - expected_values:
     GOLF_CLIMATE_T_AFTER_EVAP: 37.296
   response: 7B00462261270
+- expected_values:
+    GOLF_CLIMATE_T_AFTER_EVAP: 3.33
+  response: |-
+    7B0056226130000
+    7B0046226120A
