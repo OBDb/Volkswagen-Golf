@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     GOLF_CLIMATE_A_C_COMP_LOAD: 0.6
   response: 7B00462260406
+- expected_values:
+    GOLF_CLIMATE_A_C_COMP_LOAD: 10.7
+  response: 7B0046226046B
