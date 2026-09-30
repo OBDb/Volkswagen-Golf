@@ -1,14 +1,14 @@
 command_id: 710.77A.222A09|fc=1
 test_cases:
 - expected_values:
-    GOLF_BAT_I: -3000
+    GOLF_BAT_I: 0
   response: 77A07622A0900000000
 - expected_values:
-    GOLF_BAT_I: -2999.994
+    GOLF_BAT_I: 1.79
   response: 77A07622A09000006FE
 - expected_values:
-    GOLF_BAT_I: 13777.198
+    GOLF_BAT_I: -4.523
   response: 77A07622A09FFFFEE55
 - expected_values:
-    GOLF_BAT_I: 13777.209
+    GOLF_BAT_I: -1.55
   response: 77A07622A09FFFFF9F2
