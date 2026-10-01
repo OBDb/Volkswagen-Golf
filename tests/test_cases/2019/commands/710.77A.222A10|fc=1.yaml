@@ -1,23 +1,23 @@
 command_id: 710.77A.222A10|fc=1
 test_cases:
 - expected_values:
-    GOLF_BAT_V_AT_REST: 14.92941
+    GOLF_BAT_V_AT_REST: 11.8
   response: 77A04622A101C
 - expected_values:
-    GOLF_BAT_V_AT_REST: 15.14118
+    GOLF_BAT_V_AT_REST: 11.9
   response: 77A04622A101D
 - expected_values:
-    GOLF_BAT_V_AT_REST: 15.35294
+    GOLF_BAT_V_AT_REST: 12
   response: 77A04622A101E
 - expected_values:
-    GOLF_BAT_V_AT_REST: 15.56471
+    GOLF_BAT_V_AT_REST: 12.1
   response: 77A04622A101F
 - expected_values:
-    GOLF_BAT_V_AT_REST: 15.77647
+    GOLF_BAT_V_AT_REST: 12.2
   response: 77A04622A1020
 - expected_values:
-    GOLF_BAT_V_AT_REST: 16.2
+    GOLF_BAT_V_AT_REST: 12.4
   response: 77A04622A1022
 - expected_values:
-    GOLF_BAT_V_AT_REST: 16.41176
+    GOLF_BAT_V_AT_REST: 12.5
   response: 77A04622A1023
