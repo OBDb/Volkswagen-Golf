@@ -210,7 +210,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BA"}, "freq": 10, "filter": { "to": 2020 }, "dbgfilter": { "to": 2011, "years": [2013, 2014] },
   "signals": [
-    {"id": "GOLF_OIL_LVL", "path": "Engine", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "unknown" }, "name": "Oil level"}
+    {"id": "GOLF_OIL_LVL", "path": "Engine", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11C4"}, "freq": 10, "filter": { "to": 2020 }, "dbgfilter": { "to": 2011, "years": [2017], "from": 2020 },
   "signals": [
