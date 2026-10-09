@@ -1,8 +1,8 @@
 command_id: 7E0.010E
 test_cases:
 - expected_values:
-    SPARKADV: -21
-  response: 7E803410E56
+    SPARKADV: -22
+  response: 7E803410E54
 - expected_values:
     SPARKADV: 33
   response: 7E803410EC2
