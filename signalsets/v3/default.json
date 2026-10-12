@@ -111,6 +111,10 @@
   "signals": [
     {"id": "GOLF_DASH_OIL_THERMAL_WEAR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
+{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "2294"}, "freq": 30,
+  "signals": [
+    {"id": "GOLF_DTE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to empty", "suggestedMetric": "fuelRange"}
+  ]},
 { "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2299"}, "freq": 30, "dbgfilter": { "to": 2008, "from": 2013 },
   "signals": [
     {"id": "GOLF_DASH_AVG_FUEL_CONS", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Average fuel consumption"}
