@@ -3,6 +3,7 @@ supported_commands_by_ecu:
   "714":
   - 714.77E.221014|fc=1:GOLF_DASH_AMBIENT_AIR_T
   - 714.77E.22224B|fc=1:GOLF_DASH_OIL_THERMAL_WEAR
+  - 714.77E.222294|fc=1:GOLF_DTE
   - 714.77E.222299|fc=1:GOLF_DASH_AVG_FUEL_CONS
   "746":
   - 746.7B0.222603|fc=1:GOLF_CLIMATE_A_C_COMP_SPD
@@ -113,7 +114,6 @@ unsupported_commands_by_ecu:
   - 714.22229A
   - 714.2222B0
   - '714.222613'
-  - 714.77E.222294|fc=1:GOLF_DTE
   "715":
   - '715.222353'
   - '715.222354'
