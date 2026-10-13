@@ -1,0 +1,29 @@
+command_id: 714.77E.222294|fc=1
+test_cases:
+- expected_values:
+    GOLF_DTE: 283
+  response: 77E05622294011B
+- expected_values:
+    GOLF_DTE: 284
+  response: 77E05622294011C
+- expected_values:
+    GOLF_DTE: 285
+  response: 77E05622294011D
+- expected_values:
+    GOLF_DTE: 286
+  response: 77E05622294011E
+- expected_values:
+    GOLF_DTE: 287
+  response: 77E05622294011F
+- expected_values:
+    GOLF_DTE: 289
+  response: '77E056222940121'
+- expected_values:
+    GOLF_DTE: 290
+  response: '77E056222940122'
+- expected_values:
+    GOLF_DTE: 292
+  response: '77E056222940124'
+- expected_values:
+    GOLF_DTE: 294
+  response: '77E056222940126'
