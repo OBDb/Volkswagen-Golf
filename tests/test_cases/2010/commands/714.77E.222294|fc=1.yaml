@@ -10,5 +10,5 @@ test_cases:
     GOLF_DTE: 257
   response: '77E056222940101'
 - expected_values:
-    GOLF_DTE: 554
-  response: 77E05622294022A
+    GOLF_DTE: 553
+  response: '77E056222940229'
