@@ -1,8 +1,0 @@
-command_id: 746.7B0.22260D|fc=1
-test_cases:
-- expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 36.297
-  response: 7B00462260D6D
-- expected_values:
-    GOLF_CLIMATE_FR_R_DEFL_T: 63.603
-  response: 7B00462260DBF
