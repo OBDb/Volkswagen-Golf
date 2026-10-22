@@ -1,0 +1,11 @@
+command_id: 7E0.0146
+test_cases:
+- expected_values:
+    AAT: 7
+  response: 7E80341462F
+- expected_values:
+    AAT: 15
+  response: '7E803414637'
+- expected_values:
+    AAT: 18
+  response: 7E80341463A

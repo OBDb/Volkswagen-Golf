@@ -1,0 +1,14 @@
+command_id: 714.77E.222294|fc=1
+test_cases:
+- expected_values:
+    GOLF_DTE: 108
+  response: 77E05622294006C
+- expected_values:
+    GOLF_DTE: 255
+  response: 77E0562229400FF
+- expected_values:
+    GOLF_DTE: 257
+  response: '77E056222940101'
+- expected_values:
+    GOLF_DTE: 535
+  response: '77E056222940217'

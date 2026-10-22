@@ -1,0 +1,8 @@
+command_id: 713.77D.221803|fc=1
+test_cases:
+- expected_values:
+    GOLF_RR_VSS_V2: 0
+  response: |-
+    77D1010621803000000
+    77D21FFFF00FFFEFFFE
+    77D22FFFE01AAAAAAAA
