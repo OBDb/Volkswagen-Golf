@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     GOLF_ACCELERATION: 0
   response: '7E8056211870000'
+- expected_values:
+    GOLF_ACCELERATION: -0.176
+  response: 7E805621187FF50
