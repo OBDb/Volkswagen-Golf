@@ -35,21 +35,37 @@
   "signals": [
     {"id": "GOLF_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1800"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2027 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1800"}, "freq": 1, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014 },
   "signals": [
     {"id": "GOLF_FL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1801"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2027 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1800"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "GOLF_FL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1801"}, "freq": 1, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014 },
   "signals": [
     {"id": "GOLF_FR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1802"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2027 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1801"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "GOLF_FR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1802"}, "freq": 1, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014 },
   "signals": [
     {"id": "GOLF_RL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1803"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2027 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1802"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "GOLF_RL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1803"}, "freq": 1, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014 },
   "signals": [
     {"id": "GOLF_RR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1803"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "GOLF_RR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
 { "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1808"}, "freq": 2, "dbgfilter": { "to": 2014, "from": 2025 },
   "signals": [
@@ -140,9 +156,13 @@
   "signals": [
     {"id": "GOLF_CLIMATE_RAD_FAN_CMD_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "Radiator fan commanded duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2013, 2014], "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "filter": { "to": 2020 }, "dbgfilter": { "to": 2008, "years": [2013, 2014] },
   "signals": [
     {"id": "GOLF_AAT", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "mul": 0.5, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
+  ]},
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "GOLF_AAT", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "mul": 0.5, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2008, "years": [2013, 2014], "from": 2027 },
   "signals": [
