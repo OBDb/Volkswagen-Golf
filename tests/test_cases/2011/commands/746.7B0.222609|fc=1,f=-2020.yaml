@@ -1,6 +1,9 @@
 command_id: 746.7B0.222609|fc=1,f=-2020
 test_cases:
 - expected_values:
+    GOLF_AAT: 12
+  response: 7B00462260918
+- expected_values:
     GOLF_AAT: 22.5
   response: 7B0046226092D
 - expected_values:
