@@ -1,4 +1,5 @@
 { "ecu": [
+    { "hdr": "710", "type": "gateway" },
     { "hdr": "714", "type": "cluster" },
     { "hdr": "7E0", "type": "engine" }
   ],
