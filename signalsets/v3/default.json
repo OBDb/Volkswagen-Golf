@@ -137,6 +137,18 @@
   "signals": [
     {"id": "GOLF_DASH_AVG_FUEL_CONS", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Average fuel consumption"}
   ]},
+{ "hdr": "744", "rax": "7AE", "dbg": true, "cmd": {"22": "1618"}, "freq": 1, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_OBC_CHARGING", "path": "Battery", "fmt": { "len": 16, "max": 1, "unit": "noyes" }, "name": "Charging", "suggestedMetric": "isCharging"}
+  ]},
+{ "hdr": "744", "rax": "7AE", "dbg": true, "cmd": {"22": "1DDD"}, "freq": 5, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_OBC_CHARGE_NOW", "path": "Battery", "fmt": { "bix": 16, "len": 16, "max": 1, "unit": "noyes" }, "name": "Charge immediately", "description": "Charging starts regardless of any schedule; set by the button inside the charge port."}
+  ]},
+{ "hdr": "744", "rax": "7AE", "dbg": true, "cmd": {"22": "1DE4"}, "freq": 5, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_OBC_CHARGE_TIME_LEFT", "path": "Battery", "fmt": { "len": 32, "max": 600, "mul": 5, "unit": "minutes" }, "name": "Remaining charge time"}
+  ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2603"}, "freq": 1, "dbgfilter": { "to": 2008, "years": [2013, 2014], "from": 2027 },
   "signals": [
     {"id": "GOLF_CLIMATE_A_C_COMP_SPD", "path": "Movement", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "rpm" }, "name": "A/C compressor speed"}
@@ -282,9 +294,809 @@
   "signals": [
     {"id": "GOLF_INJ_2_RAIL_P_CAL_PT_3_147A", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "mul": 0.05, "sign": true, "unit": "unknown" }, "name": "Injector 2: rail pressure calibration point 3"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1618"}, "freq": 5, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_SOC", "path": "Battery", "fmt": { "len": 32, "max": 100, "div": 100, "unit": "percent" }, "name": "High voltage battery state of charge", "suggestedMetric": "stateOfCharge"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295A"}, "freq": 30, "filter": { "to": 2020 }, "dbgfilter": { "to": 2013 },
   "signals": [
     {"id": "GOLF_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E40"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_1_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 1 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E41"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_2_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 2 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E42"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_3_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 3 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E43"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_4_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 4 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E44"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_5_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 5 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E45"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_6_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 6 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E46"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_7_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 7 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E47"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_8_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 8 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E48"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_9_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 9 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E49"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_10_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 10 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E4A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_11_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 11 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E4B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_12_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 12 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E4C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_13_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 13 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E4D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_14_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 14 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E4E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_15_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 15 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E4F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_16_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 16 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E50"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_17_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 17 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E51"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_18_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 18 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E52"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_19_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 19 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E53"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_20_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 20 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E54"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_21_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 21 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E55"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_22_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 22 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E56"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_23_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 23 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E57"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_24_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 24 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E58"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_25_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 25 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E59"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_26_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 26 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E5A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_27_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 27 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E5B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_28_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 28 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E5C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_29_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 29 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E5D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_30_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 30 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E5E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_31_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 31 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E5F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_32_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 32 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E60"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_33_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 33 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E61"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_34_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 34 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E62"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_35_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 35 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E63"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_36_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 36 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E64"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_37_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 37 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E65"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_38_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 38 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E66"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_39_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 39 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E67"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_40_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 40 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E68"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_41_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 41 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E69"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_42_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 42 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E6A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_43_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 43 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E6B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_44_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 44 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E6C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_45_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 45 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E6D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_46_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 46 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E6E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_47_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 47 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E6F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_48_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 48 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E70"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_49_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 49 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E71"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_50_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 50 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E72"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_51_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 51 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E73"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_52_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 52 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E74"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_53_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 53 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E75"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_54_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 54 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E76"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_55_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 55 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E77"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_56_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 56 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E78"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_57_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 57 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E79"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_58_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 58 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E7A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_59_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 59 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E7B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_60_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 60 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E7C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_61_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 61 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E7D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_62_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 62 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E7E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_63_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 63 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E7F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_64_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 64 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E80"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_65_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 65 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E81"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_66_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 66 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E82"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_67_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 67 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E83"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_68_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 68 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E84"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_69_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 69 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E85"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_70_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 70 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E86"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_71_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 71 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E87"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_72_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 72 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E88"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_73_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 73 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E89"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_74_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 74 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E8A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_75_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 75 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E8B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_76_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 76 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E8C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_77_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 77 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E8D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_78_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 78 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E8E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_79_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 79 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E8F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_80_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 80 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E90"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_81_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 81 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E91"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_82_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 82 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E92"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_83_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 83 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E93"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_84_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 84 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E94"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_85_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 85 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E95"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_86_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 86 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E96"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_87_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 87 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E97"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_88_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 88 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E98"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_89_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 89 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E99"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_90_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 90 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E9A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_91_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 91 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E9B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_92_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 92 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E9C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_93_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 93 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E9D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_94_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 94 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E9E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_95_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 95 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E9F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_96_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 96 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1EA0"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_97_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 97 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1EA1"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_98_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 98 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1EA2"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_99_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 99 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1EA3"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_100_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 100 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1EA4"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_101_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 101 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1EA5"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_102_V", "path": "Battery.Cells", "fmt": { "len": 16, "max": 15.999, "div": 4096, "unit": "volts" }, "name": "High voltage battery cell 102 voltage"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "744A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_1_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 1 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "744B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_2_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 2 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "744C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_3_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 3 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "744D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_4_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 4 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "744E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_5_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 5 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "744F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_6_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 6 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7450"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_7_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 7 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7451"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_8_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 8 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7452"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_9_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 9 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7453"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_10_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 10 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7454"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_11_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 11 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7455"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_12_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 12 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7456"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_13_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 13 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7457"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_14_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 14 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7458"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_15_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 15 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7459"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_16_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 16 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "745A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_17_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 17 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "745B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_18_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 18 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "745C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_19_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 19 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "745D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_20_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 20 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "745E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_21_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 21 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "745F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_22_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 22 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7460"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_23_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 23 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7461"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_24_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 24 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7462"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_25_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 25 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7463"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_26_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 26 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7464"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_27_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 27 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7465"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_28_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 28 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7466"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_29_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 29 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7467"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_30_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 30 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7468"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_31_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 31 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7469"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_32_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 32 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "746A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_33_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 33 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "746B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_34_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 34 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "746C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_35_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 35 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "746D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_36_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 36 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "746E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_37_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 37 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "746F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_38_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 38 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7470"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_39_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 39 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7471"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_40_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 40 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7472"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_41_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 41 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7473"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_42_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 42 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7474"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_43_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 43 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7475"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_44_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 44 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7476"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_45_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 45 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7477"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_46_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 46 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7478"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_47_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 47 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7479"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_48_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 48 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "747A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_49_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 49 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "747B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_50_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 50 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "747C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_51_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 51 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "747D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_52_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 52 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "747E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_53_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 53 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "747F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_54_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 54 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7480"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_55_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 55 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7481"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_56_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 56 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7482"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_57_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 57 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7483"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_58_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 58 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7484"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_59_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 59 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7485"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_60_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 60 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7486"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_61_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 61 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7487"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_62_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 62 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7488"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_63_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 63 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7489"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_64_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 64 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "748A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_65_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 65 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "748B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_66_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 66 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "748C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_67_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 67 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "748D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_68_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 68 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "748E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_69_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 69 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "748F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_70_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 70 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7490"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_71_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 71 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7491"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_72_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 72 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7492"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_73_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 73 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7493"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_74_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 74 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7494"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_75_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 75 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7495"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_76_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 76 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7496"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_77_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 77 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7497"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_78_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 78 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7498"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_79_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 79 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "7499"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_80_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 80 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "749A"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_81_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 81 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "749B"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_82_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 82 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "749C"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_83_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 83 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "749D"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_84_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 84 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "749E"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_85_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 85 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "749F"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_86_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 86 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "74A0"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_87_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 87 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "74A1"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_88_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 88 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "74A2"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_89_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 89 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "74A3"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_90_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 90 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "74A4"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_91_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 91 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "74A5"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_92_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 92 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "74A6"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_93_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 93 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "74A7"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_94_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 94 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "74A8"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_95_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 95 state of charge"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "74A9"}, "freq": 30, "filter": { "from": 2015, "to": 2020 },
+  "signals": [
+    {"id": "GOLF_HVBAT_CELL_96_SOC", "path": "Battery.Cells", "fmt": { "len": 16, "max": 100, "unit": "percent" }, "name": "High voltage battery cell 96 state of charge"}
   ]}
+],
+"signalGroups": [
+  {"id": "GOLF_HVBAT_CELLS_V", "path": "Battery.BatteryPack", "matchingRegex": "GOLF_HVBAT_(CELL_\\d+)_V", "name": "High voltage battery cell voltages", "suggestedMetricGroup": "batteryModulesVoltage"},
+  {"id": "GOLF_HVBAT_CELLS_SOC", "path": "Battery.BatteryPack", "matchingRegex": "GOLF_HVBAT_(CELL_\\d+)_SOC", "name": "High voltage battery cell state of charge", "suggestedMetricGroup": "batteryModulesStateOfCharge"}
 ]
 }
