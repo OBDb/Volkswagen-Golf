@@ -4,14 +4,14 @@ test_cases:
     GOLF_BAT_I: 0.067
   response: 77A07622A0900000043
 - expected_values:
-    GOLF_BAT_I: 0.265
-  response: 77A07622A0900000109
+    GOLF_BAT_I: 0.511
+  response: 77A07622A09000001FF
+- expected_values:
+    GOLF_BAT_I: 0.514
+  response: 77A07622A0900000202
 - expected_values:
     GOLF_BAT_I: -23.767
   response: 77A07622A09FFFFA329
-- expected_values:
-    GOLF_BAT_I: -3.077
-  response: 77A07622A09FFFFF3FB
 - expected_values:
     GOLF_BAT_I: -0.009
   response: 77A07622A09FFFFFFF7
