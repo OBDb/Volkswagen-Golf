@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     GOLF_MEAN_INJ_QUANTITY: 62.99
   response: 7E805621139189B
+- expected_values:
+    GOLF_MEAN_INJ_QUANTITY: -125.25
+  response: 7E805621139CF13
